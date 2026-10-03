@@ -1,0 +1,80 @@
+:root {
+    --navy: #163b73;
+    --blue: #285b9f;
+    --text: #14233b;
+    --muted: #718097;
+    --line: #e5ebf4;
+    --white: #ffffff;
+    --bg: #f8fafc;
+}
+
+/* =========================================
+   MAIN PAGE
+========================================= */
+
+.error-page {
+    min-height: calc(100vh - 132px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background:
+        radial-gradient(
+            circle at 50% 50%,
+            rgba(40, 91, 159, 0.08),
+            transparent 60%
+        ),
+        linear-gradient(
+            135deg,
+            #ffffff 0%,
+            #f8fafc 100%
+        );
+    color: var(--text);
+    padding: 132px 16px 20px;
+}
+
+/* Background animated grid dots */
+.error-page::before {
+    content: "";
+    position: absolute;
+    inset: -30%;
+    background-image:
+        radial-gradient(
+            rgba(118, 148, 187, 0.35) 1px,
+            transparent 1px
+        );
+    background-size: 38px 38px;
+    opacity: 0.15;
+    mask-image:
+        radial-gradient(
+            circle at 50% 50%,
+            black,
+            transparent 65%
+        );
+    -webkit-mask-image:
+        radial-gradient(
+            circle at 50% 50%,
+            black,
+            transparent 65%
+        );
+    animation: backgroundMove 24s linear infinite;
+    pointer-events: none;
+}
+
+@keyframes backgroundMove {
+    to {
+        transform: translate(38px, 38px);
+    }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    .error-page *,
+    .error-page *::before,
+    .error-page *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}
