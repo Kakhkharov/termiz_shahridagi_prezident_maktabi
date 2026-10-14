@@ -339,7 +339,7 @@ export default function TeacherPortfolio() {
         {
             id: 4,
             title: "Biologiyani virtual laboratoriyalar orqali o'qitish",
-            author: "Nomozov Ramozon",
+            author: "Abdimurotov Dilmuhammad",
             date: "19 Yanvar, 2026",
             tags: ["#Biologiya", "#Innovatsiya"],
             description: "Xavfli yoki maktab sharoitida o'tkazish qiyin bo'lgan tajribalarni 3D va virtual laboratoriyalar orqali namoyish qilishning zamonaviy usullari keltirilgan.",

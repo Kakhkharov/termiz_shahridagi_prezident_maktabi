@@ -27,10 +27,8 @@ import tJurayev from '../../images/Jurayev_Eral.png';
 import tShomirzayev from '../../images/Shomirzayev_Abdug‘appor.png';
 import tFayziyev from '../../images/Fayziyev_Furqat.png';
 import tAbduqahhorov from '../../images/Abduqahhorov_Iskandar.png';
-import tNomozov from '../../images/Nomozov_Ramozon.png';
 import tAbdimurotov from '../../images/Abdimurotov_Dilmuhammad.png';
 import tXolmatov from '../../images/Xolmatov_Sadriddin.png';
-import tEshonqulov from '../../images/Eshonqulov_Jahongir.png';
 import oqlogoImg from '../../images/oqlogo.png';
 import intImg1 from '../../images/53.png';
 import intImg2 from '../../images/54.png';
@@ -149,10 +147,8 @@ const teachers = [
     { id: 116, name: "Shomirzayev Abdug'appor", subject: "Geografiya fani o'qituvchisi", email: "a.shomirzayev@pstmz.uz", image: tShomirzayev },
     { id: 117, name: "Fayziyev Furqat", subject: "Jismoniy tarbiya fani o'qituvchisi", email: "f.fayziyev@pstmz.uz", image: tFayziyev },
     { id: 118, name: "Abduqahhorov Iskandar", subject: "Fizika fani o'qituvchisi", email: "i.abduqahhorov@pstmz.uz", image: tAbduqahhorov },
-    { id: 119, name: "Nomozov Ramozon", subject: "Biologiya fani o'qituvchisi", email: "r.nomozov@pstmz.uz", image: tNomozov },
     { id: 120, name: "Abdimurotov Dilmuhammad", subject: "Biologiya fani o'qituvchisi", email: "d.abdimurotov@pstmz.uz", image: tAbdimurotov },
-    { id: 121, name: "Xolmatov Sadriddin", subject: "Kimyo fani o'qituvchisi", email: "s.xolmatov@pstmz.uz", image: tXolmatov },
-    { id: 122, name: "Eshonqulov Jahongir", subject: "Fizika fani o'qituvchisi", email: "j.eshonqulov@pstmz.uz", image: tEshonqulov }
+    { id: 121, name: "Xolmatov Sadriddin", subject: "Kimyo fani o'qituvchisi", email: "s.xolmatov@pstmz.uz", image: tXolmatov }
 ];
 
 const internationalTeachers = [
