@@ -189,7 +189,6 @@ const rawNewsData = [
         id: 12,
         title: "Ustozga ehtirom-millatga ehtirom",
         date: "1 Oktabr, 2026",
-        isToday: true,
         category: "Tadbir",
         image: "/images/01.jpg",
         images: ["/images/01.jpg"],
@@ -201,6 +200,74 @@ const rawNewsData = [
             <p>Ustoz — qalblarga ilm va ma’rifat nurini olib kiruvchi, kelajak avlod tarbiyasiga beqiyos hissa qo‘shuvchi ulug‘ insondir.</p>
             <p>Aziz ustozlar! Sizlarni 1-oktabr — O‘qituvchilar va murabbiylar kuni bilan chin qalbimizdan muborakbod etamiz!</p>
             <p>Sizlarga mustahkam sog‘lik, oilaviy xotirjamlik, sharafli va mas’uliyatli faoliyatingizda ulkan zafarlar tilaymiz!</p>
+        `
+    },
+    {
+        id: 13,
+        title: "XALQARO HAMKORLIK: UNESCO tarixida ilk bor ustozlar vazirlar panelida",
+        date: "11 Sentyabr, 2026",
+        category: "Xalqaro",
+        image: "/images/durdona_0.jpg",
+        images: [
+            "/images/durdona_0.jpg",
+            "/images/durdona_1.jpg",
+            "/images/durdona_2.jpg",
+            "/images/durdona_3.jpg"
+        ],
+        desc: "UNESCO tarixida ilk bor maktab o‘qituvchilari ta'lim vazirlari bilan bir qatorda panel sessiyalarida ishtirok etishdi. O‘zbekistonlik ustoz Durdona Boynazarova jahon pedagoglari nomidan so‘zga chiqdi.",
+        content: `
+            <p><b>UNESCO tarixida ilk bor ustozlar vazirlar panelida: o‘zbekistonlik o‘qituvchi jahon pedagoglari nomidan so‘zga chiqdi</b></p>
+            <p>Joriy yilning 8-11-sentabr kunlari Fransiyaning Parij shahrida “Sun’iy intellekt davrida ta’lim: Faktlar, muammolar, yangi ufqlar" mavzusida YUNESKOning Raqamli ta’lim haftaligi — 2026 bo‘lib o‘tdi.</p>
+            <p>Unda dunyoning qator mamlakatlaridan kelgan pedagoglar, ekspertlar va ta‘lim sohasi xodimlari, xususan ISHONCH — Vision 2030 loyihasi mentorlari ishtirok etishdi.</p>
+            <p>Tadbirlar davomida sun‘iy intellekt, raqamli ta‘lim va kelgusi rejalarga bag‘ishlangan muhokamalar bo‘lib o‘tdi.</p>
+            <p>Unda O‘zbekiston delegatsiyasi vakillari so‘zga chiqib, ta'limdagi yangi tendensiyalar, sohada raqamli texnologiyalardan foydalanish, shuningdek, mamlakatimizda amalga oshirilayotgan islohotlar, ta‘limga e‘tibor va ta‘limda sun‘iy intellekt yo‘nalishidagi tajribalar haqida so‘z yuritishdi.</p>
+            <p>Ta‘kidlash joiz: 15 yildan beri UNESCOning Parijdagi Bosh qarorgohida o‘tkazib kelinayotgan Raqamli ta’lim haftaligi tarixida ilk bor maktab o‘qituvchilari ta'lim vazirlari bilan bir qatorda panel sessiyalarida ishtirok etishdi.</p>
+            <p>Bunda o‘zbekistonlik ustoz — Durdona Boynazarova butun dunyo ustozlari nomidan so’zga chiqib, ta’limda sun’iy intellekt, bu boradagi siyosatni ishlab chiqishda ustozlarning roli haqida so‘z yuritdi.</p>
+            <p>Shuningdek, Behruz Ruziyev va Sevara Shamsiyevalar tadbirda o‘z taqdimotlari bilan qatnashishdi.</p>
+        `
+    },
+    {
+        id: 14,
+        title: "Chavondozlik mahorat maktabi bilan hamkorlik",
+        date: "11 Sentyabr, 2026",
+        category: "Hamkorlik",
+        image: "/images/school.jpg",
+        images: ["/images/school.jpg"],
+        video: "/images/video3.mp4",
+        desc: "Termiz shahridagi Prezident maktabi Chavandozlik mahorat maktabi hamda Turon yakka kurash federatsiyalari bilan hamkorlik aloqalarini yo‘lga qo‘ydi.",
+        content: `
+            <p>Termiz shahridagi Prezident maktabi Chavandozlik mahorat maktabi hamda Turon yakka kurash federatsiyalari bilan tuzilgan hamkorlikdan videolavha.</p>
+            <p>Bizni kuzatib boring!</p>
+        `
+    },
+    {
+        id: 15,
+        title: "Ta'lim sohasidagi islohotlar: “Ta’limga bekorga eng ishongan kadrimni olib kelmadim” — Shavkat Mirziyoyev",
+        date: "12 Oktyabr, 2026",
+        category: "Islohotlar",
+        image: "/images/yangilik_0.jpg",
+        images: ["/images/yangilik_0.jpg"],
+        desc: "Prezident Yangi Toshkentda o‘tkazilgan uchrashuv davomida Bosh vazirning birinchi o‘rinbosari — ta’lim va ilm-fan vaziri haqida to‘xtalib o‘tdi.",
+        content: `
+            <p>❗️<b>“Ta’limga bekorga eng ishongan kadrimni olib kelmadim” — Shavkat Mirziyoyev</b></p>
+            <p>Prezident Yangi Toshkentda o‘tkazilgan uchrashuv davomida O‘zbekiston Respublikasi Bosh vazirining birinchi o‘rinbosari — ta’lim va ilm-fan vaziri Erkinjon Turdimov haqida to‘xtalib o‘tdi. Bu haqda tadbirda ishtirok etgan “Daryo” muxbiri <a href="https://t.me/daryo_live/148051" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">xabar berdi</a>.</p>
+            <p>“Son ko‘paydi, sifat esa kam. Bundan keyin har bir universitet kim uchun qanday kadr tayyorlashini o‘zi uchun aniq belgilab olishi kerak. To‘rtta viloyatga hokim bo‘lgan odamni Ta’lim vazirligiga bekorga olib kelmadim”, — dedi prezident.</p>
+        `
+    },
+    {
+        id: 16,
+        title: "«OVOZ» — G‘oyalar minbari loyihasi uchun ro‘yxatdan o‘tish boshlandi",
+        date: "13 Oktyabr, 2026",
+        isToday: true,
+        category: "Loyiha",
+        image: "/images/yangilik_1.jpg",
+        images: ["/images/yangilik_1.jpg"],
+        desc: "Ixtisoslashtirilgan ta'lim muassasalari agentligi tizimida o‘quvchilar uchun «OVOZ» intellektual ma’ruzalar loyihasi uchun ro‘yxatdan o‘tish boshlandi.",
+        content: `
+            <p>Ixtisoslashtirilgan ta'lim muassasalari agentligi tizimida o‘quvchilarning intellektual salohiyati, mustaqil fikrlashi va notiqlik mahoratini rivojlantirishga qaratilgan «OVOZ» intellektual ma’ruzalar loyihasi uchun ro‘yxatdan o‘tish boshlandi. TED va TED-Ed formatlaridan ilhomlangan loyiha yoshlarning dolzarb masalalar yuzasidan o‘z qarashlarini erkin ifoda etishi, yangi g‘oyalarni ilgari surishi va ularni keng auditoriyaga yetkazishi uchun imkoniyat yaratadi.</p>
+            <p>Ishtirokchilar raqamli texnologiyalar va innovatsiyalar, tarix va shaxsiyat, shaxsiy qarashlar hamda jamiyat va maktab hayotiga oid yo‘nalishlarda o‘z g‘oyalarini taqdim etishlari mumkin. Loyihaning asosiy maqsadi — yoshlarning fikrlash madaniyati, nutq ko‘nikmalari va o‘z g‘oyalarini asosli ravishda ifoda etish qobiliyatini rivojlantirish, shuningdek, ularning tashabbuslarini qo‘llab-quvvatlashdir.</p>
+            <p>Ro‘yxatdan o‘tish 17-oktabrga qadar davom etadi. Ishtirok etish shartlari va barcha talablar bilan quyidagi <a href="https://ovoz.prteam.uz/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-semibold">havola</a> orqali tanishish mumkin.</p>
+            <p>Qo‘shimcha ma’lumot uchun: <b>@ovozadm1n</b></p>
         `
     }
 ];
