@@ -258,7 +258,6 @@ const rawNewsData = [
         id: 16,
         title: "«OVOZ» — G‘oyalar minbari loyihasi uchun ro‘yxatdan o‘tish boshlandi",
         date: "13 Oktyabr, 2026",
-        isToday: true,
         category: "Loyiha",
         image: "/images/yangilik_1.jpg",
         images: ["/images/yangilik_1.jpg"],
@@ -268,6 +267,107 @@ const rawNewsData = [
             <p>Ishtirokchilar raqamli texnologiyalar va innovatsiyalar, tarix va shaxsiyat, shaxsiy qarashlar hamda jamiyat va maktab hayotiga oid yo‘nalishlarda o‘z g‘oyalarini taqdim etishlari mumkin. Loyihaning asosiy maqsadi — yoshlarning fikrlash madaniyati, nutq ko‘nikmalari va o‘z g‘oyalarini asosli ravishda ifoda etish qobiliyatini rivojlantirish, shuningdek, ularning tashabbuslarini qo‘llab-quvvatlashdir.</p>
             <p>Ro‘yxatdan o‘tish 17-oktabrga qadar davom etadi. Ishtirok etish shartlari va barcha talablar bilan quyidagi <a href="https://ovoz.prteam.uz/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-semibold">havola</a> orqali tanishish mumkin.</p>
             <p>Qo‘shimcha ma’lumot uchun: <b>@ovozadm1n</b></p>
+        `
+    },
+    {
+        id: 17,
+        title: "“Rahbar kubogi” sport musobaqasining Surxondaryo viloyati bosqichi bo‘lib o‘tdi",
+        date: "13 Oktyabr, 2026",
+        category: "Sport",
+        image: "/images/school.jpg",
+        images: ["/images/school.jpg"],
+        video: "/images/video4.mp4",
+        desc: "Termiz shahridagi Prezident maktabida Ixtisoslashtirilgan ta’lim muassasalari agentligi tizimidagi maktablar o‘rtasida “Rahbar kubogi” sport musobaqasi o‘tkazildi.",
+        content: `
+            <p>Ixtisoslashtirilgan ta’lim muassasalari agentligi tizimidagi Termiz shahridagi Prezident maktabida Ixtisoslashtirilgan ta’lim muassasalari agentligi tizimidagi maktablar o‘rtasida <b>“Rahbar kubogi”</b> sport musobaqasining Surxondaryo viloyati bosqichi bo‘lib o‘tdi.</p>
+            <p>Ushbu nufuzli sport musobaqasida o‘quvchilar sportning bir qancha turlari bo‘yicha o‘z mahorat va chaqqonliklarini namoyish etib, o‘zaro bellashdilar.</p>
+        `
+    },
+    {
+        id: 18,
+        title: "Termiz garnizoni harbiy xizmatchisi bilan “Uch avlod uchrashuvi” tadbiri bo‘lib o‘tdi",
+        date: "13 Oktyabr, 2026",
+        category: "Tadbir",
+        image: "/images/school.jpg",
+        images: ["/images/school.jpg"],
+        video: "/images/video5.mp4",
+        desc: "Termiz shahridagi Prezident maktabida Termiz garnizoni harbiy xizmatchisi, faxriylar hamda o‘quvchi-yoshlar ishtirokida “Uch avlod uchrashuvi” tadbiri bo‘lib o‘tdi.",
+        content: `
+            <p>Termiz shahridagi Prezident maktabida Termiz garnizoni harbiy xizmatchisi, faxriylar hamda o‘quvchi-yoshlar ishtirokida <b>“Uch avlod uchrashuvi”</b> tadbiri bo‘lib o‘tdi.</p>
+            <p>Samimiy muloqot va o‘zaro tajriba almashish ruhida o‘tgan uchrashuvda faxriylar mustaqillik yillarida mamlakatimiz erishgan yutuqlar, boy hayotiy tajribalari hamda samarali mehnat faoliyati haqida so‘zlab berdilar.</p>
+            <p>Shuningdek, yosh avlod vakillariga chuqur bilim olish, zamonaviy kasb-hunarlarni puxta egallash, yurt ravnaqi yo‘lida munosib hissa qo‘shish va Vatanga sadoqatli farzand bo‘lib kamol topish yuzasidan qimmatli tavsiyalar berildi.</p>
+            <p>Bunday uchrashuvlar avlodlar o‘rtasidagi mehr-oqibat, hurmat va hamjihatlikni mustahkamlash, yoshlarda milliy qadriyatlarga sadoqat hamda vatanparvarlik tuyg‘ularini yanada yuksaltirishga xizmat qiladi.</p>
+        `
+    },
+    {
+        id: 19,
+        title: "“Zukko kitobxon” tanlovining yangi mavsumiga start berildi",
+        date: "13 Oktyabr, 2026",
+        category: "Tanlov",
+        image: "/images/yangilik_3.jpg",
+        images: ["/images/yangilik_3.jpg"],
+        desc: "Termiz shahridagi Prezident maktabida an’anaviy “Zukko kitobxon” tanlovining yangi mavsum saralash bosqichiga start berildi.",
+        content: `
+            <blockquote class="italic text-slate-600 border-l-4 border-[#0088cc] pl-4 my-3 bg-slate-50 py-2.5 rounded-r">
+                Agar yolg'iz esang, hamdam kitobdir,<br/>
+                Bilim subhidagi nur ham kitobdir.<br/>
+                <span class="text-xs font-semibold not-italic block mt-1.5 text-slate-500">— Abdurahmon Jomiy</span>
+            </blockquote>
+            <p>Termiz shahridagi Prezident maktabida <b>“Zukko kitobxon”</b> tanlovining yangi mavsumiga start berildi!</p>
+            <p>Har yili o‘tkazilishi an’anaga aylangan ushbu tanlovda faol ishtirok etish uchun barcha kitobxon, zukko yoshlarimizni chorlab qolamiz.</p>
+            <p>Tanlovning joriy mavsum saralash bosqichiga <b>19-noyabr</b> kuni start beriladi.</p>
+            <div class="my-4">
+                <a href="https://telegra.ph/Termiz-shahridagi-Prezident-maktabida-otkaziladigan-Zukko-kitobxon-tanlovi-nizomi-10-09" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-white bg-[#0088cc] hover:bg-[#0077b3] px-4 py-2.5 rounded-xl font-semibold text-sm transition-all shadow-sm hover:shadow">
+                    Tanlov nizomi bilan tanishing ➡️
+                </a>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100">
+                <p class="font-semibold text-slate-800 mb-2">Termiz shahridagi Prezident maktabining rasmiy ijtimoiy tarmoq sahifalari:</p>
+                <div class="flex flex-wrap items-center gap-3 text-sm">
+                    <a href="http://t.me/pmtermiz" target="_blank" rel="noopener noreferrer" class="text-[#0088cc] hover:underline font-semibold flex items-center gap-1">
+                        Telegram
+                    </a> | 
+                    <a href="https://www.instagram.com/pmtermiz/?r=nametag" target="_blank" rel="noopener noreferrer" class="text-pink-600 hover:underline font-semibold flex items-center gap-1">
+                        Instagram
+                    </a> | 
+                    <a href="https://m.facebook.com/pmtermiz" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:underline font-semibold flex items-center gap-1">
+                        Facebook
+                    </a> | 
+                    <a href="https://www.youtube.com/channel/UCFZmnpi6L7K5GgPSYgKB_hA" target="_blank" rel="noopener noreferrer" class="text-red-600 hover:underline font-semibold flex items-center gap-1">
+                        YouTube
+                    </a>
+                </div>
+            </div>
+        `
+    },
+    {
+        id: 20,
+        title: "O‘zbekiston Respublikasi Prezidenti Farmoni: Ta’lim va ilm-fan vaziri lavozimi kiritildi",
+        date: "13 Oktyabr, 2026",
+        isToday: true,
+        category: "Islohotlar",
+        image: "/images/yangilik_4.jpg",
+        images: ["/images/yangilik_4.jpg", "/images/durdona_0.jpg", "/images/durdona_1.jpg"],
+        desc: "O‘zbekiston Respublikasi Prezidentining “O‘zbekiston Respublikasi Vazirlar Mahkamasining ijro etuvchi tuzilmasini yanada takomillashtirish chora-tadbirlari to‘g‘risida”gi Farmoni qabul qilindi.",
+        content: `
+            <p>✅ O‘zbekiston Respublikasi Prezidentining <b>“O‘zbekiston Respublikasi Vazirlar Mahkamasining ijro etuvchi tuzilmasini yanada takomillashtirish chora-tadbirlari to‘g‘risida”</b>gi Farmoni qabul qilindi. Unga ko‘ra, Vazirlar Mahkamasi ijro etuvchi tuzilmasida:</p>
+            <ul class="list-disc pl-5 space-y-1.5 my-3 text-slate-700">
+                <li>O‘zbekiston Respublikasi Bosh vazirining birinchi o‘rinbosari — ta’lim va ilm-fan vaziri lavozimi kiritildi;</li>
+                <li>12 nafar shtat birligidan iborat bo‘lgan Ta’lim, ilm-fan va sog‘liqni saqlash masalalari kotibiyati tashkil qilindi.</li>
+            </ul>
+            <p class="font-semibold text-slate-800 mt-4">👉 Vazirlar Mahkamasi Ta’lim, ilm-fan va sog‘liqni saqlash masalalari kotibiyatining:</p>
+            <ul class="list-disc pl-5 space-y-1.5 my-2 text-slate-700">
+                <li>5 ta shtat birligi — Vazirlar Mahkamasining Ijtimoiy rivojlanish masalalari bo‘limi hisobidan;</li>
+                <li>7 ta shtat birligi — qayta tashkil etilgan Maktabgacha va maktab ta’limi vazirligi hamda Oliy ta’lim, fan va innovatsiyalar vazirligining shtat birliklarini maqbullashtirish hisobidan shakllantiriladi.</li>
+            </ul>
+            <p class="font-semibold text-slate-800 mt-4">👉 Farmonga ko‘ra:</p>
+            <p>Bosh vazirning birinchi o‘rinbosari — ta’lim va ilm-fan vaziri respublika ijro etuvchi hokimiyat organlari — vazirliklar, qo‘mitalar, agentliklar va inspeksiyalar rahbarlari hamda Qoraqalpog‘iston Respublikasi Vazirlar Kengashi Raisi, viloyatlar va Toshkent shahar hokimlarining ta’lim, ilm-fan va sog‘liqni saqlash sohalarida zimmasiga yuklatilgan vazifa va funksiyalarni amalga oshirish bo‘yicha faoliyatiga vakolati doirasida umumiy rahbarlik qiladi, ularni muvofiqlashtiradi.</p>
+            <div class="mt-5 p-4 bg-blue-50/80 border border-blue-200/80 rounded-xl">
+                <a href="https://lex.uz/uz/pdfs/8530785" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-[#0088cc] hover:text-[#006699] font-bold text-sm md:text-base transition-colors hover:underline">
+                    <span class="material-symbols-outlined text-[22px]">description</span>
+                    👉 Farmonning to‘liq matni bilan tanishing (lex.uz)
+                </a>
+            </div>
         `
     }
 ];
