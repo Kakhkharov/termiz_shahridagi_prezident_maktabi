@@ -5,7 +5,7 @@ import { newsData, formatNewsDate } from '../data/newsData';
 import { getAssetPath } from '../utils/assets';
 
 export default function News() {
-    const heroData = newsData.slice(0, 5);
+    const heroData = newsData.slice(0, 10);
     const [activeTag, setActiveTag] = useState('Hammasi');
     const tags = ['Hammasi', 'Ma\'naviyat', 'E\'lonlar', 'Tashrif', 'Sport', 'Ilm-fan', 'Olimpiada', 'Pedagoglar', 'Texnologiya'];
 
@@ -30,7 +30,7 @@ export default function News() {
 
                     {/* Top Hero Section */}
                     <section className="space-y-4">
-                        <div className="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden flex flex-col md:flex-row h-auto md:h-[390px] lg:h-[400px]">
+                        <div className="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden flex flex-col md:flex-row h-auto md:h-[350px] lg:h-[360px]">
                             <div className="w-full md:w-[50%] lg:w-[52%] h-56 sm:h-64 md:h-full relative overflow-hidden shrink-0">
                                 <img
                                     key={heroData[heroIdx].image}
@@ -39,12 +39,12 @@ export default function News() {
                                     className="w-full h-full object-cover animate-fade-in"
                                 />
                             </div>
-                            <div className="w-full md:w-[50%] lg:w-[48%] p-5 md:p-6 lg:p-7 flex flex-col justify-between h-full relative group hover:bg-slate-50/60 transition-colors">
+                            <div className="w-full md:w-[50%] lg:w-[48%] p-5 md:p-6 flex flex-col justify-between h-full relative group hover:bg-slate-50/60 transition-colors">
                                 <Link to={`/article/${heroData[heroIdx].id}`} className="block flex-1 min-h-0">
                                     <h1 key={`t-${heroIdx}`} className="text-base sm:text-lg md:text-[19px] lg:text-[21px] font-bold text-slate-900 leading-[1.38] hover:text-[#0088cc] transition-colors animate-slide-up">
                                         {heroData[heroIdx].title}
                                     </h1>
-                                    <p key={`d-${heroIdx}`} className="text-xs md:text-sm text-slate-500 mt-2.5 line-clamp-2 leading-relaxed animate-fade-in">
+                                    <p key={`d-${heroIdx}`} className="text-xs md:text-sm text-slate-500 mt-2.5 line-clamp-3 md:line-clamp-4 leading-relaxed animate-fade-in">
                                         {heroData[heroIdx].desc}
                                     </p>
                                 </Link>
@@ -66,7 +66,7 @@ export default function News() {
                                         >
                                             <span className="material-symbols-outlined text-[16px]">chevron_left</span>
                                         </button>
-                                        <div className="flex gap-1 items-center px-1">
+                                        <div className="flex gap-1 items-center px-0.5 max-w-[120px] overflow-x-auto no-scrollbar">
                                             {heroData.map((_, idx) => (
                                                 <button
                                                     key={idx}
@@ -76,7 +76,7 @@ export default function News() {
                                                         e.stopPropagation();
                                                         setHeroIdx(idx);
                                                     }}
-                                                    className={`transition-all duration-300 rounded-full cursor-pointer ${idx === heroIdx ? 'w-4 h-1.5 bg-[#0088cc]' : 'w-1.5 h-1.5 bg-slate-300 hover:bg-slate-400'}`}
+                                                    className={`transition-all duration-300 rounded-full cursor-pointer shrink-0 ${idx === heroIdx ? 'w-3.5 h-1.5 bg-[#0088cc]' : 'w-1.5 h-1.5 bg-slate-300 hover:bg-slate-400'}`}
                                                     title={`${idx + 1}-yangilik`}
                                                 ></button>
                                             ))}
