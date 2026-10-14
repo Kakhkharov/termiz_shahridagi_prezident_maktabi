@@ -30,8 +30,8 @@ export default function News() {
 
                     {/* Top Hero Section */}
                     <section className="space-y-4">
-                        <div className="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden flex flex-col md:flex-row h-auto md:h-[350px]">
-                            <div className="w-full md:w-[60%] h-48 sm:h-64 md:h-full relative overflow-hidden">
+                        <div className="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden flex flex-col md:flex-row h-auto md:h-[370px] lg:h-[380px]">
+                            <div className="w-full md:w-[58%] lg:w-[60%] h-56 sm:h-64 md:h-full relative overflow-hidden shrink-0">
                                 <img
                                     key={heroData[heroIdx].image}
                                     src={getAssetPath(heroData[heroIdx].image)}
@@ -39,39 +39,59 @@ export default function News() {
                                     className="w-full h-full object-cover animate-fade-in"
                                 />
                             </div>
-                            <div className="w-full md:w-[40%] p-4 md:p-8 flex flex-col h-full relative group cursor-pointer hover:bg-slate-50 transition-colors">
-                                <Link to={`/article/${heroData[heroIdx].id}`} className="block">
-                                    <h1 key={`t-${heroIdx}`} className="text-lg md:text-2xl font-bold text-slate-900 leading-snug hover:text-[#0088cc] transition-colors animate-slide-up">
+                            <div className="w-full md:w-[42%] lg:w-[40%] p-5 md:p-6 lg:p-7 flex flex-col justify-between h-full relative group hover:bg-slate-50/60 transition-colors">
+                                <Link to={`/article/${heroData[heroIdx].id}`} className="block flex-1 min-h-0 overflow-hidden">
+                                    <h1 key={`t-${heroIdx}`} className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-slate-900 leading-snug hover:text-[#0088cc] transition-colors animate-slide-up line-clamp-3">
                                         {heroData[heroIdx].title}
                                     </h1>
-                                    <p key={`d-${heroIdx}`} className="text-xs md:text-sm text-slate-500 mt-2 md:mt-4 line-clamp-3 md:line-clamp-4 leading-relaxed animate-fade-in">
+                                    <p key={`d-${heroIdx}`} className="text-xs md:text-sm text-slate-500 mt-2.5 line-clamp-2 lg:line-clamp-3 leading-relaxed animate-fade-in">
                                         {heroData[heroIdx].desc}
                                     </p>
                                 </Link>
-                                <div className="mt-auto pt-4 md:pt-6 flex items-center justify-between text-[10px] md:text-xs text-slate-400 font-medium">
-                                    <div className="flex items-center gap-1.5">
-                                        <span className="material-symbols-outlined text-[16px]">calendar_today</span> {formatNewsDate(heroData[heroIdx])}
+                                <div className="mt-4 pt-3.5 border-t border-slate-100 flex items-center justify-between text-[11px] md:text-xs text-slate-400 font-medium shrink-0">
+                                    <div className="flex items-center gap-1.5 text-slate-500 font-semibold">
+                                        <span className="material-symbols-outlined text-[17px] text-[#0088cc]">calendar_today</span> 
+                                        <span>{formatNewsDate(heroData[heroIdx])}</span>
                                     </div>
-                                    <div className="flex items-center gap-1 text-[11px] text-slate-400">
+                                    <div className="flex items-center gap-1.5 text-slate-400">
                                         <button
-                                            onClick={() => setHeroIdx((prev) => (prev - 1 + heroData.length) % heroData.length)}
-                                            className="w-6 h-6 rounded flex items-center justify-center bg-slate-100 hover:bg-slate-200 transition-colors"
+                                            type="button"
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                e.stopPropagation();
+                                                setHeroIdx((prev) => (prev - 1 + heroData.length) % heroData.length);
+                                            }}
+                                            className="w-7 h-7 rounded-lg flex items-center justify-center bg-slate-100 hover:bg-[#0088cc] hover:text-white transition-colors cursor-pointer"
+                                            title="Oldingisi"
                                         >
-                                            <span className="material-symbols-outlined text-[14px]">chevron_left</span>
+                                            <span className="material-symbols-outlined text-[16px]">chevron_left</span>
                                         </button>
                                         <div className="flex gap-1 items-center px-1">
                                             {heroData.map((_, idx) => (
-                                                <span
+                                                <button
                                                     key={idx}
-                                                    className={`transition-all duration-300 rounded-full ${idx === heroIdx ? 'w-3 h-1.5 bg-[#0088cc]' : 'w-1.5 h-1.5 bg-slate-300'}`}
-                                                ></span>
+                                                    type="button"
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                        e.stopPropagation();
+                                                        setHeroIdx(idx);
+                                                    }}
+                                                    className={`transition-all duration-300 rounded-full cursor-pointer ${idx === heroIdx ? 'w-4 h-1.5 bg-[#0088cc]' : 'w-1.5 h-1.5 bg-slate-300 hover:bg-slate-400'}`}
+                                                    title={`${idx + 1}-yangilik`}
+                                                ></button>
                                             ))}
                                         </div>
                                         <button
-                                            onClick={() => setHeroIdx((prev) => (prev + 1) % heroData.length)}
-                                            className="w-6 h-6 rounded flex items-center justify-center bg-slate-100 hover:bg-slate-200 transition-colors"
+                                            type="button"
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                e.stopPropagation();
+                                                setHeroIdx((prev) => (prev + 1) % heroData.length);
+                                            }}
+                                            className="w-7 h-7 rounded-lg flex items-center justify-center bg-slate-100 hover:bg-[#0088cc] hover:text-white transition-colors cursor-pointer"
+                                            title="Keyingisi"
                                         >
-                                            <span className="material-symbols-outlined text-[14px]">chevron_right</span>
+                                            <span className="material-symbols-outlined text-[16px]">chevron_right</span>
                                         </button>
                                     </div>
                                 </div>
