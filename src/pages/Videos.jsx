@@ -26,7 +26,7 @@ const videoData = [
         title: "Chavondozlik mahorat maktabi bilan hamkorlik",
         date: "2026-09-11T10:00:00",
         duration: "01:30",
-        thumbnail: "/images/school.jpg",
+        thumbnail: "/images/ot_0.jpg",
         video: "/images/video3.mp4",
         views: "1.2k"
     },

@@ -231,8 +231,8 @@ const rawNewsData = [
         title: "Chavondozlik mahorat maktabi bilan hamkorlik",
         date: "11 Sentyabr, 2026",
         category: "Hamkorlik",
-        image: "/images/school.jpg",
-        images: ["/images/school.jpg"],
+        image: "/images/ot_0.jpg",
+        images: ["/images/ot_0.jpg"],
         video: "/images/video3.mp4",
         desc: "Termiz shahridagi Prezident maktabi Chavandozlik mahorat maktabi hamda Turon yakka kurash federatsiyalari bilan hamkorlik aloqalarini yo‘lga qo‘ydi.",
         content: `

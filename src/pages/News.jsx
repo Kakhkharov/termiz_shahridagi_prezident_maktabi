@@ -30,8 +30,8 @@ export default function News() {
 
                     {/* Top Hero Section */}
                     <section className="space-y-4">
-                        <div className="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden flex flex-col md:flex-row h-auto md:h-[370px] lg:h-[380px]">
-                            <div className="w-full md:w-[58%] lg:w-[60%] h-56 sm:h-64 md:h-full relative overflow-hidden shrink-0">
+                        <div className="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden flex flex-col md:flex-row h-auto md:h-[390px] lg:h-[400px]">
+                            <div className="w-full md:w-[50%] lg:w-[52%] h-56 sm:h-64 md:h-full relative overflow-hidden shrink-0">
                                 <img
                                     key={heroData[heroIdx].image}
                                     src={getAssetPath(heroData[heroIdx].image)}
@@ -39,12 +39,12 @@ export default function News() {
                                     className="w-full h-full object-cover animate-fade-in"
                                 />
                             </div>
-                            <div className="w-full md:w-[42%] lg:w-[40%] p-5 md:p-6 lg:p-7 flex flex-col justify-between h-full relative group hover:bg-slate-50/60 transition-colors">
-                                <Link to={`/article/${heroData[heroIdx].id}`} className="block flex-1 min-h-0 overflow-hidden">
-                                    <h1 key={`t-${heroIdx}`} className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-slate-900 leading-snug hover:text-[#0088cc] transition-colors animate-slide-up line-clamp-3">
+                            <div className="w-full md:w-[50%] lg:w-[48%] p-5 md:p-6 lg:p-7 flex flex-col justify-between h-full relative group hover:bg-slate-50/60 transition-colors">
+                                <Link to={`/article/${heroData[heroIdx].id}`} className="block flex-1 min-h-0">
+                                    <h1 key={`t-${heroIdx}`} className="text-base sm:text-lg md:text-[19px] lg:text-[21px] font-bold text-slate-900 leading-[1.38] hover:text-[#0088cc] transition-colors animate-slide-up">
                                         {heroData[heroIdx].title}
                                     </h1>
-                                    <p key={`d-${heroIdx}`} className="text-xs md:text-sm text-slate-500 mt-2.5 line-clamp-2 lg:line-clamp-3 leading-relaxed animate-fade-in">
+                                    <p key={`d-${heroIdx}`} className="text-xs md:text-sm text-slate-500 mt-2.5 line-clamp-2 leading-relaxed animate-fade-in">
                                         {heroData[heroIdx].desc}
                                     </p>
                                 </Link>
