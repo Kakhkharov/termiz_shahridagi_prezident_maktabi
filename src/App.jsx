@@ -69,6 +69,7 @@ function AppContent() {
           <Route path="/natijalar" element={<Results category="all" />} />
           <Route path="/natijalar/olimpiadalar" element={<Olimpiadalar />} />
           <Route path="/olimpiadalar" element={<Olimpiadalar />} />
+          <Route path="/natijalar/cefr" element={<Results category="CEFR" />} />
           <Route path="/natijalar/ielts" element={<Results category="IELTS" />} />
           <Route path="/natijalar/sat" element={<Results category="SAT" />} />
           <Route path="/natijalar/a-level" element={<Results category="A-Level" />} />

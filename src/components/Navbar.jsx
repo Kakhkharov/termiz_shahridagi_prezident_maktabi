@@ -328,6 +328,7 @@ export default function Navbar() {
                                             <span className="material-symbols-outlined text-[16px]">emoji_events</span>
                                             {lang === 'uz' ? 'Olimpiadalar' : 'Olympiads'}
                                         </Link>
+                                        <Link to="/natijalar/cefr" className="block px-4 py-2.5 text-[13px] font-bold text-slate-800 hover:bg-slate-50 hover:text-[#0088cc]">CEFR</Link>
                                         <Link to="/natijalar/ielts" className="block px-4 py-2.5 text-[13px] font-bold text-slate-800 hover:bg-slate-50 hover:text-[#0088cc]">IELTS</Link>
                                         <Link to="/natijalar/sat" className="block px-4 py-2.5 text-[13px] font-bold text-slate-800 hover:bg-slate-50 hover:text-[#0088cc]">SAT</Link>
                                         <Link to="/natijalar/a-level" className="block px-4 py-2.5 text-[13px] font-bold text-slate-800 hover:bg-slate-50 hover:text-[#0088cc]">A-Level natijalar</Link>
@@ -532,6 +533,10 @@ export default function Navbar() {
                                             {lang === 'uz' ? 'Olimpiadalar' : 'Olympiads'}
                                         </span>
                                         <span className="material-symbols-outlined text-xs text-cyan-500">chevron_right</span>
+                                    </Link>
+                                    <Link to="/natijalar/cefr" onClick={() => setIsMenuOpen(false)} className="flex items-center justify-between p-1.5 rounded-lg hover:bg-white/5 text-xs text-slate-200 hover:text-white transition-colors">
+                                        <span>CEFR natijalar</span>
+                                        <span className="material-symbols-outlined text-xs text-slate-500">chevron_right</span>
                                     </Link>
                                     <Link to="/natijalar/ielts" onClick={() => setIsMenuOpen(false)} className="flex items-center justify-between p-1.5 rounded-lg hover:bg-white/5 text-xs text-slate-200 hover:text-white transition-colors">
                                         <span>IELTS natijalar</span>
