@@ -1,13 +1,63 @@
+const MONTH_MAP = {
+    'yanvar': 0,
+    'fevral': 1,
+    'mart': 2,
+    'aprel': 3,
+    'may': 4,
+    'iyun': 5,
+    'iyul': 6,
+    'avgust': 7,
+    'sentabr': 8,
+    'sentyabr': 8,
+    'oktyabr': 9,
+    'noyabr': 10,
+    'dekabr': 11
+};
+
+export const isRealTimeToday = (dateStr) => {
+    if (!dateStr || typeof dateStr !== 'string') return false;
+    const clean = dateStr.trim().toLowerCase();
+    if (clean === 'bugun') return true;
+
+    const now = new Date();
+    const currentYear = now.getFullYear();
+    const currentMonth = now.getMonth();
+    const currentDay = now.getDate();
+
+    // 1. ISO format: 2026-11-13 or 2026-11-13T...
+    const isoMatch = clean.match(/^(\d{4})-(\d{1,2})-(\d{1,2})/);
+    if (isoMatch) {
+        const y = parseInt(isoMatch[1], 10);
+        const m = parseInt(isoMatch[2], 10) - 1;
+        const d = parseInt(isoMatch[3], 10);
+        return y === currentYear && m === currentMonth && d === currentDay;
+    }
+
+    // 2. Uzbek format: "11 Noyabr, 2026", "11-noyabr 2026-yil", "11 noyabr 2026"
+    const uzMatch = clean.match(/^(\d{1,2})[-.\s]+([a-z‘'ʻ]+)[,-.\s]+(\d{4})/);
+    if (uzMatch) {
+        const d = parseInt(uzMatch[1], 10);
+        const mName = uzMatch[2].replace(/[^a-z]/g, '');
+        const y = parseInt(uzMatch[3], 10);
+        const m = MONTH_MAP[mName];
+        if (m !== undefined) {
+            return y === currentYear && m === currentMonth && d === currentDay;
+        }
+    }
+
+    return false;
+};
+
 export const formatNewsDate = (itemOrDate) => {
     if (!itemOrDate) return "";
-    if (typeof itemOrDate === 'object') {
-        if (itemOrDate.isToday || itemOrDate.date === "Bugun") {
-            return "Bugun";
-        }
-        return itemOrDate.date || "";
+    const rawDate = typeof itemOrDate === 'object' ? itemOrDate.date : itemOrDate;
+    if (!rawDate) return "";
+
+    if (isRealTimeToday(rawDate)) {
+        return "Bugun";
     }
-    if (itemOrDate === "Bugun") return "Bugun";
-    return itemOrDate;
+
+    return rawDate;
 };
 
 const rawNewsData = [
@@ -15,7 +65,6 @@ const rawNewsData = [
         id: 1,
         title: "Termiz şahridagi Prezident maktabida 'STEM Expo-2026' körgazmasi yakunlandi",
         date: "25 Aprel, 2026",
-        isToday: true,
         category: "Tadbir",
         image: "/images/01.jpg",
         images: ["/images/01.jpg", "/images/02.jpg", "/images/03.jpg", "/images/04.jpg"],
@@ -386,7 +435,6 @@ const rawNewsData = [
         id: 22,
         title: "MADANIYAT — DUNYONI BIRLAŞTIRUVÇI KÖPRIK!",
         date: "11 Noyabr, 2026",
-        isToday: true,
         category: "Madaniyat",
         image: "/images/11_02.jpg",
         images: [
