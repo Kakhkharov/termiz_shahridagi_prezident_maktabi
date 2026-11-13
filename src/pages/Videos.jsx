@@ -13,6 +13,15 @@ const videoData = [
         views: "1.5k"
     },
     {
+        id: 12,
+        title: "Prezident maktabi — bilim, tarbiya, ma’naviyat maskanidir!",
+        date: "2026-10-29T10:00:00",
+        duration: "02:25",
+        thumbnail: "/images/maktab.jpg",
+        video: "/images/maktabim.mp4",
+        views: "1.3k"
+    },
+    {
         id: 10,
         title: "Termiz garnizoni harbiy xizmatçisi bilan “Uç avlod uçraşuvi” tadbiri bölib ötdi",
         date: "2026-10-13T10:00:00",

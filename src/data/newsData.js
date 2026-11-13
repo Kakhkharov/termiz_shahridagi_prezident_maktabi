@@ -419,6 +419,160 @@ const rawNewsData = [
         `
     },
     {
+        id: 23,
+        title: "Dunyo universitetlari Özbekistonda jamlanadi: Toşkentda ilk bor “Silk Road University Fair – 2026” ötkaziladi!",
+        date: "24 Oktyabr, 2026",
+        category: "Ilm-fan",
+        image: "/images/silk_road.jpg",
+        images: ["/images/silk_road.jpg"],
+        desc: "27–28-oktabr kunlari Toşkent şahridagi Muhammad al-Xorazmiy nomidagi ixtisoslaştirilgan maktabda ilk bor “Silk Road University Fair – 2026” xalqaro ta’lim körgazmasi bölib ötadi.",
+        content: `
+            <p class="font-semibold text-slate-800">Xorijda tahsil olişni orzu qilayotgan yoşlar uçun ajoyib imkoniyat!</p>
+            <p>27–28-oktabr kunlari Özbekiston Maktab Maslahatçilari Tarmoği (CCNU) hamda Ixtisoslaştirilgan ta’lim muassasalari agentligi hamkorligida Toşkent şahridagi Muhammad al-Xorazmiy nomidagi ixtisoslaştirilgan maktabda ilk bor <b>“Silk Road University Fair – 2026”</b> xalqaro ta’lim körgazmasi bölib ötadi.</p>
+            <p>Dunyoning 10 dan ortiq mamlakatidan taşrif buyuradigan 40 dan ziyod universitet vakillari yoşlarimiz uçun nufuzli xorijiy oliy ta’lim muassasalarida tahsil oliş imkoniyatlari bilan tanişişga keng yöl oçadi.</p>
+            <p>Ikki kun davomida xalqaro oliy ta’lim muassasalari vakillari bir maydonda jamlanib, öquvçilarga xorijda ta’lim oliş imkoniyatlari, universitetlarga kiriş jarayonlari va xalqaro ta’lim istiqbollari haqida ma’lumot beradi.</p>
+            <p>Körgazmada AQŞ, Avstraliya, Belgiya, Birlaşgan Arab Amirliklari, Buyuk Britaniya, Germaniya, Ispaniya, Qozoğiston, Xitoy, Fransiya, Şveysariya, Janubiy Koreya universitetlari vakillari iştirok etişi rejalaştirilgan.</p>
+            <p><b>“Silk Road University Fair – 2026”</b> maktab maslahatçilari hamda yuqori sinf öquvçilari uçun xalqaro ta’lim eşiklarini oçişga qaratilgan muhim tadbirlardan biri böladi.</p>
+            <p>Uşbu xalqaro ta’lim körgazmasi Ixtisoslaştirilgan ta’lim muassasalari agentligi tizimidagi maktablar, umumta'lim va xususiy maktablarining yuqori sinf öquvçilari hamda maktab maslahatçilari uçun taşkil etilmoqda.</p>
+            <div class="mt-4 p-4 bg-amber-50 border border-amber-200 rounded-xl text-amber-900 text-sm">
+                <b>Muhim eslatma!</b> Xalqaro ta’lim körgazmasida iştirok etiş istagini bildirgan öquvçilar maktab maslahatçilari yoki öquv işlari böyiça direktor örinbosarlari hamrohligida qatnaşişlari şart.
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-200">
+                <h4 class="font-bold text-slate-800 mb-1">World Universities Come Together in Uzbekistan: “Silk Road University Fair – 2026” to Be Held in Tashkent for the First Time!</h4>
+                <p class="text-slate-600 text-sm italic">An exciting opportunity for young people aspiring to study abroad!</p>
+            </div>
+        `
+    },
+    {
+        id: 24,
+        title: "Toşkentda Markaziy Osiyo xalqaro ta’lim forumi öz işini boşladi",
+        date: "28 Oktyabr, 2026",
+        category: "Ilm-fan",
+        image: "/images/forum08.jpg",
+        images: [
+            "/images/forum08.jpg",
+            "/images/forum00.jpg",
+            "/images/forum01.jpg",
+            "/images/forum02.jpg",
+            "/images/forum03.jpg",
+            "/images/forum04.jpg",
+            "/images/forum05.jpg",
+            "/images/forum06.jpg",
+            "/images/forum07.jpg",
+            "/images/forum09.jpg"
+        ],
+        desc: "Toşkentda Markaziy Osiyo xalqaro ta’lim forumi öz işini boşladi. Unda 40 dan ortiq davlat vakillari, jumladan, ta’lim va fan vazirlari hamda mingdan ziyod ekspert iştirok etmoqda.",
+        content: `
+            <p>Toşkentda Markaziy Osiyo xalqaro ta’lim forumi öz işini boşladi. Unda 40 dan ortiq davlat vakillari, jumladan, ta’lim va fan vazirlari, 500 ga yaqin mahalliy va xorijiy oliygoh rahbarlari hamda mingdan ziyod ekspert iştirok etmoqda.</p>
+            <p>Forumning oçiliş marosimida Prezidentimiz Şavkat Mirziyoyevning anjuman iştirokçilariga murojaatini öqib eşittirdim.</p>
+            <p>Davlatimiz rahbari qutlovida Markaziy Osiyo mamlakatlari örtasida özaro işonç, yaxşi qöşniçilik va şeriklik mustahkamlanayotgani ta’kidlandi. Qariyb 85 million aholiga ega mintaqamizning eng katta boyligi esa bilimga intilayotgan yoş avloddir.</p>
+            <blockquote class="italic text-slate-700 border-l-4 border-[#0088cc] pl-4 my-3 bg-blue-50/50 py-2.5 rounded-r">
+                “Ana şu ulkan demografik salohiyatni qudratli intellektual kuçga aylantirişda eng samarali yöl – sifatli, zamonaviy ta’lim va tarbiyadir”,
+                <span class="text-xs font-semibold not-italic block mt-1 text-slate-500">— deyiladi murojaatda.</span>
+            </blockquote>
+            <p>Prezidentimiz Özbekistonda ta’lim islohotlari davlat siyosatining ustuvor yönalişiga aylanganini qayd etgan. Yaqinda maktabgaça va maktab ta’limi, kasbiy va oliy ta’lim hamda ilm-fan boşqaruvi yagona tizimga birlaştirildi. Bundan maqsad – bolaning dastlabki bilim olişidan yetuk mutaxassis va olim bölib şakllanişigaça bölgan bosqiçlar uzviyligini ta’minlaş.</p>
+            <p>Murojaatda ta’lim yoşlarni mustaqil fikrlaş, ijod qiliş va umri davomida örganişga tayyorlaşi zarurligi ta’kidlangan. Öqituvçi va murabbiylarning rolini oşiriş, maktab, texnikum, universitet hamda işlab çiqariş örtasidagi hamkorlikni kuçaytiriş, ayniqsa, qizlar, çekka hududlardagi bolalar va alohida ta’limga ehtiyoji bölgan yoşlar uçun imkoniyatlarni kengaytiriş muhim vazifalar sifatida körsatildi.</p>
+            <p>Prezidentimiz sun’iy intellekt va zamonaviy muhandislik yönalişlarini rivojlantiriş, universitetlar örtasidagi qöşma dasturlar va tadqiqotlarni köpaytiriş, talaba hamda olimlar almaşinuvini qöllab-quvvatlaşga çaqirdi.</p>
+            <p>Davlatimiz rahbari Markaziy Osiyoni ilm-ma’rifat, yuksak texnologiyalar va innovasiyalar birlaşgan umumiy intellektual makonga aylantirişdek strategik maqsad yölida forumda amaliy takliflar ilgari surilişiga işonç bildirdi.</p>
+            <hr class="my-6 border-slate-200" />
+            <div class="text-slate-700 space-y-3">
+                <p>В Ташкенте начал работу Международный образовательный форум Центральной Азии. В нем участвуют представители более 40 стран, в том числе министры образования и науки, около 500 руководителей узбекистанских и зарубежных вузов и свыше тысячи экспертов.</p>
+                <p>На церемонии открытия форума зачитал послание Президента Шавката Мирзиёева к участникам мероприятия.</p>
+                <p>В приветствии главы нашего государства отмечено укрепление взаимного доверия, добрососедства и партнерства между странами Центральной Азии. Главное богатство региона при населении около 85 миллионов человек – молодое поколение, стремящееся к знаниям.</p>
+                <blockquote class="italic text-slate-700 border-l-4 border-slate-400 pl-4 my-3 bg-slate-50 py-2.5 rounded-r">
+                    «Самый действенный путь к превращению этого огромного демографического потенциала в мощную интеллектуальную силу – качественное современное образование и воспитание»,
+                    <span class="text-xs font-semibold not-italic block mt-1 text-slate-500">— говорится в обращении.</span>
+                </blockquote>
+                <p>Президент нашей страны отметил, что реформы образования в Узбекистане стали одним из приоритетов государственной политики. Недавно управление дошкольным, школьным, профессиональным и высшим образованием, а также наукой объединено в единую систему. Цель – обеспечить преемственность всех этапов: от получения ребенком первых знаний до становления квалифицированного специалиста и ученого.</p>
+                <p>Подчеркнуто, что образование должно готовить молодежь к самостоятельному мышлению, творчеству и обучению на протяжении всей жизни. Среди важных задач названы повышение роли педагогов и наставников, укрепление сотрудничества между школами, техникумами, университетами и производством, расширение возможностей для девочек, детей из отдаленных районов и молодых людей с особыми образовательными потребностями.</p>
+                <p>Глава нашего государства выразил уверенность, что на форуме будут выдвинуты практические предложения, служащие стратегической цели – превратить Центральную Азию в общее интеллектуальное пространство, объединяющее просвещение, высокие технологии и инновации.</p>
+            </div>
+        `
+    },
+    {
+        id: 25,
+        title: "Prezident maktabi — bilim, tarbiya, ma’naviyat maskanidir!",
+        date: "29 Oktyabr, 2026",
+        category: "Ma'naviyat",
+        image: "/images/maktab.jpg",
+        images: ["/images/maktab.jpg"],
+        video: "/images/maktabim.mp4",
+        desc: "Termiz şahridagi Prezident maktabida tahsil olayotgan öquvçilar yuqori malakali mutaxassislardan bilim oliş bilan birga 10 ga yaqin tögaraklar orqali mahoratlarini oşirmoqdalar.",
+        content: `
+            <p>Termiz şahridagi Prezident maktabida tahsil olayotgan öquvçilar yuqori malakali öqituvçilardan bilim oliş bilan bir qatorda mahoratli, öz kasbining fidoyi mutaxassislaridan turli kasb va könikmalarni egallaş imkoniga ham egadirlar.</p>
+            <p>Hozirgi kunda maktabimizda musiqa, raqs, kulolçilik, Turon yakka kuraşi, robototexnika, dasturlaş kabi 10 ga yaqin tögaraklar faoliyati yölga qöyilgan.</p>
+            <p>Mazkur tögaraklar öquvçi-yoşlar qalbida milliy qadriyatlarimiz, urf-odat va an’analarimizga bölgan hurmati hissini oşirişga, ularda mardlik va jasorat kabi oliyjanob hislatlarning şakllanişiga hamda zamonaviy texnologiyalardan samarali foydalaniş, musiqa va raqs san’ati kabi könikmalar rivojlanişiga xizmat qiladi.</p>
+            <p>Mazkur videolavhada Termiz şahridagi Prezident maktabida taşkil etilgan tögarak maşğulotlaridan lavhalar namoyiş etilgan.</p>
+        `
+    },
+    {
+        id: 26,
+        title: "“Raqamli avlod IT haftaligi” yakunlandi: unda mingga yaqin yoş iştirok etdi",
+        date: "6 Noyabr, 2026",
+        category: "Texnologiya",
+        image: "/images/it00.jpg",
+        images: [
+            "/images/it00.jpg",
+            "/images/it01.jpg",
+            "/images/it02.jpg",
+            "/images/it03.jpg",
+            "/images/it04.jpg",
+            "/images/it05.jpg",
+            "/images/it06.jpg",
+            "/images/it07.jpg",
+            "/images/it08.jpg",
+            "/images/it09.jpg"
+        ],
+        desc: "2026-yil 4–6-noyabr kunlari Muhammad al-Xorazmiy nomidagi maktabda “Raqamli avlod IT haftaligi” bölib ötdi. Unda mingga yaqin yoş iştirok etdi.",
+        content: `
+            <p>2026-yil 4–6-noyabr kunlari Muhammad al-Xorazmiy nomidagi ixtisoslaştirilgan maktabda <b>“Raqamli avlod IT haftaligi”</b> bölib ötdi. Unda mamlakatimizning turli hududlaridan 14 yoşdan 30 yoşgaça bölgan mingga yaqin yoş iştirok etdi.</p>
+            <p>Haftalik yoşlarning axborot texnologiyalari sohasidagi bilim va könikmalarini rivojlantiriş, iqtidorli yoşlarni qöllab-quvvatlaş, innovasion ğoyalarni rağbatlantiriş hamda zamonaviy texnologiyalar imkoniyatlarini keng tarğib etiş maqsadida taşkil etildi.</p>
+            <p>Tadbir Digital Generation Uzbekistan va Ixtisoslaştirilgan ta’lim muassasalari agentligi tomonidan, Oliy Majlis huzuridagi Jamoat fondi hamda Muhammad al-Xorazmiy nomidagi ixtisoslaştirilgan maktab hamkorligida ötkazildi.</p>
+            <p>Uç kun davomida iştirokçilar sport dasturlaş, robototexnika, ixtiroçilik va sun’iy intellekt yönalişlaridagi musobaqalar, amaliy bellaşuvlar va ma’rifiy tadbirlarda öz bilim va mahoratlarini namoyon etdilar.</p>
+            <p>Dastur doirasida Robo Futbol, Robo Sumo, Robo War Mini musobaqalari, innovasion işlanmalar taqdimoti hamda DG Contest sport dasturlaş bellaşuvi ötkazildi. Şuningdek, 6-noyabr kuni AI DAY tadbiri taşkil etilib, unda sun’iy intellekt, AI agentlar, mehnat bozorining kelajagi, ta’lim, ijtimoiy tarmoqlar va biznes jarayonlarida AI texnologiyalaridan foydalaniş masalalari muhokama qilindi.</p>
+            <p>Haftalik yakunida turli yönalişlarda ğolib va sovrindorlar aniqlanib, faol iştirokçilarning bilim va mahorati e’tirof etildi.</p>
+            <p><b>“Raqamli avlod IT haftaligi”</b> yoşlarning texnologik salohiyatini röyobga çiqariş, ularni zamonaviy kasblarga yönaltiriş, dasturlaş va robototexnikaga bölgan qiziqişini oşiriş hamda innovasion taşabbuslarini qöllab-quvvatlaşga xizmat qildi.</p>
+            <p>Mingga yaqin yoşni birlaştirgan mazkur haftalik yangi ğoyalar, istiqbolli loyihalar va kelajak texnologiyalari atrofida tajriba almaşiş uçun muhim maydon böldi.</p>
+            <div class="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-xl">
+                <a href="https://gov.uz/oz/ima/news/view/243860" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-[#0088cc] hover:underline font-bold text-sm">
+                    <span class="material-symbols-outlined text-[20px]">link</span>
+                    Batafsil ma'lumot (gov.uz)
+                </a>
+            </div>
+        `
+    },
+    {
+        id: 27,
+        title: "Termiz şahridagi Prezident maktabi öqituvçisi xalqaro forumda Özbekiston şarafini himoya qiladi!",
+        date: "6 Noyabr, 2026",
+        category: "Pedagoglar",
+        image: "/images/shoxista.jpg",
+        images: ["/images/shoxista.jpg"],
+        desc: "Termiz şahridagi Prezident maktabining ingliz tili fani öqituvçisi Şoxista Xamdamova Berlin Global Forum 2026 xalqaro forumida töliq grant asosida iştirok etiş imkoniyatini qölga kiritdi.",
+        content: `
+            <p>Termiz şahridagi Prezident maktabining ingliz tili fani öqituvçisi <b>Şoxista Xamdamova</b> Germaniyaning Berlin şahrida 6–9-noyabr kunlari bölib ötadigan <b>Berlin Global Forum 2026</b> xalqaro forumida töliq grant (Fully Funded Delegate) asosida iştirok etiş imkoniyatini qölga kiritdi.</p>
+            <p>U dunyoning turli mamlakatlaridan tanlab olingan <b>25 nafar</b> töliq grant sohiblaridan biri bölişga muvaffaq böldi.</p>
+            <p>Mazkur forum Organisation for Global Peace and Sustainability (OGPS) tomonidan taşkil etilib, dunyoning 100 dan ortiq mamlakatidan yoş yetakçilar va faol mutaxassislarni birlaştiradi. Forum doirasida xalqaro hamkorlik, ta’lim, yetakçilik, tinçlik va barqaror rivojlaniş masalalari muhokama qilinadi.</p>
+            <p>Ustozimizning uşbu yutuği maktabimiz pedagoglarining xalqaro maydondagi faolligi va salohiyatining yana bir yorqin namunasidir.</p>
+            <p class="font-semibold text-slate-800">Hamkasbimizga xalqaro forumda muvaffaqiyatli iştirok etib, yurtimiz va maktabimiz nufuzini munosib namoyon etişini tilaymiz!</p>
+        `
+    },
+    {
+        id: 28,
+        title: "TIBBIYOT XODIMLARI KUNI MUBORAK BÖLSIN!",
+        date: "8 Noyabr, 2026",
+        category: "Ma'naviyat",
+        image: "/images/tibbiyot.jpg",
+        images: ["/images/tibbiyot.jpg"],
+        desc: "Termiz şahridagi Prezident maktabida faoliyat olib borayotgan fidoyi hamşira opalarimizni va yurtimizdagi barça tibbiyot sohasi xodimlarini kasb bayramlari bilan samimiy muborakbod etamiz!",
+        content: `
+            <p>Termiz şahridagi Prezident maktabida faoliyat olib borayotgan fidoyi hamşira opalarimizni, ular orqali esa yurtimizdagi barça şifokorlar, hamşiralar va tibbiyot sohasi xodimlarini kasb bayramlari bilan çin qalbimizdan samimiy muborakbod etamiz!</p>
+            <p>Inson salomatligi yölida körsatayotgan mehringiz, fidoyiligingiz va maşaqqatli mehnatingiz uçun sizlarga çuqur minnatdorlik bildiramiz.</p>
+            <p>Barçangizga mustahkam soğliq, oilaviy baxt, xotirjamlik va şarafli faoliyatingizda ulkan muvaffaqiyatlar tilaymiz!</p>
+            <p class="font-bold text-[#0088cc] text-base md:text-lg mt-3">Doimo soğ böling, insonlar salomatligi yölidagi şarafli mehnatingizdan çarçamang!</p>
+        `
+    },
+    {
         id: 21,
         title: "Prezident maktablari tarixida ilk mukofot",
         date: "11 Noyabr, 2026",

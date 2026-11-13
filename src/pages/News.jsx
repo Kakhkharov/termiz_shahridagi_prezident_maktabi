@@ -31,12 +31,17 @@ export default function News() {
                     {/* Top Hero Section */}
                     <section className="space-y-4">
                         <div className="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden flex flex-col md:flex-row h-auto md:h-[350px] lg:h-[360px]">
-                            <div className="w-full md:w-[50%] lg:w-[52%] h-56 sm:h-64 md:h-full relative overflow-hidden shrink-0">
+                            <div className="w-full md:w-[50%] lg:w-[52%] aspect-video md:aspect-auto h-auto md:h-full relative overflow-hidden shrink-0 bg-slate-950 flex items-center justify-center">
+                                <img
+                                    src={getAssetPath(heroData[heroIdx].image)}
+                                    alt=""
+                                    className="absolute inset-0 w-full h-full object-cover blur-xl opacity-40 scale-110 pointer-events-none"
+                                />
                                 <img
                                     key={heroData[heroIdx].image}
                                     src={getAssetPath(heroData[heroIdx].image)}
                                     alt="Hero"
-                                    className="w-full h-full object-cover animate-fade-in"
+                                    className="w-full h-full object-contain relative z-10 animate-fade-in"
                                 />
                             </div>
                             <div className="w-full md:w-[50%] lg:w-[48%] p-5 md:p-6 flex flex-col justify-between h-full relative group hover:bg-slate-50/60 transition-colors">
