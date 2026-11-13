@@ -309,7 +309,7 @@ export function RadioProvider({ children }) {
                         {/* 'X' Close Button */}
                         <button 
                             onClick={stopRadio}
-                            title="Radioni o'chirish"
+                            title="Radioni öçiriş"
                             className="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-slate-900 border border-cyan-400/50 text-slate-300 hover:text-white hover:bg-red-500 hover:border-red-400 flex items-center justify-center transition-all shadow-md z-20 cursor-pointer"
                         >
                             <span className="material-symbols-outlined text-xs">close</span>

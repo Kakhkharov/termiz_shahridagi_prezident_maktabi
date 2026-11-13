@@ -29,7 +29,7 @@ const SquareAdWidget = ({ onClick }) => {
             {/* Bottom CTA Bar (Ariza topshirish) */}
             <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950 via-slate-950/85 to-transparent p-3 flex items-center justify-between text-white z-10 border-t border-white/5">
                 <span className="text-[11px] font-extrabold text-white group-hover:text-cyan-300 transition-colors flex items-center gap-1.5">
-                    Ariza topshirish
+                    Ariza topşiriş
                 </span>
                 <span className="material-symbols-outlined text-sm text-cyan-400 group-hover:translate-x-1 transition-transform">
                     arrow_forward
@@ -88,14 +88,14 @@ export const MobileAdPopup = () => {
                         </span>
                         <span className="text-[11px] font-bold text-slate-300 flex items-center gap-1.5">
                             <span className="w-2 h-2 rounded-full bg-cyan-400 animate-ping inline-block" />
-                            Yopilishiga: <strong className="text-cyan-400 text-xs font-mono">{secondsLeft} s</strong>
+                            Yopilişiga: <strong className="text-cyan-400 text-xs font-mono">{secondsLeft} s</strong>
                         </span>
                     </div>
 
                     <button 
                         onClick={() => setIsVisible(false)}
                         className="w-7 h-7 rounded-full bg-white/10 hover:bg-white/20 text-slate-300 hover:text-white flex items-center justify-center transition-all cursor-pointer text-xs font-bold border border-white/10"
-                        title="Yopish"
+                        title="Yopiş"
                     >
                         ✕
                     </button>
@@ -118,7 +118,7 @@ export default function Sidebar() {
             {/* So'nggi yangiliklar Widget (7 talik) */}
             <div className="bg-white rounded-xl shadow-sm border border-slate-100 p-5">
                 <div className="flex items-center justify-between mb-4 border-l-4 border-[#0088cc] pl-3">
-                    <h2 className="text-[16px] font-bold text-slate-900 leading-tight">So'nggi yangiliklar</h2>
+                    <h2 className="text-[16px] font-bold text-slate-900 leading-tight">Sönggi yangiliklar</h2>
                     <Link to="/news" className="w-7 h-7 rounded-full bg-slate-50 flex items-center justify-center text-[#0088cc] hover:bg-[#0088cc] hover:text-white transition-colors">
                         <span className="material-symbols-outlined text-lg">chevron_right</span>
                     </Link>
@@ -145,10 +145,10 @@ export default function Sidebar() {
 
             {/* Mashhur teglar Widget */}
             <div className="bg-white rounded-xl shadow-sm border border-slate-100 p-5">
-                <h2 className="text-[17px] font-bold text-slate-900 mb-4">Mashhur teglar</h2>
+                <h2 className="text-[17px] font-bold text-slate-900 mb-4">Maşhur teglar</h2>
                 <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1.5 rounded-md border border-slate-100 text-[#0088cc] text-[12px] font-medium hover:bg-slate-50 cursor-pointer">Dunyo</span>
-                    <span className="px-3 py-1.5 rounded-md border border-slate-100 text-[#0088cc] text-[12px] font-medium hover:bg-slate-50 cursor-pointer">O'zbekiston</span>
+                    <span className="px-3 py-1.5 rounded-md border border-slate-100 text-[#0088cc] text-[12px] font-medium hover:bg-slate-50 cursor-pointer">Özbekiston</span>
                     <span className="px-3 py-1.5 rounded-md border border-slate-100 text-[#0088cc] text-[12px] font-medium hover:bg-slate-50 cursor-pointer">Texnologiya</span>
                     <span className="px-3 py-1.5 rounded-md border border-slate-100 text-[#0088cc] text-[12px] font-medium hover:bg-slate-50 cursor-pointer">Sport</span>
                     <span className="px-3 py-1.5 rounded-md border border-slate-100 text-[#0088cc] text-[12px] font-medium hover:bg-slate-50 cursor-pointer">Ma'naviyat</span>
@@ -169,7 +169,7 @@ export default function Sidebar() {
                     <a href="https://grantlar.uz/tom-howard-margaret-reid-poetry-contest-tanlovi/" target="_blank" rel="noopener noreferrer" className="block bg-[#f4f6fa] rounded-xl p-4 group hover:bg-[#eaf0f7] transition-colors">
                         <span className="inline-block px-2.5 py-0.5 bg-white text-[#0088cc] text-[10px] font-bold rounded-full mb-2">Grantlar.uz</span>
                         <h3 className="text-[13px] font-bold text-slate-800 leading-snug mb-2 group-hover:text-[#0088cc]">
-                            Tom Howard Poetry Contest: mukofot – 3500 AQSh dollarigacha!
+                            Tom Howard Poetry Contest: mukofot – 3500 AQŞ dollarigaça!
                         </h3>
                         <div className="flex items-center gap-1 text-[11px] text-slate-400">
                             <span className="material-symbols-outlined text-[13px]">schedule</span> 25 Aprel, 14:15
@@ -179,7 +179,7 @@ export default function Sidebar() {
                     <a href="https://grantlar.uz/esd-okayama-award-tashkilotlar-uchun-talim-boyicha-mahalliy-loyihalar-tanlovi/" target="_blank" rel="noopener noreferrer" className="block bg-[#f4f6fa] rounded-xl p-4 group hover:bg-[#eaf0f7] transition-colors">
                         <span className="inline-block px-2.5 py-0.5 bg-white text-[#0088cc] text-[10px] font-bold rounded-full mb-2">Imkoniyat</span>
                         <h3 className="text-[13px] font-bold text-slate-800 leading-snug mb-2 group-hover:text-[#0088cc]">
-                            ESD Okayama Award: Taʼlim boʻyicha mahalliy loyihalar tanlovi
+                            ESD Okayama Award: Taʼlim böyiça mahalliy loyihalar tanlovi
                         </h3>
                         <div className="flex items-center gap-1 text-[11px] text-slate-400">
                             <span className="material-symbols-outlined text-[13px]">schedule</span> 25 Aprel, 12:40

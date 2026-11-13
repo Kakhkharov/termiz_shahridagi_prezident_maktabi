@@ -69,24 +69,24 @@ export default function AboutSchool() {
                 <section>
                     <div className="flex flex-col lg:flex-row gap-10 items-center">
                         <div className="flex-1">
-                            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1b3f] mb-8">Termiz shahridagi Prezident maktabi</h2>
+                            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1b3f] mb-8">Termiz şahridagi Prezident maktabi</h2>
                             <p className="text-lg text-slate-600 leading-relaxed text-justify mb-6">
-                                Termiz shahridagi Prezident maktabi <strong>2021-yil 1-noyabr</strong> kuni o‘z faoliyatini boshlagan. Maktab asosan iqtidorli yoshlarni kashf etish va ularni xalqaro standartlar asosida o‘qitishga ixtisoslashgan. Har yili maktabning 5-sinfiga qabul uchun 24 ta o‘rin ajratiladi va ushbu o‘rinlarga minglab iqtidorli nomzodlar hujjat topshirib, o'ta yuqori sog'lom raqobat asosida saralab olinadi. 
+                                Termiz şahridagi Prezident maktabi <strong>2021-yil 1-noyabr</strong> kuni öz faoliyatini boşlagan. Maktab asosan iqtidorli yoşlarni kaşf etiş va ularni xalqaro standartlar asosida öqitişga ixtisoslaşgan. Har yili maktabning 5-sinfiga qabul uçun 24 ta örin ajratiladi va uşbu örinlarga minglab iqtidorli nomzodlar hujjat topşirib, öta yuqori soğlom raqobat asosida saralab olinadi. 
                             </p>
                             <p className="text-lg text-slate-600 leading-relaxed text-justify">
-                                Maktabda o‘quvchilarning to‘liq jismoniy va psixologik xavfsizligini ta'minlash eng ustuvor vazifa hisoblanadi. Hudud 24/7 video kuzatuv kameralari, "Face ID" aqlli kirish tizimi hamda maxsus qo‘riqlash xizmati bilan jihozlangan. Maktab xalqaro ta’lim va xavfsizlik standartlariga to‘la javob bergani uchun nufuzli <strong>Xalqaro maktablar kengashi (CIS)</strong> a’zoligiga qabul qilingan.
+                                Maktabda öquvçilarning töliq jismoniy va psixologik xavfsizligini ta'minlaş eng ustuvor vazifa hisoblanadi. Hudud 24/7 video kuzatuv kameralari, "Face ID" aqlli kiriş tizimi hamda maxsus qöriqlaş xizmati bilan jihozlangan. Maktab xalqaro ta’lim va xavfsizlik standartlariga töla javob bergani uçun nufuzli <strong>Xalqaro maktablar kengaşi (CIS)</strong> a’zoligiga qabul qilingan.
                             </p>
                         </div>
                         <div className="flex-1 grid grid-cols-2 gap-4 w-full">
                             <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] flex flex-col items-center text-center hover:-translate-y-1 transition-transform">
                                 <span className="material-symbols-outlined text-4xl text-[#0088cc] mb-3">calendar_month</span>
                                 <h4 className="text-2xl font-bold text-[#0a1b3f]">2021-yil</h4>
-                                <p className="text-sm font-medium text-slate-500 mt-1">Tashkil etilgan vaqt</p>
+                                <p className="text-sm font-medium text-slate-500 mt-1">Taşkil etilgan vaqt</p>
                             </div>
                             <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] flex flex-col items-center text-center hover:-translate-y-1 transition-transform">
                                 <span className="material-symbols-outlined text-4xl text-[#0088cc] mb-3">group</span>
-                                <h4 className="text-2xl font-bold text-[#0a1b3f]">168 o‘rin</h4>
-                                <p className="text-sm font-medium text-slate-500 mt-1">Maktab sig‘imi</p>
+                                <h4 className="text-2xl font-bold text-[#0a1b3f]">168 örin</h4>
+                                <p className="text-sm font-medium text-slate-500 mt-1">Maktab siğimi</p>
                             </div>
                             <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] flex flex-col items-center text-center hover:-translate-y-1 transition-transform">
                                 <span className="material-symbols-outlined text-4xl text-[#0088cc] mb-3">verified_user</span>
@@ -107,7 +107,7 @@ export default function AboutSchool() {
                 <section>
                     <h2 className="text-3xl md:text-4xl font-bold text-[#0a1b3f] mb-8">Ta'lim me'zoni</h2>
                     <p className="text-lg md:text-xl text-slate-600 leading-relaxed max-w-5xl text-justify">
-                        Termiz shahridagi Prezident maktabi milliy o‘quv dasturini Cambridge Assessment International Education (CAIE) tizimi bilan uyg‘unlashtirgan yuqori sifatli akademik dasturni taklif etadi. Bu ikki tomonlama yondashuv o‘quvchilarning milliy va xalqaro standartlarga javob beradigan keng qamrovli ta’lim olishini ta’minlaydi.
+                        Termiz şahridagi Prezident maktabi milliy öquv dasturini Cambridge Assessment International Education (CAIE) tizimi bilan uyğunlaştirgan yuqori sifatli akademik dasturni taklif etadi. Bu ikki tomonlama yondaşuv öquvçilarning milliy va xalqaro standartlarga javob beradigan keng qamrovli ta’lim olişini ta’minlaydi.
                     </p>
                 </section>
                 </Reveal>
@@ -115,15 +115,15 @@ export default function AboutSchool() {
                 {/* 2. Ta'lim tizimi bosqichlari */}
                 <Reveal type="fade-left">
                 <section id="talim-tizimi">
-                    <h2 className="text-3xl md:text-4xl font-bold text-[#0a1b3f] mb-8">Ta'lim tizimi bosqichlari</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-[#0a1b3f] mb-8">Ta'lim tizimi bosqiçlari</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                         {/* 5-7 sinflar */}
                         <div className="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
                             <h3 className="text-2xl font-bold text-[#0088cc] mb-2">5-7 sinflar</h3>
-                            <p className="text-slate-500 font-semibold mb-6">Quyi oʻrta ta'lim bosqichi</p>
+                            <p className="text-slate-500 font-semibold mb-6">Quyi örta ta'lim bosqiçi</p>
                             <ul className="space-y-4 font-medium text-slate-700">
-                                <li className="flex items-center gap-3"><span className="w-2.5 h-2.5 rounded-full bg-[#0088cc] shrink-0"></span> Oʻzbek milliy fanlari</li>
-                                <li className="flex items-center gap-3"><span className="w-2.5 h-2.5 rounded-full bg-[#0088cc] shrink-0"></span> Cambridge Checkpoint</li>
+                                <li className="flex items-center gap-3"><span className="w-2.5 h-2.5 rounded-full bg-[#0088cc] shrink-0"></span> Özbek milliy fanlari</li>
+                                <li className="flex items-center gap-3"><span className="w-2.5 h-2.5 rounded-full bg-[#0088cc] shrink-0"></span> Cambridge Çeckpoint</li>
                                 <li className="flex items-center gap-3"><span className="w-2.5 h-2.5 rounded-full bg-[#0088cc] shrink-0"></span> ESL & Global Perspectives</li>
                                 <li className="flex items-center gap-3"><span className="w-2.5 h-2.5 rounded-full bg-[#0088cc] shrink-0"></span> Science & ICT</li>
                             </ul>
@@ -133,8 +133,8 @@ export default function AboutSchool() {
                             <h3 className="text-2xl font-bold text-[#0088cc] mb-2">8-9 sinflar</h3>
                             <p className="text-slate-500 font-semibold mb-6">IGCSE xalqaro sertifikati</p>
                             <ul className="space-y-4 font-medium text-slate-700">
-                                <li className="flex items-center gap-3"><span className="w-2.5 h-2.5 rounded-full bg-[#0088cc] shrink-0"></span> Oʻzbek milliy fanlari</li>
-                                <li className="flex items-center gap-3"><span className="w-2.5 h-2.5 rounded-full bg-[#0088cc] shrink-0"></span> Cambridge Checkpoint</li>
+                                <li className="flex items-center gap-3"><span className="w-2.5 h-2.5 rounded-full bg-[#0088cc] shrink-0"></span> Özbek milliy fanlari</li>
+                                <li className="flex items-center gap-3"><span className="w-2.5 h-2.5 rounded-full bg-[#0088cc] shrink-0"></span> Cambridge Çeckpoint</li>
                                 <li className="flex items-center gap-3"><span className="w-2.5 h-2.5 rounded-full bg-[#0088cc] shrink-0"></span> ESL & Global Perspectives</li>
                                 <li className="flex items-center gap-3"><span className="w-2.5 h-2.5 rounded-full bg-[#0088cc] shrink-0"></span> Science & ICT</li>
                             </ul>
@@ -142,17 +142,17 @@ export default function AboutSchool() {
                         {/* 10-11 sinflar */}
                         <div className="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
                             <h3 className="text-2xl font-bold text-[#0088cc] mb-2">10-11 sinflar</h3>
-                            <p className="text-slate-500 font-semibold mb-6">AS & A Level ixtisoslashuv</p>
+                            <p className="text-slate-500 font-semibold mb-6">AS & A Level ixtisoslaşuv</p>
                             <ul className="space-y-4 font-medium text-slate-700">
-                                <li className="flex items-center gap-3"><span className="w-2.5 h-2.5 rounded-full bg-[#0088cc] shrink-0"></span> Oʻzbek milliy fanlari</li>
-                                <li className="flex items-center gap-3"><span className="w-2.5 h-2.5 rounded-full bg-[#0088cc] shrink-0"></span> Cambridge Checkpoint</li>
+                                <li className="flex items-center gap-3"><span className="w-2.5 h-2.5 rounded-full bg-[#0088cc] shrink-0"></span> Özbek milliy fanlari</li>
+                                <li className="flex items-center gap-3"><span className="w-2.5 h-2.5 rounded-full bg-[#0088cc] shrink-0"></span> Cambridge Çeckpoint</li>
                                 <li className="flex items-center gap-3"><span className="w-2.5 h-2.5 rounded-full bg-[#0088cc] shrink-0"></span> ESL & Global Perspectives</li>
                                 <li className="flex items-center gap-3"><span className="w-2.5 h-2.5 rounded-full bg-[#0088cc] shrink-0"></span> Science & ICT</li>
                             </ul>
                         </div>
                     </div>
                     <p className="text-slate-600 text-lg leading-relaxed bg-sky-50/50 p-6 rounded-xl border border-sky-100 text-justify">
-                        Maktabda ta’lim uch tilda — o‘zbek, rus va ingliz tillarida olib boriladi. O‘quv dasturi O‘zbekiston milliy o‘quv dasturi hamda xalqaro ta’lim standartlarini, jumladan Cambridge Assessment International Education (CAIE) va Pearson Edexcel dasturlarini o‘z ichiga oladi. Xalqaro fanlar ingliz tilida o‘qitilib, dars jarayonida mahalliy va xorijiy o‘qituvchilar birgalikda faoliyat yuritadi. 5–7-sinf o‘quvchilari Cambridge dasturi asosida matematika, ingliz tili, tabiiy fanlar, kompyuter fanlari va global istiqbollar fanlarini o‘rganadilar. 8–9-sinflarda o‘quvchilar IGCSE dasturi bo‘yicha tahsil olib, keyingi bosqichdagi AS va A Level dasturlariga tayyorlanadilar. 10–11-sinflarda esa o‘quvchilar o‘z qiziqishlariga ko‘ra fanlarni tanlab, AS va A Level xalqaro dasturlari asosida ta’lim oladilar. Shu bilan birga, IELTS va SAT imtihonlariga tayyorgarlik ko‘radilar hamda akademik yozuv ko‘nikmalarini rivojlantiradilar.
+                        Maktabda ta’lim uç tilda — özbek, rus va ingliz tillarida olib boriladi. Öquv dasturi Özbekiston milliy öquv dasturi hamda xalqaro ta’lim standartlarini, jumladan Cambridge Assessment International Education (CAIE) va Pearson Edexcel dasturlarini öz içiga oladi. Xalqaro fanlar ingliz tilida öqitilib, dars jarayonida mahalliy va xorijiy öqituvçilar birgalikda faoliyat yuritadi. 5–7-sinf öquvçilari Cambridge dasturi asosida matematika, ingliz tili, tabiiy fanlar, kompyuter fanlari va global istiqbollar fanlarini örganadilar. 8–9-sinflarda öquvçilar IGCSE dasturi böyiça tahsil olib, keyingi bosqiçdagi AS va A Level dasturlariga tayyorlanadilar. 10–11-sinflarda esa öquvçilar öz qiziqişlariga köra fanlarni tanlab, AS va A Level xalqaro dasturlari asosida ta’lim oladilar. Şu bilan birga, IELTS va SAT imtihonlariga tayyorgarlik köradilar hamda akademik yozuv könikmalarini rivojlantiradilar.
                     </p>
                 </section>
                 </Reveal>
@@ -161,7 +161,7 @@ export default function AboutSchool() {
                 <section>
                     <Reveal>
                         <div className="flex flex-col items-center mb-10">
-                            <span className="text-sky-500 font-bold tracking-wider uppercase text-sm mb-2">Maktab o'quv dasturi</span>
+                            <span className="text-sky-500 font-bold tracking-wider uppercase text-sm mb-2">Maktab öquv dasturi</span>
                             <h2 className="text-3xl md:text-4xl font-bold text-[#0a1b3f] mb-8">Dastur haqida</h2>
                             <div className="w-24 h-1.5 bg-gradient-to-r from-sky-400 to-blue-600 rounded-full mt-6"></div>
                         </div>
@@ -176,7 +176,7 @@ export default function AboutSchool() {
                                     <span className="material-symbols-outlined text-[28px] text-sky-500 group-hover:text-white transition-colors duration-500">school</span>
                                 </div>
                                 <h4 className="text-2xl font-bold text-[#0a1b3f] mb-3 group-hover:text-sky-600 transition-colors">5–11-sinflar</h4>
-                                <p className="text-slate-500 font-medium text-[16px] leading-relaxed">milliy va xalqaro fanlarni o‘zlashtirish</p>
+                                <p className="text-slate-500 font-medium text-[16px] leading-relaxed">milliy va xalqaro fanlarni özlaştiriş</p>
                             </div>
                         </Reveal>
                         
@@ -187,7 +187,7 @@ export default function AboutSchool() {
                                     <span className="material-symbols-outlined text-[28px] text-indigo-500 group-hover:text-white transition-colors duration-500">translate</span>
                                 </div>
                                 <h4 className="text-2xl font-bold text-[#0a1b3f] mb-3 group-hover:text-indigo-600 transition-colors">Tillar</h4>
-                                <p className="text-slate-500 font-medium text-[16px] leading-relaxed">Ingliz tili (EFL), o‘zbek tili, rus tili;</p>
+                                <p className="text-slate-500 font-medium text-[16px] leading-relaxed">Ingliz tili (EFL), özbek tili, rus tili;</p>
                             </div>
                         </Reveal>
 
@@ -198,7 +198,7 @@ export default function AboutSchool() {
                                     <span className="material-symbols-outlined text-[28px] text-purple-500 group-hover:text-white transition-colors duration-500">history_edu</span>
                                 </div>
                                 <h4 className="text-2xl font-bold text-[#0a1b3f] mb-3 group-hover:text-purple-600 transition-colors">Gumanitar fanlar</h4>
-                                <p className="text-slate-500 font-medium text-[16px] leading-relaxed">O‘zbekiston tarixi, jahon tarixi, zamonaviy yondashuv.</p>
+                                <p className="text-slate-500 font-medium text-[16px] leading-relaxed">Özbekiston tarixi, jahon tarixi, zamonaviy yondaşuv.</p>
                             </div>
                         </Reveal>
 
@@ -239,8 +239,8 @@ export default function AboutSchool() {
                                 <div className="flex items-center gap-3">
                                     <span className="material-symbols-outlined text-[28px]">wb_twilight</span>
                                     <div>
-                                        <h3 className="text-2xl font-bold">Uygʻonish</h3>
-                                        <p className="text-xs text-white/90 font-medium">Kunni to‘g‘ri boshlang</p>
+                                        <h3 className="text-2xl font-bold">Uyğoniş</h3>
+                                        <p className="text-xs text-white/90 font-medium">Kunni töğri boşlang</p>
                                     </div>
                                 </div>
                                 <span className="material-symbols-outlined">expand_more</span>
@@ -248,19 +248,19 @@ export default function AboutSchool() {
                             
                             <div className="bg-[#f4f7f8] rounded-xl p-4 flex items-center gap-4 hover:shadow-md transition-shadow">
                                 <div className="text-[#43a08e] font-bold text-sm min-w-[70px] text-center">6:00 AM</div>
-                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Oʻquvchilar uchun uygʻonish vaqti</div>
+                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Öquvçilar uçun uyğoniş vaqti</div>
                             </div>
                             <div className="bg-[#f4f7f8] rounded-xl p-4 flex items-center gap-4 hover:shadow-md transition-shadow">
                                 <div className="text-[#43a08e] font-bold text-sm min-w-[70px] text-center">6:30 AM</div>
-                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Sport zalida badan tarbiya bilan shugʻullanish vaqti</div>
+                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Sport zalida badan tarbiya bilan şuğullaniş vaqti</div>
                             </div>
                             <div className="bg-[#f4f7f8] rounded-xl p-4 flex items-center gap-4 hover:shadow-md transition-shadow">
                                 <div className="text-[#43a08e] font-bold text-sm min-w-[70px] text-center">7:00 AM</div>
-                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Nonushta vaqti</div>
+                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Nonuşta vaqti</div>
                             </div>
                             <div className="bg-[#f4f7f8] rounded-xl p-4 flex items-center gap-4 hover:shadow-md transition-shadow">
                                 <div className="text-[#43a08e] font-bold text-sm min-w-[70px] text-center">8:00 AM</div>
-                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Ertalabki saflanish vaqti</div>
+                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Ertalabki saflaniş vaqti</div>
                             </div>
                         </div>
 
@@ -271,7 +271,7 @@ export default function AboutSchool() {
                                     <span className="material-symbols-outlined text-[28px]">light_mode</span>
                                     <div>
                                         <h3 className="text-2xl font-bold">Akademik darslar</h3>
-                                        <p className="text-xs text-white/90 font-medium">Asosiy o‘quv soatlari</p>
+                                        <p className="text-xs text-white/90 font-medium">Asosiy öquv soatlari</p>
                                     </div>
                                 </div>
                                 <span className="material-symbols-outlined">expand_more</span>
@@ -289,28 +289,28 @@ export default function AboutSchool() {
                                     <span>10:55 AM</span>
                                     <span>11:25 AM</span>
                                 </div>
-                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Ikkinchi nonushta vaqti</div>
+                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Ikkinçi nonuşta vaqti</div>
                             </div>
                             <div className="bg-[#f4f7f8] rounded-xl p-4 flex items-center gap-4 hover:shadow-md transition-shadow">
                                 <div className="text-[#6282b9] font-bold text-[13px] min-w-[70px] text-center flex flex-col leading-tight">
                                     <span>1:00 PM</span>
                                     <span>2:00 PM</span>
                                 </div>
-                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Tushlik vaqti</div>
+                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Tuşlik vaqti</div>
                             </div>
                             <div className="bg-[#f4f7f8] rounded-xl p-4 flex items-center gap-4 hover:shadow-md transition-shadow">
                                 <div className="text-[#6282b9] font-bold text-[13px] min-w-[70px] text-center flex flex-col leading-tight">
                                     <span>2:45 PM</span>
                                     <span>3:55 PM</span>
                                 </div>
-                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">5-sinflar uchun qisqa uyqu vaqti</div>
+                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">5-sinflar uçun qisqa uyqu vaqti</div>
                             </div>
                             <div className="bg-[#f4f7f8] rounded-xl p-4 flex items-center gap-4 hover:shadow-md transition-shadow">
                                 <div className="text-[#6282b9] font-bold text-[13px] min-w-[70px] text-center flex flex-col leading-tight">
                                     <span>2:45 PM</span>
                                     <span>3:55 PM</span>
                                 </div>
-                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Boʻsh vaqt</div>
+                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Böş vaqt</div>
                             </div>
                         </div>
 
@@ -320,7 +320,7 @@ export default function AboutSchool() {
                                 <div className="flex items-center gap-3">
                                     <span className="material-symbols-outlined text-[28px]">dark_mode</span>
                                     <div>
-                                        <h3 className="text-2xl font-bold">Kechqurun</h3>
+                                        <h3 className="text-2xl font-bold">Keçqurun</h3>
                                         <p className="text-xs text-white/90 font-medium">Mulohaza va tayyorgarlik</p>
                                     </div>
                                 </div>
@@ -332,14 +332,14 @@ export default function AboutSchool() {
                                     <span>3:55 PM</span>
                                     <span>4:15 PM</span>
                                 </div>
-                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Choy vaqti</div>
+                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Çoy vaqti</div>
                             </div>
                             <div className="bg-[#f4f7f8] rounded-xl p-4 flex items-center gap-4 hover:shadow-md transition-shadow">
                                 <div className="text-[#2b3a67] font-bold text-[13px] min-w-[70px] text-center flex flex-col leading-tight">
                                     <span>4:15 PM</span>
                                     <span>6:00 PM</span>
                                 </div>
-                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Toʻgarak vaqti</div>
+                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Tögarak vaqti</div>
                             </div>
                             <div className="bg-[#f4f7f8] rounded-xl p-4 flex items-center gap-4 hover:shadow-md transition-shadow">
                                 <div className="text-[#2b3a67] font-bold text-[13px] min-w-[70px] text-center flex flex-col leading-tight">
@@ -353,25 +353,25 @@ export default function AboutSchool() {
                                     <span>7:00 PM</span>
                                     <span>8:00 PM</span>
                                 </div>
-                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Kechki ovqat vaqti</div>
+                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Keçki ovqat vaqti</div>
                             </div>
                             <div className="bg-[#f4f7f8] rounded-xl p-4 flex items-center gap-4 hover:shadow-md transition-shadow">
                                 <div className="text-[#2b3a67] font-bold text-[13px] min-w-[70px] text-center flex flex-col leading-tight">
                                     <span>8:00 PM</span>
                                     <span>9:30 PM</span>
                                 </div>
-                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Oʻqish va qoʻshimcha mashgʻulotlar vaqti</div>
+                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Öqiş va qöşimça maşğulotlar vaqti</div>
                             </div>
                             <div className="bg-[#f4f7f8] rounded-xl p-4 flex items-center gap-4 hover:shadow-md transition-shadow">
                                 <div className="text-[#2b3a67] font-bold text-[13px] min-w-[70px] text-center flex flex-col leading-tight">
                                     <span>9:30 PM</span>
                                     <span>10:00 PM</span>
                                 </div>
-                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Tungi saflanish vaqti</div>
+                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Tungi saflaniş vaqti</div>
                             </div>
                             <div className="bg-[#f4f7f8] rounded-xl p-4 flex items-center gap-4 hover:shadow-md transition-shadow">
                                 <div className="text-[#2b3a67] font-bold text-sm min-w-[70px] text-center">10:00 PM</div>
-                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Uxlash vaqti</div>
+                                <div className="text-[#4a5568] text-[15px] font-medium leading-snug">Uxlaş vaqti</div>
                             </div>
                         </div>
 
@@ -382,9 +382,9 @@ export default function AboutSchool() {
                 {/* 5. Baholash */}
                 <Reveal type="zoom-in">
                 <section>
-                    <h2 className="text-3xl md:text-4xl font-bold text-[#0a1b3f] mb-8">Baholash</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-[#0a1b3f] mb-8">Baholaş</h2>
                     <p className="text-lg text-slate-600 mb-10 max-w-4xl text-justify">
-                        Oʻquvchilarning oʻzlashtirish samaradorligini aniqlash formativ va summativ baholashga asoslanadi. Har bir semestrda formativ baholash 60%ni va summativ baholash 40%ni tashkil qiladi. Yakuniy imtihon yillik baholashning 40%ini tashkil qiladi. Baholash 1 dan 5 gacha boʻlgan shkala boʻyicha:
+                        Öquvçilarning özlaştiriş samaradorligini aniqlaş formativ va summativ baholaşga asoslanadi. Har bir semestrda formativ baholaş 60%ni va summativ baholaş 40%ni taşkil qiladi. Yakuniy imtihon yillik baholaşning 40%ini taşkil qiladi. Baholaş 1 dan 5 gaça bölgan şkala böyiça:
                     </p>
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
                         <div className="bg-white border-2 border-green-100 hover:border-green-400 px-6 py-5 rounded-2xl flex flex-col items-center text-center gap-2 transition-colors">
@@ -395,7 +395,7 @@ export default function AboutSchool() {
                         <div className="bg-white border-2 border-blue-100 hover:border-blue-400 px-6 py-5 rounded-2xl flex flex-col items-center text-center gap-2 transition-colors">
                             <span className="text-4xl font-black text-blue-500">4</span>
                             <span className="text-slate-700 font-bold text-lg">75–84%</span>
-                            <span className="text-sm font-medium text-slate-500">(yaxshi)</span>
+                            <span className="text-sm font-medium text-slate-500">(yaxşi)</span>
                         </div>
                         <div className="bg-white border-2 border-yellow-100 hover:border-yellow-400 px-6 py-5 rounded-2xl flex flex-col items-center text-center gap-2 transition-colors">
                             <span className="text-4xl font-black text-yellow-500">3</span>
@@ -419,14 +419,14 @@ export default function AboutSchool() {
                 {/* 6. Qo'shimcha mashg'ulotlar */}
                 <Reveal type="fade-right">
                 <section>
-                    <h2 className="text-3xl md:text-4xl font-bold text-[#0a1b3f] mb-8">Qo‘shimcha mashg‘ulotlar</h2>
-                    <p className="text-lg text-slate-600 mb-8 max-w-4xl">Oʻquvchilarning jismoniy, ruhiy va aqliy muvozanatini taʻminlaydi.</p>
+                    <h2 className="text-3xl md:text-4xl font-bold text-[#0a1b3f] mb-8">Qöşimça maşğulotlar</h2>
+                    <p className="text-lg text-slate-600 mb-8 max-w-4xl">Öquvçilarning jismoniy, ruhiy va aqliy muvozanatini taʻminlaydi.</p>
                     <div className="flex flex-wrap gap-4">
-                        <span className="bg-sky-50 text-[#0088cc] border border-sky-100 px-6 py-3 rounded-full font-bold shadow-sm">Robototexnika va dasturlash klublari</span>
+                        <span className="bg-sky-50 text-[#0088cc] border border-sky-100 px-6 py-3 rounded-full font-bold shadow-sm">Robototexnika va dasturlaş klublari</span>
                         <span className="bg-sky-50 text-[#0088cc] border border-sky-100 px-6 py-3 rounded-full font-bold shadow-sm">San’at va musiqa guruhlari</span>
-                        <span className="bg-sky-50 text-[#0088cc] border border-sky-100 px-6 py-3 rounded-full font-bold shadow-sm">Fan toʻgaraklari</span>
+                        <span className="bg-sky-50 text-[#0088cc] border border-sky-100 px-6 py-3 rounded-full font-bold shadow-sm">Fan tögaraklari</span>
                         <span className="bg-sky-50 text-[#0088cc] border border-sky-100 px-6 py-3 rounded-full font-bold shadow-sm">Olimpiadalariga tayyorlov</span>
-                        <span className="bg-sky-50 text-[#0088cc] border border-sky-100 px-6 py-3 rounded-full font-bold shadow-sm">Sport mashgʻulotlari</span>
+                        <span className="bg-sky-50 text-[#0088cc] border border-sky-100 px-6 py-3 rounded-full font-bold shadow-sm">Sport maşğulotlari</span>
                     </div>
                 </section>
                 </Reveal>
@@ -436,10 +436,10 @@ export default function AboutSchool() {
                 <section>
                     <h2 className="text-3xl md:text-4xl font-bold text-[#0a1b3f] mb-8">Bitiruv talablari</h2>
                     <p className="text-lg text-slate-600 mb-6 max-w-5xl leading-relaxed text-justify">
-                        O‘quv yili yakunida 10-sinf o‘quvchilari rasmiy AS Level, 11-sinf o‘quvchilari esa A Level imtihonlarini topshiradilar. Bitiruvchilar Milliy o‘rta ta’lim sertifikati (NCSE) hamda 3 ta fan bo‘yicha CAIE AS va A Level diplomiga ega bo‘ladilar. Milliy o‘rta ta’lim sertifikatini olish uchun o‘quvchilar ona tili va O‘zbekiston tarixi fanlari bo‘yicha davlat imtihonlarini muvaffaqiyatli topshirishlari lozim.
+                        Öquv yili yakunida 10-sinf öquvçilari rasmiy AS Level, 11-sinf öquvçilari esa A Level imtihonlarini topşiradilar. Bitiruvçilar Milliy örta ta’lim sertifikati (NCSE) hamda 3 ta fan böyiça CAIE AS va A Level diplomiga ega böladilar. Milliy örta ta’lim sertifikatini oliş uçun öquvçilar ona tili va Özbekiston tarixi fanlari böyiça davlat imtihonlarini muvaffaqiyatli topşirişlari lozim.
                     </p>
                     <p className="text-lg text-slate-600 mb-10 max-w-5xl leading-relaxed font-medium text-justify">
-                        Bitiruvchilarimizning O‘zbekiston va xorijdagi yetakchi universitetlarga qabul qilinishi ularning yuqori akademik tayyorgarligi hamda global ta’lim muhitiga muvaffaqiyatli integratsiyasini ko‘rsatadi.
+                        Bitiruvçilarimizning Özbekiston va xorijdagi yetakçi universitetlarga qabul qilinişi ularning yuqori akademik tayyorgarligi hamda global ta’lim muhitiga muvaffaqiyatli integratsiyasini körsatadi.
                     </p>
                     
                     <div className="flex flex-wrap gap-3">

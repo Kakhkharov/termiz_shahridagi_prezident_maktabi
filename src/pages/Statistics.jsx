@@ -97,7 +97,7 @@ const GradeProgressBar = ({ label, count, total, colorGradient, icon = null, del
 
                 <div className="flex items-center gap-3">
                     <span className="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-700 font-black text-xs">
-                        {count} ta o'quvchi
+                        {count} ta öquvçi
                     </span>
                     <span className="text-xs font-mono text-slate-400 w-12 text-right">
                         {percentage}%
@@ -146,11 +146,11 @@ export default function Statistics() {
     };
 
     const grantWinners = [
-        { id: 1, name: "Avazov Ismoil Akmal o'g'li", country: "Saudiya Arabistoni", uni: "King Abdulaziz University", amount: "120 000", year: "2025-2026 o'quv yili" },
-        { id: 2, name: "Madiev Sardor Kenja o'g'li", country: "Amerika Qo'shma Shtatlari", uni: "Roanoke College", amount: "150 000", year: "2025-2026 o'quv yili" },
-        { id: 3, name: "Xurramov Asliddin Sharofutdin o'g'li", country: "Saudiya Arabistoni", uni: "King Saud University", amount: "220 000", year: "2025-2026 o'quv yili" },
-        { id: 4, name: "Xoliyarov Javoxir Erkinovich", country: "Amerika Qo'shma Shtatlari", uni: "Roanoke College", amount: "150 000", year: "2025-2026 o'quv yili" },
-        { id: 5, name: "Norboev Nurbek Bo'ri o'g'li", country: "Malayziya", uni: "City University Malaysia", amount: "36 000", year: "2025-2026 o'quv yili" },
+        { id: 1, name: "Avazov Ismoil Akmal öğli", country: "Saudiya Arabistoni", uni: "King Abdulaziz University", amount: "120 000", year: "2025-2026 o'quv yili" },
+        { id: 2, name: "Madiev Sardor Kenja öğli", country: "Amerika Qo'shma Shtatlari", uni: "Roanoke College", amount: "150 000", year: "2025-2026 o'quv yili" },
+        { id: 3, name: "Xurramov Asliddin Şarofutdin öğli", country: "Saudiya Arabistoni", uni: "King Saud University", amount: "220 000", year: "2025-2026 o'quv yili" },
+        { id: 4, name: "Xoliyarov Javoxir Erkinoviç", country: "Amerika Qo'shma Shtatlari", uni: "Roanoke College", amount: "150 000", year: "2025-2026 o'quv yili" },
+        { id: 5, name: "Norboev Nurbek Böri öğli", country: "Malayziya", uni: "City University Malaysia", amount: "36 000", year: "2025-2026 o'quv yili" },
     ];
 
     const currentDisplayGrades = selectedLevelTab === 'aLevel' 
@@ -180,7 +180,7 @@ export default function Statistics() {
                         <div className="flex flex-col items-center mb-12">
                             <span className="text-[#0088cc] font-bold tracking-wider uppercase text-sm mb-2">Yillar kesimida dinamika</span>
                             <h2 className="text-3xl md:text-4xl font-black text-[#0a1b3f] text-center">
-                                Bitiruvchilarimizning Sertifikat Natijalari
+                                Bitiruvçilarimizning Sertifikat Natijalari
                             </h2>
                             <div className="w-24 h-1.5 bg-gradient-to-r from-sky-400 to-indigo-600 rounded-full mt-6"></div>
                         </div>
@@ -195,8 +195,8 @@ export default function Statistics() {
                                     <span className="material-symbols-outlined text-3xl text-indigo-600">functions</span>
                                 </div>
                                 <div>
-                                    <h3 className="text-2xl font-bold text-[#0a1b3f]">SAT O'sish Dinamikasi</h3>
-                                    <p className="text-slate-500 font-medium mt-0.5">Yillar bo'yicha natijalar taqqoslanishi</p>
+                                    <h3 className="text-2xl font-bold text-[#0a1b3f]">SAT Ösiş Dinamikasi</h3>
+                                    <p className="text-slate-500 font-medium mt-0.5">Yillar böyiça natijalar taqqoslanişi</p>
                                 </div>
                             </div>
                             
@@ -228,8 +228,8 @@ export default function Statistics() {
                                     <span className="material-symbols-outlined text-3xl text-sky-600">language</span>
                                 </div>
                                 <div>
-                                    <h3 className="text-2xl font-bold text-[#0a1b3f]">IELTS O'sish Dinamikasi</h3>
-                                    <p className="text-slate-500 font-medium mt-0.5">Yillar bo'yicha natijalar taqqoslanishi</p>
+                                    <h3 className="text-2xl font-bold text-[#0a1b3f]">IELTS Ösiş Dinamikasi</h3>
+                                    <p className="text-slate-500 font-medium mt-0.5">Yillar böyiça natijalar taqqoslanişi</p>
                                 </div>
                             </div>
                             
@@ -268,7 +268,7 @@ export default function Statistics() {
                                 A-Level & AS-Level Imtihon Natijalari Statistikasi
                             </h2>
                             <p className="text-slate-500 text-sm md:text-base mt-3 max-w-3xl leading-relaxed">
-                                O'quvchilarimiz erishgan A*, A, B, C, D, E baholarining soni va foizlar shaklidagi taqsimoti
+                                Öquvçilarimiz erişgan A*, A, B, C, D, E baholarining soni va foizlar şaklidagi taqsimoti
                             </p>
                             <div className="w-24 h-1.5 bg-gradient-to-r from-emerald-400 via-teal-500 to-indigo-600 rounded-full mt-5"></div>
                         </div>
@@ -282,7 +282,7 @@ export default function Statistics() {
                             </div>
                             <div>
                                 <h4 className="font-extrabold text-[#0a1b3f] text-base">A-Level Imtihoni</h4>
-                                <p className="text-xs text-slate-500 font-medium">11-sinf o'quvchilari uchun mo'ljallangan chuqurlashtirilgan xalqaro imtihon.</p>
+                                <p className="text-xs text-slate-500 font-medium">11-sinf öquvçilari uçun möljallangan çuqurlaştirilgan xalqaro imtihon.</p>
                             </div>
                         </Reveal>
 
@@ -292,7 +292,7 @@ export default function Statistics() {
                             </div>
                             <div>
                                 <h4 className="font-extrabold text-[#0a1b3f] text-base">AS-Level Imtihoni</h4>
-                                <p className="text-xs text-slate-500 font-medium">10-sinf o'quvchilari uchun mo'ljallangan dastlabki bosqich xalqaro imtihon.</p>
+                                <p className="text-xs text-slate-500 font-medium">10-sinf öquvçilari uçun möljallangan dastlabki bosqiç xalqaro imtihon.</p>
                             </div>
                         </Reveal>
 
@@ -302,7 +302,7 @@ export default function Statistics() {
                             </div>
                             <div>
                                 <h4 className="font-extrabold text-[#0a1b3f] text-base">IGCSE Imtihoni</h4>
-                                <p className="text-xs text-slate-500 font-medium">9-sinf o'quvchilari uchun mo'ljallangan bazaviy xalqaro sertifikatlash imtihonlari.</p>
+                                <p className="text-xs text-slate-500 font-medium">9-sinf öquvçilari uçun möljallangan bazaviy xalqaro sertifikatlaş imtihonlari.</p>
                             </div>
                         </Reveal>
                     </div>
@@ -331,7 +331,7 @@ export default function Statistics() {
                                             : "text-slate-600 hover:text-slate-900"
                                     }`}
                                 >
-                                    Barchasi (A & AS Level)
+                                    Barçasi (A & AS Level)
                                 </button>
                                 <button
                                     onClick={() => setSelectedLevelTab("aLevel")}
@@ -400,7 +400,7 @@ export default function Statistics() {
                                     Baholar Taqsimoti Ustunli Diagrammasi
                                 </h4>
                                 <span className="text-xs font-bold text-slate-500 bg-white px-3 py-1 rounded-full border border-slate-200 shadow-xs">
-                                    Natijalar ulushi (%)
+                                    Natijalar uluşi (%)
                                 </span>
                             </div>
 
@@ -438,8 +438,8 @@ export default function Statistics() {
                                                     return (
                                                         <div className="bg-slate-900 text-white p-3 rounded-xl shadow-xl border border-slate-800 text-xs space-y-1">
                                                             <div className="font-extrabold text-cyan-300">{data.name}</div>
-                                                            <div>O'quvchilar soni: <strong className="text-white">{data.count} ta</strong></div>
-                                                            <div>Ulush: <strong className="text-emerald-400">{data.percentage}%</strong></div>
+                                                            <div>Öquvçilar soni: <strong className="text-white">{data.count} ta</strong></div>
+                                                            <div>Uluş: <strong className="text-emerald-400">{data.percentage}%</strong></div>
                                                         </div>
                                                     );
                                                 }
@@ -493,10 +493,10 @@ export default function Statistics() {
                         <div className="mt-6 pt-4 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-2">
                             <span className="flex items-center gap-1 font-semibold text-slate-600">
                                 <span className="material-symbols-outlined text-sm text-emerald-500">lock</span>
-                                Barcha ma'lumotlar shaxsiy maxfiylikka rioya qilgan holda umumiylashtirilgan.
+                                Barça ma'lumotlar şaxsiy maxfiylikka rioya qilgan holda umumiylaştirilgan.
                             </span>
                             <Link to="/natijalar" className="text-[#0088cc] font-extrabold hover:underline flex items-center gap-1">
-                                <span>Batafsil natijalar ro'yxatini ko'rish</span>
+                                <span>Batafsil natijalar röyxatini köriş</span>
                                 <span className="material-symbols-outlined text-sm">arrow_forward</span>
                             </Link>
                         </div>
@@ -511,7 +511,7 @@ export default function Statistics() {
                         <div className="flex flex-col items-center mb-12">
                             <span className="text-emerald-500 font-bold tracking-wider uppercase text-sm mb-2">Faxrimiz</span>
                             <h2 className="text-3xl md:text-4xl font-black text-[#0a1b3f] text-center max-w-2xl">
-                                100 foiz Grant yutib olgan o'quvchilarimiz
+                                100 foiz Grant yutib olgan öquvçilarimiz
                             </h2>
                             <div className="w-24 h-1.5 bg-gradient-to-r from-emerald-400 to-green-600 rounded-full mt-6"></div>
                         </div>
@@ -587,7 +587,7 @@ export default function Statistics() {
                                     Presidential School <span className="text-cyan-400">FM Radio</span>
                                 </h2>
                                 <p className="text-slate-300 text-sm md:text-base leading-relaxed">
-                                    Maktabimizning rasmiy raqamli radiosi — muhim yangiliklar, haftalik dayjest, xalqaro olimpiada g'oliblari bilan suhbatlar va sara musiqiy dasta.
+                                    Maktabimizning rasmiy raqamli radiosi — muhim yangiliklar, haftalik dayjest, xalqaro olimpiada ğoliblari bilan suhbatlar va sara musiqiy dasta.
                                 </p>
                             </div>
 
@@ -597,7 +597,7 @@ export default function Statistics() {
                                     className="px-8 py-4 rounded-2xl bg-gradient-to-r from-cyan-400 to-[#0088cc] text-white font-extrabold text-sm shadow-xl shadow-cyan-500/20 hover:scale-105 transition-all flex items-center gap-3"
                                 >
                                     <span className="material-symbols-outlined text-2xl">radio</span>
-                                    FM RADIOGA O'TISH
+                                    FM RADIOGA ÖTIŞ
                                 </Link>
                             </div>
                         </div>

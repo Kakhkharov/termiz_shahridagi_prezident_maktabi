@@ -31,12 +31,12 @@ export default function EmptyPage({
                     
                     {/* Requested Heading */}
                     <h2 className="text-2xl md:text-3xl font-extrabold text-[#0a1b3f] mb-3 tracking-tight">
-                        Mushuk ham ushbu sahifani topa olmadi!
+                        Muşuk ham uşbu sahifani topa olmadi!
                     </h2>
 
                     {/* Sub-description */}
                     <p className="text-slate-600 text-sm md:text-base max-w-[520px] leading-relaxed font-medium mb-8">
-                        Ushbu bo'lim ma'lumotlari va sahifa tarkibi hozirda tayyorlanmoqda. Tez orada rasmiy veb-portalda e'lon qilinadi.
+                        Uşbu bölim ma'lumotlari va sahifa tarkibi hozirda tayyorlanmoqda. Tez orada rasmiy veb-portalda e'lon qilinadi.
                     </p>
 
                     {/* Action Buttons */}
@@ -46,7 +46,7 @@ export default function EmptyPage({
                             className="px-6 py-3 bg-[#0a1b3f] hover:bg-[#0088cc] text-white text-xs md:text-sm font-bold rounded-xl shadow-md transition-all duration-300 flex items-center gap-2"
                         >
                             <span className="material-symbols-outlined text-[18px]">home</span>
-                            <span>Bosh sahifaga qaytish</span>
+                            <span>Boş sahifaga qaytiş</span>
                         </Link>
 
                         <Link 
@@ -54,7 +54,7 @@ export default function EmptyPage({
                             className="px-6 py-3 bg-white hover:bg-slate-100 text-slate-800 text-xs md:text-sm font-bold rounded-xl border border-slate-200 shadow-sm transition-all duration-300 flex items-center gap-2"
                         >
                             <span className="material-symbols-outlined text-[18px]">mail</span>
-                            <span>Bog'lanish</span>
+                            <span>Boğlaniş</span>
                         </Link>
                     </div>
 

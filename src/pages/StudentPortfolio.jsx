@@ -50,9 +50,9 @@ const achievements = [
       year: "2026",
       tags: ["#2026", "#100_FOIZLIK_GRANT", "#YangiUzbekistonUniversiteti"],
       supertitle: "⚡ YANGI O'ZBEKISTON UNIVERSITETI — 100% GRANT",
-      name: "Xudoyberdiyev Firdavs Suxrob o'g'li",
-      description: "Termiz shahridagi Prezident maktabi bitiruvchisi Xudoyberdiyev Firdavs Suxrob o'g'li Yangi O'zbekiston universitetining 6 yillik “Tibbiyot Doktori” (Doctor of Medicine) dasturiga 100% GRANT asosida o'qishga qabul qilindi!",
-      quote: "Ushbu ta'lim dasturi Germaniyaning eng nufuzli va peshqadam tibbiyot maskanlaridan biri — Stern reytingiga ko'ra 2-o'rindagi Freiburg universiteti klinikasi, TUM (Myunxen texnika universiteti) hamda Heidelberg universiteti kabi nufuzli universitetlar bilan yaqin hamkorlikda yo'lga qo'yilgan.",
+      name: "Xudoyberdiyev Firdavs Suxrob öğli",
+      description: "Termiz şahridagi Prezident maktabi bitiruvçisi Xudoyberdiyev Firdavs Suxrob öğli Yangi Özbekiston universitetining 6 yillik “Tibbiyot Doktori” (Doctor of Medicine) dasturiga 100% GRANT asosida öqişga qabul qilindi!",
+      quote: "Uşbu ta'lim dasturi Germaniyaning eng nufuzli va peşqadam tibbiyot maskanlaridan biri — Stern reytingiga köra 2-örindagi Freiburg universiteti klinikasi, TUM (Myunxen texnika universiteti) hamda Heidelberg universiteti kabi nufuzli universitetlar bilan yaqin hamkorlikda yölga qöyilgan.",
       extra: "Talabalar Yevropa standartlariga to'liq javob beruvchi zamonaviy simulyatsion markazlar hamda so'nggi texnologiyalar bilan jihozlangan laboratoriyalarda chuqurlashtirilgan klinik tayyorgarlikdan o'tadilar.",
       icon: "🩺"
     },
@@ -61,9 +61,9 @@ const achievements = [
       year: "2026",
       tags: ["#2026", "#100_FOIZLIK_GRANT", "#YangiUzbekistonUniversiteti"],
       supertitle: "⚡ YANGI O'ZBEKISTON UNIVERSITETI — 100% GRANT",
-      name: "Choriyeva Hurzoda Sanjar qizi",
-      description: "Termiz shahridagi Prezident maktabi bitiruvchisi Choriyeva Hurzoda Sanjar qizi Yangi O'zbekiston universitetining 6 yillik “Tibbiyot Doktori” (Doctor of Medicine) dasturiga 100% GRANT asosida o'qishga qabul qilindi!",
-      quote: "Ushbu ta'lim dasturi Germaniyaning eng nufuzli va peshqadam tibbiyot maskanlaridan biri — Stern reytingiga ko'ra 2-o'rindagi Freiburg universiteti klinikasi, TUM (Myunxen texnika universiteti) hamda Heidelberg universiteti kabi nufuzli universitetlar bilan yaqin hamkorlikda yo'lga qo'yilgan.",
+      name: "Çoriyeva Hurzoda Sanjar qizi",
+      description: "Termiz şahridagi Prezident maktabi bitiruvçisi Çoriyeva Hurzoda Sanjar qizi Yangi Özbekiston universitetining 6 yillik “Tibbiyot Doktori” (Doctor of Medicine) dasturiga 100% GRANT asosida öqişga qabul qilindi!",
+      quote: "Uşbu ta'lim dasturi Germaniyaning eng nufuzli va peşqadam tibbiyot maskanlaridan biri — Stern reytingiga köra 2-örindagi Freiburg universiteti klinikasi, TUM (Myunxen texnika universiteti) hamda Heidelberg universiteti kabi nufuzli universitetlar bilan yaqin hamkorlikda yölga qöyilgan.",
       extra: "Talabalar Yevropa standartlariga to'liq javob beruvchi zamonaviy simulyatsion markazlar hamda so'nggi texnologiyalar bilan jihozlangan laboratoriyalarda chuqurlashtirilgan klinik tayyorgarlikdan o'tadilar.",
       icon: "👩‍⚕️"
     },
@@ -72,9 +72,9 @@ const achievements = [
       year: "2026",
       tags: ["#2026", "#100_FOIZLIK_GRANT", "#YangiUzbekistonUniversiteti"],
       supertitle: "⚡ YANGI O'ZBEKISTON UNIVERSITETI — 100% GRANT",
-      name: "Eshkobilova Moxichexra Anvarovna",
-      description: "Termiz shahridagi Prezident maktabi bitiruvchisi Eshkobilova Moxichexra Anvarovna Yangi O'zbekiston universitetining 6 yillik “Tibbiyot Doktori” (Doctor of Medicine) dasturiga 100% GRANT asosida o'qishga qabul qilindi!",
-      quote: "Ushbu ta'lim dasturi Germaniyaning eng nufuzli va peshqadam tibbiyot maskanlaridan biri — Stern reytingiga ko'ra 2-o'rindagi Freiburg universiteti klinikasi, TUM (Myunxen texnika universiteti) hamda Heidelberg universiteti kabi nufuzli universitetlar bilan yaqin hamkorlikda yo'lga qo'yilgan.",
+      name: "Eşkobilova Moxiçexra Anvarovna",
+      description: "Termiz şahridagi Prezident maktabi bitiruvçisi Eşkobilova Moxiçexra Anvarovna Yangi Özbekiston universitetining 6 yillik “Tibbiyot Doktori” (Doctor of Medicine) dasturiga 100% GRANT asosida öqişga qabul qilindi!",
+      quote: "Uşbu ta'lim dasturi Germaniyaning eng nufuzli va peşqadam tibbiyot maskanlaridan biri — Stern reytingiga köra 2-örindagi Freiburg universiteti klinikasi, TUM (Myunxen texnika universiteti) hamda Heidelberg universiteti kabi nufuzli universitetlar bilan yaqin hamkorlikda yölga qöyilgan.",
       extra: "Talabalar Yevropa standartlariga to'liq javob beruvchi zamonaviy simulyatsion markazlar hamda so'nggi texnologiyalar bilan jihozlangan laboratoriyalarda chuqurlashtirilgan klinik tayyorgarlikdan o'tadilar.",
       icon: "👩‍⚕️"
     },
@@ -83,9 +83,9 @@ const achievements = [
       year: "2026",
       tags: ["#2026", "#100_FOIZLIK_GRANT", "#YangiUzbekistonUniversiteti"],
       supertitle: "⚡ YANGI O'ZBEKISTON UNIVERSITETI — 100% GRANT",
-      name: "Tursunpo'latov Muzrob o'g'li",
-      description: "Termiz shahridagi Prezident maktabi bitiruvchisi Tursunpo'latov Muzrob o'g'li Yangi O'zbekiston universitetining 6 yillik “Tibbiyot Doktori” (Doctor of Medicine) dasturiga 100% GRANT asosida o'qishga qabul qilindi!",
-      quote: "Ushbu ta'lim dasturi Germaniyaning eng nufuzli va peshqadam tibbiyot maskanlaridan biri — Stern reytingiga ko'ra 2-o'rindagi Freiburg universiteti klinikasi, TUM (Myunxen texnika universiteti) hamda Heidelberg universiteti kabi nufuzli universitetlar bilan yaqin hamkorlikda yo'lga qo'yilgan.",
+      name: "Tursunpölatov Muzrob öğli",
+      description: "Termiz şahridagi Prezident maktabi bitiruvçisi Tursunpölatov Muzrob öğli Yangi Özbekiston universitetining 6 yillik “Tibbiyot Doktori” (Doctor of Medicine) dasturiga 100% GRANT asosida öqişga qabul qilindi!",
+      quote: "Uşbu ta'lim dasturi Germaniyaning eng nufuzli va peşqadam tibbiyot maskanlaridan biri — Stern reytingiga köra 2-örindagi Freiburg universiteti klinikasi, TUM (Myunxen texnika universiteti) hamda Heidelberg universiteti kabi nufuzli universitetlar bilan yaqin hamkorlikda yölga qöyilgan.",
       extra: "Talabalar Yevropa standartlariga to'liq javob beruvchi zamonaviy simulyatsion markazlar hamda so'nggi texnologiyalar bilan jihozlangan laboratoriyalarda chuqurlashtirilgan klinik tayyorgarlikdan o'tadilar.",
       icon: "👨‍⚕️"
     },
@@ -94,9 +94,9 @@ const achievements = [
       year: "2026",
       tags: ["#2026", "#100_FOIZLIK_GRANT", "#YangiUzbekistonUniversiteti"],
       supertitle: "⚡ YANGI O'ZBEKISTON UNIVERSITETI — 100% GRANT",
-      name: "Xo'janov Shohjahon Muzaffarovich",
-      description: "Termiz shahridagi Prezident maktabi bitiruvchisi Xo'janov Shohjahon Muzaffarovich Yangi O'zbekiston universitetining 6 yillik “Tibbiyot Doktori” (Doctor of Medicine) dasturiga 100% GRANT asosida o'qishga qabul qilindi!",
-      quote: "Ushbu ta'lim dasturi Germaniyaning eng nufuzli va peshqadam tibbiyot maskanlaridan biri — Stern reytingiga ko'ra 2-o'rindagi Freiburg universiteti klinikasi, TUM (Myunxen texnika universiteti) hamda Heidelberg universiteti kabi nufuzli universitetlar bilan yaqin hamkorlikda yo'lga qo'yilgan.",
+      name: "Xöjanov Şohjahon Muzaffaroviç",
+      description: "Termiz şahridagi Prezident maktabi bitiruvçisi Xöjanov Şohjahon Muzaffaroviç Yangi Özbekiston universitetining 6 yillik “Tibbiyot Doktori” (Doctor of Medicine) dasturiga 100% GRANT asosida öqişga qabul qilindi!",
+      quote: "Uşbu ta'lim dasturi Germaniyaning eng nufuzli va peşqadam tibbiyot maskanlaridan biri — Stern reytingiga köra 2-örindagi Freiburg universiteti klinikasi, TUM (Myunxen texnika universiteti) hamda Heidelberg universiteti kabi nufuzli universitetlar bilan yaqin hamkorlikda yölga qöyilgan.",
       extra: "Talabalar Yevropa standartlariga to'liq javob beruvchi zamonaviy simulyatsion markazlar hamda so'nggi texnologiyalar bilan jihozlangan laboratoriyalarda chuqurlashtirilgan klinik tayyorgarlikdan o'tadilar.",
       icon: "👨‍⚕️"
     },
@@ -108,9 +108,9 @@ const achievements = [
       year: "2026",
       tags: ["#2026", "#EYUF"],
       supertitle: "⚡ El-yurt umidi stipendiyasi",
-      name: "Choriyeva Hurzoda Sanjar qizi",
-      description: "Termiz shahridagi Prezident maktabi bitiruvchisi Choriyeva Hurzoda Sanjar qizi “El-yurt umidi” jamg'armasining ta'lim dasturlari bo'yicha 2026-yilgi 1-ochiq stipendiyasini qo'lga kiritdi. Endilikda Hurzoda Buyuk Britaniyaning nufuzli universitetlaridan hisoblangan Lids universitetining biotibbiyot yo'nalishida o'qishni davom ettiradi.",
-      quote: "Lids universiteti milliy va xalqaro miqyosda mustahkam o'rin egallagan bo'lib, jahon universitetlari reytingida (2026-yil holatiga ko'ra) Buyuk Britaniyada 12-o'rinda, dunyo bo'yicha esa 77-o'rinda turadi.",
+      name: "Çoriyeva Hurzoda Sanjar qizi",
+      description: "Termiz şahridagi Prezident maktabi bitiruvçisi Çoriyeva Hurzoda Sanjar qizi “El-yurt umidi” jamğarmasining ta'lim dasturlari böyiça 2026-yilgi 1-oçiq stipendiyasini qölga kiritdi. Endilikda Hurzoda Buyuk Britaniyaning nufuzli universitetlaridan hisoblangan Lids universitetining biotibbiyot yönalişida öqişni davom ettiradi.",
+      quote: "Lids universiteti milliy va xalqaro miqyosda mustahkam örin egallagan bölib, jahon universitetlari reytingida (2026-yil holatiga köra) Buyuk Britaniyada 12-örinda, dunyo böyiça esa 77-örinda turadi.",
       extra: "",
       icon: "🤩"
     },
@@ -119,9 +119,9 @@ const achievements = [
       year: "2026",
       tags: ["#2026", "#EYUF"],
       supertitle: "⚡ El-yurt umidi stipendiyasi",
-      name: "Xolmirzayev Sanjar Boburovich",
-      description: "Termiz shahridagi Prezident maktabi bitiruvchisi Xolmirzayev Sanjar Boburovich “El-yurt umidi” jamg'armasining ta'lim dasturlari bo'yicha stipendiyasini qo'lga kiritgan. Endilikda Sanjar Buyuk Britaniyaning nufuzli universitetlaridan hisoblangan Kardiff universitetining kiberxavfsizlik yo'nalishida o'qishni davom ettiradi.",
-      quote: "Kardiff universiteti milliy va xalqaro miqyosda mustahkam o'rin egallagan bo'lib, jahon universitetlari reytingida Buyuk Britaniyada 26-o'rinda, dunyo bo'yicha esa 179-o'rinda turadi.",
+      name: "Xolmirzayev Sanjar Boburoviç",
+      description: "Termiz şahridagi Prezident maktabi bitiruvçisi Xolmirzayev Sanjar Boburoviç “El-yurt umidi” jamğarmasining ta'lim dasturlari böyiça stipendiyasini qölga kiritgan. Endilikda Sanjar Buyuk Britaniyaning nufuzli universitetlaridan hisoblangan Kardiff universitetining kiberxavfsizlik yönalişida öqişni davom ettiradi.",
+      quote: "Kardiff universiteti milliy va xalqaro miqyosda mustahkam örin egallagan bölib, jahon universitetlari reytingida Buyuk Britaniyada 26-örinda, dunyo böyiça esa 179-örinda turadi.",
       extra: "",
       icon: "🤩"
     },
@@ -130,9 +130,9 @@ const achievements = [
       year: "2026",
       tags: ["#2026", "#100_FOIZLIK_GRANT"],
       supertitle: "⚡ PREZIDENT MAKTABIDAN AQShning NUFUZLI OLIYGOHIGACHA",
-      name: "Xoliyarov Javohir Erkinovich",
-      description: "Termiz shahridagi Prezident maktabi bitiruvchisi Xoliyarov Javohir Erkinovich AQShning Top-126 Liberal Arts Colleges qatoriga kiruvchi Roanoke College universitetiga 150.000 AQSh dollari miqdoridagi 100 foizlik grant asosida o'qishga qabul qilindi.",
-      quote: "Roanoke College — AQShning Virjiniya shtatida joylashgan yetakchi oliy ta'lim muassasalaridan biri bo'lib, 1842-yilda tashkil etilgan. Kollej zamonaviy akademik fanlar asosida puxta ta'lim tizimi bilan tanilgan.",
+      name: "Xoliyarov Javohir Erkinoviç",
+      description: "Termiz şahridagi Prezident maktabi bitiruvçisi Xoliyarov Javohir Erkinoviç AQŞning Top-126 Liberal Arts Colleges qatoriga kiruvçi Roanoke College universitetiga 150.000 AQŞ dollari miqdoridagi 100 foizlik grant asosida öqişga qabul qilindi.",
+      quote: "Roanoke College — AQŞning Virjiniya ştatida joylaşgan yetakçi oliy ta'lim muassasalaridan biri bölib, 1842-yilda taşkil etilgan. Kollej zamonaviy akademik fanlar asosida puxta ta'lim tizimi bilan tanilgan.",
       extra: "",
       icon: "🤩"
     },
@@ -141,9 +141,9 @@ const achievements = [
       year: "2026",
       tags: ["#2026", "#100_FOIZLIK_GRANT"],
       supertitle: "⚡ Prezident maktabidan nufuzli oliygohgacha",
-      name: "Norboyev Nurbek Bo'ri O'g'li",
-      description: "Termiz shahridagi Prezident maktabining 11-sinf o'quvchisi Norboyev Nurbek Bo'ri O'g'li City University Malaysia ga 100 foizlik to'liq grant asosida o'qishga qabul qilindi!",
-      quote: "City University Malaysia — Malayziyada joylashgan nufuzli xususiy universitetlardan biri bo'lib, 1984-yilda tashkil etilgan. Universitet zamonaviy ta'lim dasturlari va xalqaro akademik muhit bilan ajralib turadi.",
+      name: "Norboyev Nurbek Böri Öğli",
+      description: "Termiz şahridagi Prezident maktabining 11-sinf öquvçisi Norboyev Nurbek Böri Öğli City University Malaysia ga 100 foizlik töliq grant asosida öqişga qabul qilindi!",
+      quote: "City University Malaysia — Malayziyada joylaşgan nufuzli xususiy universitetlardan biri bölib, 1984-yilda taşkil etilgan. Universitet zamonaviy ta'lim dasturlari va xalqaro akademik muhit bilan ajralib turadi.",
       extra: "Norboyev Nurbek kelgusida Biznes boshqaruvi yo'nalishida yanada yuqori natijalarga erishib, mamlakatimiz taraqqiyotiga hissa qo'shadi.",
       icon: "🤩"
     },
@@ -152,9 +152,9 @@ const achievements = [
       year: "2026",
       tags: ["#2026", "#100_FOIZLIK_GRANT"],
       supertitle: "⚡ Prezident maktabidan nufuzli oliygohgacha",
-      name: "Xurramov Asliddin Sharofutdin o'g'li",
-      description: "Termiz shahridagi Prezident maktabining bitiruvchisi Xurramov Asliddin Sharofutdin o'g'li dunyo reytingida 107-o'rinda turuvchi Qirol Saud Universiteti (King Saud University) ga 100 foizlik to'liq grant asosida o'qishga qabul qilindi!",
-      quote: "King Saud University (KSU) — Saudiya Arabistonining poytaxti Ar-Riyod shahrida joylashgan bo'lib, mamlakatdagi eng nufuzli ilk universitet hisoblanadi.",
+      name: "Xurramov Asliddin Şarofutdin öğli",
+      description: "Termiz şahridagi Prezident maktabining bitiruvçisi Xurramov Asliddin Şarofutdin öğli dunyo reytingida 107-örinda turuvçi Qirol Saud Universiteti (King Saud University) ga 100 foizlik töliq grant asosida öqişga qabul qilindi!",
+      quote: "King Saud University (KSU) — Saudiya Arabistonining poytaxti Ar-Riyod şahrida joylaşgan bölib, mamlakatdagi eng nufuzli ilk universitet hisoblanadi.",
       extra: "",
       icon: "🤩"
     },
@@ -163,9 +163,9 @@ const achievements = [
       year: "2026",
       tags: ["#2026", "#OLIYGOHGA_QABUL"],
       supertitle: "⚡ PREZIDENT MAKTABIDAN OSIYONING NUFUZLI OLIYGOHIGACHA",
-      name: "Jumayev Zuxriddin Ikromjon o'g'li",
-      description: "Termiz shahridagi Prezident maktabi bitiruvchisi Jumayev Zuxriddin Ikromjon o'g'li Malayziyaning eng nufuzli oliygohi – Utara universitetining xalqaro biznes boshqaruv yo'nalishiga o'qishga qabul qilindi.",
-      quote: "Universiti Utara Malaysia (UUM) - Malayziyaning nufuzli oliygohlaridan biri bo'lib, 1984-yilda tashkil etilgan. U asosan menejment, biznes, iqtisodiyot, axborot texnologiyalari va aloqa kabi sohalarda kuchli ta'lim va ilmiy izlanishlar olib borishga yo'naltirilgan.",
+      name: "Jumayev Zuxriddin Ikromjon öğli",
+      description: "Termiz şahridagi Prezident maktabi bitiruvçisi Jumayev Zuxriddin Ikromjon öğli Malayziyaning eng nufuzli oliygohi – Utara universitetining xalqaro biznes boşqaruv yönalişiga öqişga qabul qilindi.",
+      quote: "Universiti Utara Malaysia (UUM) - Malayziyaning nufuzli oliygohlaridan biri bölib, 1984-yilda taşkil etilgan. U asosan menejment, biznes, iqtisodiyot, axborot texnologiyalari va aloqa kabi sohalarda kuçli ta'lim va ilmiy izlanişlar olib borişga yönaltirilgan.",
       extra: "",
       icon: "🎓"
     },
@@ -174,9 +174,9 @@ const achievements = [
       year: "2026",
       tags: ["#2026", "#100_FOIZLIK_GRANT"],
       supertitle: "⚡ Prezident maktabidan nufuzli oliygohgacha",
-      name: "Avazov Ismoil Akmal o'g'li",
-      description: "Termiz shahridagi Prezident maktabining 11-sinf o'quvchisi Avazov Ismoil Akmal o'g'li dunyo reytingida 163-o'rinda turuvchi King Abdulaziz universitetiga 100 foizlik to'liq grant asosida o'qishga qabul qilindi!",
-      quote: "King Abdulaziz universiteti (KAU) — Yaqin Sharq va xalqaro miqyosdagi eng yetakchi oliy ta'lim muassasalaridan biridir.",
+      name: "Avazov Ismoil Akmal öğli",
+      description: "Termiz şahridagi Prezident maktabining 11-sinf öquvçisi Avazov Ismoil Akmal öğli dunyo reytingida 163-örinda turuvçi King Abdulaziz universitetiga 100 foizlik töliq grant asosida öqişga qabul qilindi!",
+      quote: "King Abdulaziz universiteti (KAU) — Yaqin Şarq va xalqaro miqyosdagi eng yetakçi oliy ta'lim muassasalaridan biridir.",
       extra: "",
       icon: "🤩"
     },
@@ -185,9 +185,9 @@ const achievements = [
       year: "2026",
       tags: ["#2026", "#100_FOIZLIK_GRANT"],
       supertitle: "⚡ PREZIDENT MAKTABIDAN AQShning NUFUZLI OLIYGOHIGACHA",
-      name: "Madiyev Sardor Kenja o'g'li",
-      description: "Termiz shahridagi Prezident maktabining o'quvchisi Madiyev Sardor Kenja o'g'li AQShning Top-126 Liberal Arts Colleges qatoriga kiruvchi Roanoke College universitetiga 189.000 AQSh dollari miqdoridagi 100 foizlik grant asosida o'qishga qabul qilindi.",
-      quote: "Roanoke College — AQShning Virjiniya shtatida joylashgan yetakchi oliy ta'lim muassasalaridan biridir.",
+      name: "Madiyev Sardor Kenja öğli",
+      description: "Termiz şahridagi Prezident maktabining öquvçisi Madiyev Sardor Kenja öğli AQŞning Top-126 Liberal Arts Colleges qatoriga kiruvçi Roanoke College universitetiga 189.000 AQŞ dollari miqdoridagi 100 foizlik grant asosida öqişga qabul qilindi.",
+      quote: "Roanoke College — AQŞning Virjiniya ştatida joylaşgan yetakçi oliy ta'lim muassasalaridan biridir.",
       extra: "",
       icon: "🤩"
     },
@@ -196,9 +196,9 @@ const achievements = [
       year: "2026",
       tags: ["#2026", "#100_FOIZLIK_GRANT"],
       supertitle: "⚡ PREZIDENT MAKTABIDAN AQShning NUFUZLI OLIYGOHIGACHA",
-      name: "Toshmuratov Alibek Sobir o'g'li",
-      description: "Termiz shahridagi Prezident maktabi bitiruvchisi Toshmuratov Alibek Sobir o'g'li AQShning nufuzli Texas A&M universitetiga Kompyuter muhandisligi yo'nalishi bo'yicha grant asosida o'qishga qabul qilindi.",
-      quote: "Texas A&M University — AQShning eng yirik va kuchli tadqiqot universitetlaridan biri hisoblanadi.",
+      name: "Toşmuratov Alibek Sobir öğli",
+      description: "Termiz şahridagi Prezident maktabi bitiruvçisi Toşmuratov Alibek Sobir öğli AQŞning nufuzli Texas A&M universitetiga Kompyuter muhandisligi yönalişi böyiça grant asosida öqişga qabul qilindi.",
+      quote: "Texas A&M University — AQŞning eng yirik va kuçli tadqiqot universitetlaridan biri hisoblanadi.",
       extra: "",
       icon: "🤩"
     }
@@ -258,7 +258,7 @@ const PortfolioCard = ({ item, index }) => {
                             onClick={() => setIsModalOpen(true)}
                             className="w-full flex items-center justify-between px-4 py-2.5 rounded-xl bg-slate-50 hover:bg-slate-800 text-slate-700 hover:text-white font-bold text-[13px] transition-colors border border-slate-200 group/btn shadow-sm cursor-pointer"
                         >
-                            <span>Batafsil O'qish</span>
+                            <span>Batafsil Öqiş</span>
                             <span className="material-symbols-outlined text-[18px] transition-transform group-hover/btn:translate-x-1">
                                 arrow_forward
                             </span>
@@ -344,7 +344,7 @@ export default function StudentPortfolio() {
     const [activeYear, setActiveYear] = useState('all');
 
     const yearFilters = [
-        { id: 'all', label: 'Barcha yillar' },
+        { id: 'all', label: 'Barça yillar' },
         { id: '2026', label: '2026-yil' },
         { id: '2025', label: '2025-yil' },
         { id: '2024', label: '2024-yil' }
@@ -398,7 +398,7 @@ export default function StudentPortfolio() {
                         </div>
                         <h3 className="text-xl font-black text-slate-800 mb-1">Ma'lumot topilmadi</h3>
                         <p className="text-slate-500 font-bold text-sm">
-                            {activeYear}-o'quv yili bo'yicha ma'lumotlar mavjud emas
+                            {activeYear}-öquv yili böyiça ma'lumotlar mavjud emas
                         </p>
                     </div>
                 )}

@@ -3,11 +3,15 @@ import PageHeroBanner from '../components/PageHeroBanner';
 import { getAssetPath } from '../utils/assets';
 import { studentResults } from '../data/studentResultsData';
 
-// Helper to normalize apostrophes and casing for flexible search
+// Helper to normalize apostrophes, new Uzbek letters, and casing for flexible search
 const normalizeText = (text) => {
     return (text || '')
         .toLowerCase()
         .replace(/['`‘’ʻ]/g, "'")
+        .replace(/ş/g, "sh")
+        .replace(/ç/g, "ch")
+        .replace(/ö/g, "o'")
+        .replace(/ğ/g, "g'")
         .trim();
 };
 
@@ -111,7 +115,7 @@ export default function Results({ category = "all" }) {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,#ffffff_0%,#f1f5f9_100%)] opacity-80 pointer-events-none" />
             
             <div className="relative z-20">
-                <PageHeroBanner category="Natijalar" title={`${filterType === 'all' ? 'Barcha' : filterType} Natijalari`} />
+                <PageHeroBanner category="Natijalar" title={`${filterType === 'all' ? 'Barça' : filterType} Natijalari`} />
             </div>
 
             <div className="max-w-[1400px] mx-auto relative z-10 px-4 md:px-8 pt-8 flex flex-col md:flex-row gap-8">
@@ -150,7 +154,7 @@ export default function Results({ category = "all" }) {
                                     type="button"
                                     onClick={() => setSearchQuery('')}
                                     className="absolute right-2.5 top-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-slate-200 hover:bg-slate-300 text-slate-600 flex items-center justify-center transition-colors cursor-pointer"
-                                    title="Tozalash"
+                                    title="Tozalaş"
                                 >
                                     <span className="material-symbols-outlined text-xs">close</span>
                                 </button>
@@ -177,7 +181,7 @@ export default function Results({ category = "all" }) {
                                         className="accent-[#0088cc] w-4 h-4 cursor-pointer"
                                     />
                                     <span className={`text-sm ${filterType.toLowerCase() === type.toLowerCase() ? 'text-[#0088cc] font-bold' : 'text-slate-600 group-hover:text-[#0a1b3f]'}`}>
-                                        {type === 'all' ? 'Barchasi' : type === 'A-Level' ? 'A-Level (11-sinf)' : type === 'AS-Level' ? 'AS-Level (10-sinf)' : type}
+                                        {type === 'all' ? 'Barçasi' : type === 'A-Level' ? 'A-Level (11-sinf)' : type === 'AS-Level' ? 'AS-Level (10-sinf)' : type}
                                     </span>
                                 </label>
                             ))}
@@ -187,13 +191,13 @@ export default function Results({ category = "all" }) {
                     {/* Cambridge Fanlar boyicha Filter (A-Level & AS-Level) */}
                     {(filterType === 'A-Level' || filterType === 'AS-Level' || filterType === 'all') && (
                         <div className="mb-5">
-                            <h4 className="font-semibold text-slate-700 text-sm mb-3">Fan bo'yicha</h4>
+                            <h4 className="font-semibold text-slate-700 text-sm mb-3">Fan böyiça</h4>
                             <select 
                                 value={filterSubject} 
                                 onChange={(e) => setFilterSubject(e.target.value)}
                                 className="w-full border border-slate-200 rounded-lg px-3 py-2 text-sm text-slate-700 focus:outline-none focus:border-[#0088cc]"
                             >
-                                <option value="all">Barcha fanlar</option>
+                                <option value="all">Barça fanlar</option>
                                 {subjectsList.map(subj => (
                                     <option key={subj} value={subj}>{subj}</option>
                                 ))}
@@ -203,11 +207,11 @@ export default function Results({ category = "all" }) {
 
                     {/* Ball / Natija bo'yicha Filter */}
                     <div className="mb-5">
-                        <h4 className="font-semibold text-slate-700 text-sm mb-3">Natija bo'yicha</h4>
+                        <h4 className="font-semibold text-slate-700 text-sm mb-3">Natija böyiça</h4>
                         <div className="flex flex-col gap-2">
                             <label className="flex items-center gap-2 cursor-pointer group">
                                 <input type="radio" name="scoreFilter" value="all" checked={filterScore === 'all'} onChange={() => setFilterScore('all')} className="accent-[#0088cc] w-4 h-4 cursor-pointer" />
-                                <span className={`text-sm ${filterScore === 'all' ? 'text-[#0088cc] font-bold' : 'text-slate-600 group-hover:text-[#0a1b3f]'}`}>Barchasi</span>
+                                <span className={`text-sm ${filterScore === 'all' ? 'text-[#0088cc] font-bold' : 'text-slate-600 group-hover:text-[#0a1b3f]'}`}>Barçasi</span>
                             </label>
 
                             {filterType === 'CEFR' && (
@@ -287,7 +291,7 @@ export default function Results({ category = "all" }) {
                             onChange={(e) => setFilterYear(e.target.value)}
                             className="w-full border border-slate-200 rounded-lg px-3 py-2 text-sm text-slate-700 focus:outline-none focus:border-[#0088cc]"
                         >
-                            <option value="all">Barcha yillar</option>
+                            <option value="all">Barça yillar</option>
                             {uniqueYears.map(year => (
                                 <option key={year} value={year}>{year}</option>
                             ))}
@@ -308,7 +312,7 @@ export default function Results({ category = "all" }) {
                                 className="w-full py-2.5 px-3 text-xs font-bold text-rose-600 bg-rose-50 hover:bg-rose-100 rounded-xl flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
                             >
                                 <span className="material-symbols-outlined text-sm">filter_alt_off</span>
-                                Filtrlarni tozalash
+                                Filtrlarni tozalaş
                             </button>
                         </div>
                     )}
@@ -321,13 +325,13 @@ export default function Results({ category = "all" }) {
                         <div className="mb-4 flex items-center justify-between bg-blue-50/70 border border-blue-200/60 rounded-xl px-4 py-2.5">
                             <div className="flex items-center gap-2 text-xs font-semibold text-blue-900">
                                 <span className="material-symbols-outlined text-blue-600 text-base">search</span>
-                                <span>"<strong>{searchQuery}</strong>" so'rovi bo'yicha {filteredStudents.length} ta natija</span>
+                                <span>"<strong>{searchQuery}</strong>" sörovi böyiça {filteredStudents.length} ta natija</span>
                             </div>
                             <button
                                 onClick={() => setSearchQuery('')}
                                 className="text-xs text-blue-700 hover:text-blue-900 font-bold underline cursor-pointer"
                             >
-                                Qidiruvni bekor qilish
+                                Qidiruvni bekor qiliş
                             </button>
                         </div>
                     )}
@@ -429,7 +433,7 @@ export default function Results({ category = "all" }) {
                                             <div className="absolute inset-0 bg-slate-950/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center backdrop-blur-[2px] z-20">
                                                 <div className="px-3.5 py-2 rounded-full bg-white text-[#0a1b3f] text-xs font-extrabold flex items-center gap-2 shadow-2xl transform scale-95 group-hover:scale-100 transition-transform">
                                                     <span className="material-symbols-outlined text-base">visibility</span>
-                                                    <span>Natijani ko'rish</span>
+                                                    <span>Natijani köriş</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -447,7 +451,7 @@ export default function Results({ category = "all" }) {
                                                             <span className="font-semibold text-slate-700">{student.subject}</span>
                                                         </>
                                                     ) : (
-                                                        <span>Prezident Maktabi O'quvchisi</span>
+                                                        <span>Prezident Maktabi Öquvçisi</span>
                                                     )}
                                                 </p>
                                             </div>
@@ -488,9 +492,9 @@ export default function Results({ category = "all" }) {
                         ) : (
                             <div className="col-span-full py-16 text-center text-slate-500 bg-white rounded-2xl border border-slate-200 px-4">
                                 <span className="material-symbols-outlined text-5xl text-slate-300 mb-3">search_off</span>
-                                <h4 className="font-bold text-slate-800 text-base mb-1">Mos keluvchi sertifikat topilmadi</h4>
+                                <h4 className="font-bold text-slate-800 text-base mb-1">Mos keluvçi sertifikat topilmadi</h4>
                                 <p className="text-sm text-slate-500 max-w-md mx-auto mb-4">
-                                    {searchQuery ? `"${searchQuery}" bo'yicha hech qanday natija chiqmadi. Boshqa ism yoki filtr parametrlarini sinab ko'ring.` : "Tanlangan filtrlar bo'yicha sertifikatlar topilmadi."}
+                                    {searchQuery ? `"${searchQuery}" bo'yicha hech qanday natija chiqmadi. Boshqa ism yoki filtr parametrlarini sinab ko'ring.` : "Tanlangan filtrlar böyiça sertifikatlar topilmadi."}
                                 </p>
                                 <button
                                     onClick={() => {
@@ -503,7 +507,7 @@ export default function Results({ category = "all" }) {
                                     className="px-4 py-2 rounded-xl bg-[#0088cc] text-white text-xs font-bold hover:bg-[#0077bb] transition-all cursor-pointer inline-flex items-center gap-1.5 shadow-sm"
                                 >
                                     <span className="material-symbols-outlined text-sm">refresh</span>
-                                    Barcha filtrlarni tiklash
+                                    Barça filtrlarni tiklaş
                                 </button>
                             </div>
                         )}
@@ -555,10 +559,10 @@ export default function Results({ category = "all" }) {
                                         target="_blank" 
                                         rel="noreferrer"
                                         className="px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-bold flex items-center gap-1 transition-colors border border-white/10"
-                                        title="Yangi oynada ochish"
+                                        title="Yangi oynada oçiş"
                                     >
                                         <span className="material-symbols-outlined text-sm">open_in_new</span>
-                                        <span className="hidden sm:inline">Ochish</span>
+                                        <span className="hidden sm:inline">Oçiş</span>
                                     </a>
                                 )}
                                 <button 
@@ -592,7 +596,7 @@ export default function Results({ category = "all" }) {
                                                 rel="noreferrer"
                                                 className="mt-4 px-6 py-3 rounded-xl bg-[#0088cc] text-white font-bold text-sm shadow-md hover:bg-[#0077bb] transition-all"
                                             >
-                                                Faylni ochish / yuklab olish
+                                                Faylni oçiş / yuklab oliş
                                             </a>
                                         </div>
                                     </iframe>
@@ -623,14 +627,14 @@ export default function Results({ category = "all" }) {
                                             {selectedCert.type === 'CEFR'
                                                 ? 'DAVLAT TEST MARKAZI VA MILLIY SERTIFIKATSIYA'
                                                 : selectedCert.type === 'IELTS'
-                                                    ? 'INTERNATIONAL ENGLISH LANGUAGE TESTING SYSTEM'
+                                                    ? 'INTERNATIONAL ENGLIŞ LANGUAGE TESTING SYSTEM'
                                                     : selectedCert.type === 'SAT'
                                                         ? 'COLLEGE BOARD SAT REASONING TEST'
                                                         : 'CAMBRIDGE ASSESSMENT INTERNATIONAL EDUCATION'}
                                         </span>
                                         <h3 className="text-2xl sm:text-3xl font-black text-white mb-2">
                                             {selectedCert.type === 'CEFR'
-                                                ? 'CEFR Rasmiy Til Bilish Natijasi'
+                                                ? 'CEFR Rasmiy Til Biliş Natijasi'
                                                 : selectedCert.type === 'IELTS'
                                                     ? 'IELTS Rasmiy Natija Sertifikati'
                                                     : selectedCert.type === 'SAT'
@@ -638,12 +642,12 @@ export default function Results({ category = "all" }) {
                                                         : (selectedCert.type === 'A-Level' ? 'Cambridge International A Level' : 'Cambridge International AS Level')}
                                         </h3>
                                         <p className="text-slate-300 text-sm mb-6 max-w-md">
-                                            Termiz shahridagi Prezident maktabi o'quvchisining rasmiy imtihon natijasi sertifikati
+                                            Termiz şahridagi Prezident maktabi öquvçisining rasmiy imtihon natijasi sertifikati
                                         </p>
 
                                         <div className="w-full bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10 max-w-md space-y-4 mb-6">
                                             <div className="flex justify-between items-center border-b border-white/10 pb-3">
-                                                <span className="text-xs text-slate-400 font-bold uppercase">O'quvchi ismi:</span>
+                                                <span className="text-xs text-slate-400 font-bold uppercase">Öquvçi ismi:</span>
                                                 <span className="text-base font-extrabold text-white text-right">
                                                     {selectedCert.fullName || selectedCert.name}
                                                 </span>

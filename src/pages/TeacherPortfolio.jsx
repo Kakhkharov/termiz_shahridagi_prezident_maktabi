@@ -182,8 +182,8 @@ const TeacherPortfolioCard = ({ item, index, isArticle }) => {
                     {/* Stats & Button */}
                     <div className="mt-auto pt-4 border-t border-slate-100 flex items-center justify-between gap-3">
                         <div className="flex items-center gap-3 text-slate-400 font-medium text-[12px]">
-                            <span className="flex items-center gap-1" title="Ko'rishlar"><span className="material-symbols-outlined text-[16px]">visibility</span> {formatNumber(views)}</span>
-                            <span className="flex items-center gap-1 text-amber-500" title="Yulduzchalar"><span className="material-symbols-outlined text-[16px] fill-current">star</span> {formatNumber(stars)}</span>
+                            <span className="flex items-center gap-1" title="Körişlar"><span className="material-symbols-outlined text-[16px]">visibility</span> {formatNumber(views)}</span>
+                            <span className="flex items-center gap-1 text-amber-500" title="Yulduzçalar"><span className="material-symbols-outlined text-[16px] fill-current">star</span> {formatNumber(stars)}</span>
                         </div>
                         
                         <button 
@@ -195,7 +195,7 @@ const TeacherPortfolioCard = ({ item, index, isArticle }) => {
                             
                             {/* Text and Icon */}
                             <div className="relative z-10 flex items-center text-[#0a1b3f] transition-colors duration-200 group-hover/btn:delay-500 group-hover/btn:text-white">
-                                <span className="font-bold text-[12px]">O'qish</span>
+                                <span className="font-bold text-[12px]">Öqiş</span>
                                 <span className="material-symbols-outlined text-[16px] ml-1 transition-transform duration-300 group-hover/btn:translate-x-1">
                                     arrow_forward
                                 </span>
@@ -253,7 +253,7 @@ const TeacherPortfolioCard = ({ item, index, isArticle }) => {
 
                         {/* Maqola sizga yoqdimi? */}
                         <div className="flex flex-col items-center justify-center pt-8 border-t border-slate-100 mt-auto">
-                            <h4 className="text-slate-800 font-bold text-[18px] mb-4">Ushbu {isArticle ? 'maqola' : 'ochiq dars'} sizga yoqdimi?</h4>
+                            <h4 className="text-slate-800 font-bold text-[18px] mb-4">Uşbu {isArticle ? 'maqola' : 'oçiq dars'} sizga yoqdimi?</h4>
                             <button 
                                 onClick={handleStarClick}
                                 disabled={hasStarred}
@@ -264,7 +264,7 @@ const TeacherPortfolioCard = ({ item, index, isArticle }) => {
                                 }`}
                             >
                                 <span className={`material-symbols-outlined text-[24px] ${hasStarred ? 'fill-current' : ''}`}>star</span>
-                                {hasStarred ? "Baho berildi!" : "Ovoz berish"}
+                                {hasStarred ? "Baho berildi!" : "Ovoz beriş"}
                                 <span className="ml-2 px-2.5 py-1 rounded-md bg-slate-100 text-slate-600 text-[12px]">{formatNumber(stars)}</span>
                             </button>
                         </div>
@@ -283,13 +283,13 @@ export default function TeacherPortfolio() {
     const articles = [
         {
             id: 1,
-            title: "Zamonaviy ta'limda raqamli texnologiyalarning o'rni",
+            title: "Zamonaviy ta'limda raqamli texnologiyalarning örni",
             author: "Xamdamov Nurali",
             date: "12 Aprel, 2026",
             tags: ["#IT", "#Pedagogika"],
-            description: "Ushbu maqolada umumta'lim maktablarida o'qitish jarayonini raqamlashtirishning ahamiyati, interaktiv vositalar va sun'iy intellekt orqali o'quvchilar qiziqishini oshirish yo'llari haqida so'z boradi. Raqamli texnologiyalar dars sifatini yangi bosqichga olib chiqadi.",
-            content: "Ushbu maqolada umumta'lim maktablarida o'qitish jarayonini raqamlashtirishning ahamiyati, interaktiv vositalar va sun'iy intellekt orqali o'quvchilar qiziqishini oshirish yo'llari haqida so'z boradi.\n\nBugungi kunda har bir o'qituvchi kompyuter texnologiyalaridan dars davomida unumli foydalanishi lozim. Bunga e-boardlar, 3D modellar va onlayn simulyatorlar misol bo'lishi mumkin. Xususan, aniq fanlarda abstrakt tushunchalarni vizualizatsiya qilish o'quvchi xotirasida chuqur iz qoldiradi.",
-            quote: "Texnologiya o'qituvchini o'rnini bosa olmaydi, lekin texnologiyadan foydalanadigan o'qituvchi undan foydalanmaydiganning o'rnini egallaydi.",
+            description: "Uşbu maqolada umumta'lim maktablarida öqitiş jarayonini raqamlaştirişning ahamiyati, interaktiv vositalar va sun'iy intellekt orqali öquvçilar qiziqişini oşiriş yöllari haqida söz boradi. Raqamli texnologiyalar dars sifatini yangi bosqiçga olib çiqadi.",
+            content: "Uşbu maqolada umumta'lim maktablarida öqitiş jarayonini raqamlaştirişning ahamiyati, interaktiv vositalar va sun'iy intellekt orqali öquvçilar qiziqişini oşiriş yöllari haqida söz boradi.\n\nBugungi kunda har bir öqituvçi kompyuter texnologiyalaridan dars davomida unumli foydalanişi lozim. Bunga e-boardlar, 3D modellar va onlayn simulyatorlar misol bölişi mumkin. Xususan, aniq fanlarda abstrakt tuşunçalarni vizualizatsiya qiliş öquvçi xotirasida çuqur iz qoldiradi.",
+            quote: "Texnologiya öqituvçini örnini bosa olmaydi, lekin texnologiyadan foydalanadigan öqituvçi undan foydalanmaydiganning örnini egallaydi.",
             images: [
                 "/images/01.jpg",
                 "/images/02.jpg",
@@ -302,12 +302,12 @@ export default function TeacherPortfolio() {
         },
         {
             id: 2,
-            title: "Matematikani o'rganishda loyiha asosida ta'lim (PBL)",
+            title: "Matematikani örganişda loyiha asosida ta'lim (PBL)",
             author: "Maxmatqobilova Fozila",
             date: "25 Mart, 2026",
             tags: ["#Matematika", "#PBL"],
-            description: "O'quvchilarga matematik formulalar va teoremalarni faqat quruq yodlatish emas, balki hayotiy loyihalar orqali yechim topishga undash uslubiyatlari chuqur tahlil qilingan.",
-            quote: "Matematika bu shunchaki sonlar emas, u koinotni anglash tilidir.",
+            description: "Öquvçilarga matematik formulalar va teoremalarni faqat quruq yodlatiş emas, balki hayotiy loyihalar orqali yeçim topişga undaş uslubiyatlari çuqur tahlil qilingan.",
+            quote: "Matematika bu şunçaki sonlar emas, u koinotni anglaş tilidir.",
             images: [
                 "/images/02.jpg",
                 "/images/03.jpg",
@@ -320,12 +320,12 @@ export default function TeacherPortfolio() {
         },
         {
             id: 3,
-            title: "Ingliz tili darslarida kommunikativ yondashuv",
+            title: "Ingliz tili darslarida kommunikativ yondaşuv",
             author: "Aminova Munisa",
             date: "08 Fevral, 2026",
             tags: ["#Ingliz_tili", "#Metodika"],
-            description: "Til o'rganishda grammatik qoidalarni chetlab o'tib, ko'proq muloqot va jonli suhbatlarga urg'u berishning o'quvchi xotirasiga va nutqiga ijobiy ta'siri batafsil ko'rib chiqilgan.",
-            quote: "Yangi til - bu hayotga yangi deraza ochish demakdir.",
+            description: "Til örganişda grammatik qoidalarni çetlab ötib, köproq muloqot va jonli suhbatlarga urğu berişning öquvçi xotirasiga va nutqiga ijobiy ta'siri batafsil körib çiqilgan.",
+            quote: "Yangi til - bu hayotga yangi deraza oçiş demakdir.",
             images: [
                 "/images/03.jpg",
                 "/images/04.jpg",
@@ -338,12 +338,12 @@ export default function TeacherPortfolio() {
         },
         {
             id: 4,
-            title: "Biologiyani virtual laboratoriyalar orqali o'qitish",
+            title: "Biologiyani virtual laboratoriyalar orqali öqitiş",
             author: "Abdimurotov Dilmuhammad",
             date: "19 Yanvar, 2026",
             tags: ["#Biologiya", "#Innovatsiya"],
-            description: "Xavfli yoki maktab sharoitida o'tkazish qiyin bo'lgan tajribalarni 3D va virtual laboratoriyalar orqali namoyish qilishning zamonaviy usullari keltirilgan.",
-            quote: "Tabiatni tushunish uchun avvalo uning mitti zarralarini his qilish kerak.",
+            description: "Xavfli yoki maktab şaroitida ötkaziş qiyin bölgan tajribalarni 3D va virtual laboratoriyalar orqali namoyiş qilişning zamonaviy usullari keltirilgan.",
+            quote: "Tabiatni tuşuniş uçun avvalo uning mitti zarralarini his qiliş kerak.",
             images: [
                 "/images/04.jpg",
                 "/images/01.jpg",
@@ -363,8 +363,8 @@ export default function TeacherPortfolio() {
             author: "Edwin",
             date: "05 May, 2026",
             tags: ["#Fizika", "#Koinot"],
-            description: "Fizika fanidan 9-sinflar uchun ochiq dars. Dars davomida reaktiv harakat va koinotni tadqiq etish tamoyillari tajribalar asosida ko'rsatib beriladi.",
-            quote: "Har bir ta'sirga teng va qarama-qarshi aks ta'sir mavjud. Bu qonun nafaqat fizika, balki hayot uchun ham o'rinlidir.",
+            description: "Fizika fanidan 9-sinflar uçun oçiq dars. Dars davomida reaktiv harakat va koinotni tadqiq etiş tamoyillari tajribalar asosida körsatib beriladi.",
+            quote: "Har bir ta'sirga teng va qarama-qarşi aks ta'sir mavjud. Bu qonun nafaqat fizika, balki hayot uçun ham örinlidir.",
             images: [
                 "/images/01.jpg",
                 "/images/03.jpg",
@@ -376,12 +376,12 @@ export default function TeacherPortfolio() {
         },
         {
             id: 2,
-            title: "Tarix: Buyuk Ipak yo'lining Markaziy Osiyo sivilizatsiyasiga ta'siri",
+            title: "Tarix: Buyuk Ipak yölining Markaziy Osiyo sivilizatsiyasiga ta'siri",
             author: "Sheraliyev Murodjon",
             date: "22 Aprel, 2026",
             tags: ["#Tarix", "#Madaniyat"],
-            description: "Ochiq darsda o'quvchilar guruhlarga bo'linib, qadimiy savdo yo'llari bo'ylab sayohatni taqdimotlar va ro'lli o'yinlar orqali yoritib beradilar.",
-            quote: "Tarixni bilmasdan turib kelajakni qurib bo'lmaydi.",
+            description: "Oçiq darsda öquvçilar guruhlarga bölinib, qadimiy savdo yöllari böylab sayohatni taqdimotlar va rölli öyinlar orqali yoritib beradilar.",
+            quote: "Tarixni bilmasdan turib kelajakni qurib bölmaydi.",
             images: [
                 "/images/02.jpg",
                 "/images/04.jpg",
@@ -393,12 +393,12 @@ export default function TeacherPortfolio() {
         },
         {
             id: 3,
-            title: "Informatika: Python dasturlash tilida sun'iy intellekt elementlari",
+            title: "Informatika: Python dasturlaş tilida sun'iy intellekt elementlari",
             author: "Allaqulov Safarmurod",
             date: "10 Aprel, 2026",
             tags: ["#AI", "#Python"],
-            description: "11-sinf o'quvchilari uchun mo'ljallangan ushbu amaliy mashg'ulotda sodda neyron tarmog'i yaratish hamda ma'lumotlarni tahlil qilish algoritmlari namoyish etiladi.",
-            quote: "Kelajakda kim kod yoza olsa, u koinotni boshqaradi.",
+            description: "11-sinf öquvçilari uçun möljallangan uşbu amaliy maşğulotda sodda neyron tarmoği yaratiş hamda ma'lumotlarni tahlil qiliş algoritmlari namoyiş etiladi.",
+            quote: "Kelajakda kim kod yoza olsa, u koinotni boşqaradi.",
             images: [
                 "/images/03.jpg",
                 "/images/01.jpg",
@@ -431,7 +431,7 @@ export default function TeacherPortfolio() {
             <div className="absolute bottom-10 right-[15%] w-[500px] h-[500px] bg-indigo-200/20 rounded-full blur-[130px] pointer-events-none animate-pulse duration-[8000ms]"></div>
 
             <div className="relative z-20">
-                <PageHeroBanner category="Statistikalar" title="O'qituvchi portfoliosi" />
+                <PageHeroBanner category="Statistikalar" title="Öqituvçi portfoliosi" />
             </div>
 
             <main className="max-w-[1200px] mx-auto relative z-10 px-4 md:px-8 mt-12">
@@ -453,7 +453,7 @@ export default function TeacherPortfolio() {
                                 activeTab === 'lessons' ? 'text-white' : 'text-slate-500 hover:text-slate-800'
                             }`}
                         >
-                            Ochiq Darslar
+                            Oçiq Darslar
                         </button>
                         
                         {/* Animated background pill matching O'qish button theme color */}
@@ -486,7 +486,7 @@ export default function TeacherPortfolio() {
                                 {filterBy === 'new' && <span className="material-symbols-outlined text-sky-600 text-[16px]">check</span>}
                             </button>
                             <button onClick={() => setFilterBy('popular')} className={`w-full text-left px-4 py-2.5 text-[12px] font-bold transition-colors border-b border-slate-50 flex items-center justify-between ${filterBy === 'popular' ? 'text-sky-600 bg-sky-50' : 'text-slate-600 hover:bg-slate-50'}`}>
-                                Mashhur
+                                Maşhur
                                 {filterBy === 'popular' && <span className="material-symbols-outlined text-sky-600 text-[16px]">check</span>}
                             </button>
                             <button onClick={() => setFilterBy('old')} className={`w-full text-left px-4 py-2.5 text-[12px] font-bold transition-colors flex items-center justify-between ${filterBy === 'old' ? 'text-sky-600 bg-sky-50' : 'text-slate-600 hover:bg-slate-50'}`}>

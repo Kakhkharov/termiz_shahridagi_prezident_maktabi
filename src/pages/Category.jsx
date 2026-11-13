@@ -12,7 +12,7 @@ export default function Category({ category = "Natijalar", title = "Natijalar" }
                     <div className="flex-1 space-y-8">
                         <div className="border-b-2 border-slate-200 pb-4">
                             <h2 className="text-3xl font-black text-[#14233b]">{title}</h2>
-                            <p className="text-slate-500 mt-2">Maktabimiz erishgan so'nggi rasmiy natijalar va ma'lumotlar.</p>
+                            <p className="text-slate-500 mt-2">Maktabimiz erişgan sönggi rasmiy natijalar va ma'lumotlar.</p>
                         </div>
 
                         <div className="space-y-6">
@@ -26,8 +26,8 @@ export default function Category({ category = "Natijalar", title = "Natijalar" }
                                             <span className="text-xs text-[#0088cc] font-bold uppercase tracking-wider">{title}</span>
                                             <span className="text-slate-400 text-xs">• 2026-yil</span>
                                         </div>
-                                        <h3 className="text-xl font-bold group-hover:text-[#0088cc] transition-colors leading-snug text-[#0a1b3f]">{title} bo'yicha yuqori ko'rsatkichlar qayd etildi</h3>
-                                        <p className="text-slate-600 text-sm line-clamp-2 md:line-clamp-3">O'quvchilarimiz va o'qituvchilarimiz xalqaro va respublika miqyosida yuqori natijalarni qo'lga kiritmoqdalar.</p>
+                                        <h3 className="text-xl font-bold group-hover:text-[#0088cc] transition-colors leading-snug text-[#0a1b3f]">{title} böyiça yuqori körsatkiçlar qayd etildi</h3>
+                                        <p className="text-slate-600 text-sm line-clamp-2 md:line-clamp-3">Öquvçilarimiz va öqituvçilarimiz xalqaro va respublika miqyosida yuqori natijalarni qölga kiritmoqdalar.</p>
                                     </div>
                                 </Link>
                             ))}
@@ -35,7 +35,7 @@ export default function Category({ category = "Natijalar", title = "Natijalar" }
 
                         <div className="flex justify-center pt-8">
                             <button className="px-6 py-3 border-2 border-[#0088cc] text-[#0088cc] font-bold rounded-lg hover:bg-[#0088cc] hover:text-white transition-colors">
-                                Yana yuklash
+                                Yana yuklaş
                             </button>
                         </div>
                     </div>

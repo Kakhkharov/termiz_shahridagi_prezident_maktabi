@@ -13,79 +13,79 @@ export const formatNewsDate = (itemOrDate) => {
 const rawNewsData = [
     {
         id: 1,
-        title: "Termiz shahridagi Prezident maktabida 'STEM Expo-2026' ko'rgazmasi yakunlandi",
+        title: "Termiz şahridagi Prezident maktabida 'STEM Expo-2026' körgazmasi yakunlandi",
         date: "25 Aprel, 2026",
         isToday: true,
         category: "Tadbir",
         image: "/images/01.jpg",
         images: ["/images/01.jpg", "/images/02.jpg", "/images/03.jpg", "/images/04.jpg"],
-        desc: "O'quvchilar tomonidan tayyorlangan innovatsion ishlanmalar va muhandislik loyihalari mutaxassislar tomonidan yuqori baholandi. Ko'rgazma davomida o'quvchilar robotexnika, yashil energiya va aqlli shahar texnologiyalari bo'yicha o'z ishlarini namoyish etishdi.",
+        desc: "Öquvçilar tomonidan tayyorlangan innovatsion işlanmalar va muhandislik loyihalari mutaxassislar tomonidan yuqori baholandi. Körgazma davomida öquvçilar robotexnika, yaşil energiya va aqlli şahar texnologiyalari böyiça öz işlarini namoyiş etişdi.",
         content: `
-            <p>Termiz shahridagi Prezident maktabida o‘quvchilarning ijodiy va ilmiy salohiyatini ro‘yobga chiqarish maqsadida tashkil etilgan "STEM Expo-2026" ko‘rgazmasi o‘z yakuniga yetdi.</p>
-            <p>Ushbu tadbirda maktabning 5-11-sinf o‘quvchilari o‘zlari ishlab chiqqan 50 dan ortiq loyihalarni taqdim etishdi. Loyihalar orasida ayniqsa quyidagilar diqqat markazida bo'ldi:</p>
+            <p>Termiz şahridagi Prezident maktabida öquvçilarning ijodiy va ilmiy salohiyatini röyobga çiqariş maqsadida taşkil etilgan "STEM Expo-2026" körgazmasi öz yakuniga yetdi.</p>
+            <p>Uşbu tadbirda maktabning 5-11-sinf öquvçilari özlari işlab çiqqan 50 dan ortiq loyihalarni taqdim etişdi. Loyihalar orasida ayniqsa quyidagilar diqqat markazida böldi:</p>
             <ul>
-                <li>Quyosh panellari yordamida ishlaydigan aqlli sug'orish tizimi;</li>
-                <li>Sun'iy intellekt asosida ishlaydigan saralash roboti;</li>
+                <li>Quyoş panellari yordamida işlaydigan aqlli suğoriş tizimi;</li>
+                <li>Sun'iy intellekt asosida işlaydigan saralaş roboti;</li>
                 <li>Ekologik toza plastik muqobillari.</li>
             </ul>
-            <p>Ko'rgazmaga tashrif buyurgan mutaxassislar o'quvchilarning bilimi va loyihalarning amaliy ahamiyatiga yuqori baho berdilar. Eng yaxshi loyiha mualliflari Agentlikning maxsus diplom va esdalik sovg'alari bilan taqdirlandilar.</p>
+            <p>Körgazmaga taşrif buyurgan mutaxassislar öquvçilarning bilimi va loyihalarning amaliy ahamiyatiga yuqori baho berdilar. Eng yaxşi loyiha mualliflari Agentlikning maxsus diplom va esdalik sovğalari bilan taqdirlandilar.</p>
         `
     },
     {
         id: 2,
-        title: "Prezident maktabiga qabul: Eng ko'p beriladigan savollarga mutaxassis javobi",
+        title: "Prezident maktabiga qabul: Eng köp beriladigan savollarga mutaxassis javobi",
         date: "24 Aprel, 2026",
         category: "E'lonlar",
         image: "/images/02.jpg",
         images: ["/images/02.jpg", "/images/03.jpg", "/images/04.jpg", "/images/05.jpg"],
-        desc: "2026-2027 o'quv yili uchun qabul jarayoni boshlanishi munosabati bilan barcha savollarga ochiq oydin javob berildi.",
+        desc: "2026-2027 öquv yili uçun qabul jarayoni boşlanişi munosabati bilan barça savollarga oçiq oydin javob berildi.",
         content: `
-            <p>Ixtisoslashtirilgan ta'lim muassasalari agentligi 2026-2027 o'quv yili uchun Prezident maktablariga qabul jarayonlari boshlanganini e'lon qildi. Shu munosabat bilan ota-onalarni qiziqtirgan asosiy savollarga javob berib o'tamiz.</p>
-            <p><b>Hujjatlar qachon qabul qilinadi?</b><br/>Hujjatlar onlayn tarzda ariza.piima.uz sayti orqali joriy yilning iyun oyi davomida qabul qilinadi.</p>
-            <p><b>Qaysi sinflarga qabul bor?</b><br/>Prezident maktablariga faqat 5-sinfga qabul amalga oshiriladi. Nomzodlar 4-sinfni bitirayotgan bo'lishlari lozim.</p>
-            <p>Batafsil ma'lumot olish uchun Telegram kanalimiz yoki rasmiy <a href="/qabul-2026" class="text-blue-500 hover:underline">qabul saytimizni</a> kuzatib boring.</p>
+            <p>Ixtisoslaştirilgan ta'lim muassasalari agentligi 2026-2027 öquv yili uçun Prezident maktablariga qabul jarayonlari boşlanganini e'lon qildi. Şu munosabat bilan ota-onalarni qiziqtirgan asosiy savollarga javob berib ötamiz.</p>
+            <p><b>Hujjatlar qaçon qabul qilinadi?</b><br/>Hujjatlar onlayn tarzda ariza.piima.uz sayti orqali joriy yilning iyun oyi davomida qabul qilinadi.</p>
+            <p><b>Qaysi sinflarga qabul bor?</b><br/>Prezident maktablariga faqat 5-sinfga qabul amalga oşiriladi. Nomzodlar 4-sinfni bitirayotgan bölişlari lozim.</p>
+            <p>Batafsil ma'lumot oliş uçun Telegram kanalimiz yoki rasmiy <a href="/qabul-2026" class="text-blue-500 hover:underline">qabul saytimizni</a> kuzatib boring.</p>
         `
     },
     {
         id: 3,
-        title: "Maktabimizda kitobxonlik haftaligi munosabati bilan adabiy kecha o'tkazildi",
+        title: "Maktabimizda kitobxonlik haftaligi munosabati bilan adabiy keça ötkazildi",
         date: "23 Aprel, 2026",
         category: "Ma'naviyat",
         image: "/images/03.jpg",
         images: ["/images/03.jpg", "/images/04.jpg", "/images/05.jpg", "/images/01.jpg"],
-        desc: "O'quvchilar o'rtasida mutolaa madaniyatini yuksaltirish maqsadida tashkil etilgan tadbirda yangi kitoblar taqdimoti bo'lib o'tdi.",
+        desc: "Öquvçilar örtasida mutolaa madaniyatini yuksaltiriş maqsadida taşkil etilgan tadbirda yangi kitoblar taqdimoti bölib ötdi.",
         content: `
-            <p>Inson kamolotida kitobning o'rni beqiyos. Shu maqsadda maktabimizda "Kitob - ma'naviyat sarchashmasi" mavzusida adabiy-badiiy kecha tashkil etildi.</p>
-            <p>Tadbir davomida o'quvchilar o'zlari sevgan asarlardan parchalar o'qib berdilar, buyuk mutafakkirlar hayoti va ijodi haqida sahnalashtirilgan ko'rinishlarni namoyish etishdi. Shuningdek, maktab kutubxonasiga yangi keltirilgan badiiy adabiyotlar ko'rgazmasi ham tashkil qilindi.</p>
-            <p>Tadbir yakunida "Eng faol kitobxon" nominatsiyasi bo'yicha g'oliblar aniqlandi va ularga kitoblar to'plami sovg'a qilingandi.</p>
+            <p>Inson kamolotida kitobning örni beqiyos. Şu maqsadda maktabimizda "Kitob - ma'naviyat sarçaşmasi" mavzusida adabiy-badiiy keça taşkil etildi.</p>
+            <p>Tadbir davomida öquvçilar özlari sevgan asarlardan parçalar öqib berdilar, buyuk mutafakkirlar hayoti va ijodi haqida sahnalaştirilgan körinişlarni namoyiş etişdi. Şuningdek, maktab kutubxonasiga yangi keltirilgan badiiy adabiyotlar körgazmasi ham taşkil qilindi.</p>
+            <p>Tadbir yakunida "Eng faol kitobxon" nominatsiyasi böyiça ğoliblar aniqlandi va ularga kitoblar töplami sovğa qilingandi.</p>
         `
     },
     {
         id: 4,
-        title: "Ota-onalar uchun 'Ochiq eshiklar kuni' tadbiri tashkil etildi",
+        title: "Ota-onalar uçun 'Oçiq eşiklar kuni' tadbiri taşkil etildi",
         date: "19 Aprel, 2026",
         category: "Tadbir",
         image: "/images/04.jpg",
         images: ["/images/04.jpg", "/images/05.jpg", "/images/01.jpg", "/images/02.jpg"],
-        desc: "Mehmonlar maktabning zamonaviy o'quv xonalari, laboratoriyalari va yashash sharoitlari bilan yaqindan tanishdilar.",
+        desc: "Mehmonlar maktabning zamonaviy öquv xonalari, laboratoriyalari va yaşaş şaroitlari bilan yaqindan tanişdilar.",
         content: `
-            <p>Termiz shahridagi Prezident maktabida navbatdagi "Ochiq eshiklar kuni" bo'lib o'tdi. Unda ota-onalar va jamoatchilik vakillari ishtirok etishdi.</p>
-            <p>Tashrif buyuruvchilar dars jarayonlarini kuzatishdi, STEM laboratoriyalaridagi sharoitlar bilan tanishishdi. Shuningdek, o'quvchilarning yashash yotoqxonasi va oshxonadagi taomnoma ham ko'zdan kechirildi.</p>
-            <p>Maktab ma'muriyati ota-onalarni qiziqtirgan barcha savollarga javob berdi va kelgusidagi rejalar bilan o'rtoqlashdi.</p>
+            <p>Termiz şahridagi Prezident maktabida navbatdagi "Oçiq eşiklar kuni" bölib ötdi. Unda ota-onalar va jamoatçilik vakillari iştirok etişdi.</p>
+            <p>Taşrif buyuruvçilar dars jarayonlarini kuzatişdi, STEM laboratoriyalaridagi şaroitlar bilan tanişişdi. Şuningdek, öquvçilarning yaşaş yotoqxonasi va oşxonadagi taomnoma ham közdan keçirildi.</p>
+            <p>Maktab ma'muriyati ota-onalarni qiziqtirgan barça savollarga javob berdi va kelgusidagi rejalar bilan örtoqlaşdi.</p>
         `
     },
     {
         id: 5,
-        title: "Ixtisoslashtirilgan ta'lim muassasalari agentligi: Yangi istiqbollar",
+        title: "Ixtisoslaştirilgan ta'lim muassasalari agentligi: Yangi istiqbollar",
         date: "16 Aprel, 2026",
         category: "Tadbir",
         image: "/images/01.jpg",
         images: ["/images/01.jpg", "/images/02.jpg", "/images/03.jpg"],
-        desc: "Agentlik tomonidan rejalashtirilgan yangi loyihalar va ularning ta'lim tizimidagi ahamiyati tushuntirildi.",
+        desc: "Agentlik tomonidan rejalaştirilgan yangi loyihalar va ularning ta'lim tizimidagi ahamiyati tuşuntirildi.",
         content: `
-            <p>Respublika miqyosida o'tkazilgan matbuot anjumanida Ixtisoslashtirilgan ta'lim muassasalari agentligi vakillari 2026-yilda amalga oshiriladigan yangi loyihalar haqida so'z yuritdilar.</p>
-            <p>Asosiy e'tibor ta'lim sifatini xalqaro standartlarga muvofiqlashtirish, o'quvchilarning kreativ fikrlashini rivojlantirishga qaratilgan yangi o'quv dasturlarini joriy etishga qaratiladi.</p>
-            <p>Shuningdek, iqtidorli yoshlarni qo'llab-quvvatlash uchun qo'shimcha grantlar va xalqaro almashinuv dasturlari ko'paytirilishi ma'lum qilindi.</p>
+            <p>Respublika miqyosida ötkazilgan matbuot anjumanida Ixtisoslaştirilgan ta'lim muassasalari agentligi vakillari 2026-yilda amalga oşiriladigan yangi loyihalar haqida söz yuritdilar.</p>
+            <p>Asosiy e'tibor ta'lim sifatini xalqaro standartlarga muvofiqlaştiriş, öquvçilarning kreativ fikrlaşini rivojlantirişga qaratilgan yangi öquv dasturlarini joriy etişga qaratiladi.</p>
+            <p>Şuningdek, iqtidorli yoşlarni qöllab-quvvatlaş uçun qöşimça grantlar va xalqaro almaşinuv dasturlari köpaytirilişi ma'lum qilindi.</p>
         `
     },
     {
@@ -103,26 +103,26 @@ const rawNewsData = [
             "/images/6_14_05_2026.jpg",
             "/images/7_14_05_2026.jpg"
         ],
-        desc: "Termiz shahridagi Prezident maktabi o‘quvchilarini kasbga yo‘naltirish maqsadida “O‘zaeronavigatsiya” markaziga amaliy sayohat tashkil etildi.",
+        desc: "Termiz şahridagi Prezident maktabi öquvçilarini kasbga yönaltiriş maqsadida “Özaeronavigatsiya” markaziga amaliy sayohat taşkil etildi.",
         content: `
-            <p>Termiz shahridagi Prezident maktabi o‘quvchilarini kasbga yo‘naltirish va oliy ta’lim muassasalariga tayyorlash maqsadida “O‘zaeronavigatsiya” markazi DUK Havo harakatini boshqarish hududiy boshqarmasiga amaliy sayohat tashkil etildi.</p>
-            <p>Ekskursiyadan ko‘zlangan asosiy maqsad o‘quvchi-yoshlarga aviatsiya sohasi, aeronavigatsiya tizimi, zamonaviy texnologiyalar hamda ushbu yo‘nalishdagi kasb imkoniyatlari haqida tushuncha berishdan iborat bo‘ldi.</p>
-            <p>Mutaxassislar tomonidan aeronavigatsiya xizmatlari, parvozlar xavfsizligini ta’minlash jarayonlari, ishlatiladigan texnik vositalar hamda sohada talab yuqori bo‘lgan kasblar haqida batafsil ma’lumotlar berildi.</p>
+            <p>Termiz şahridagi Prezident maktabi öquvçilarini kasbga yönaltiriş va oliy ta’lim muassasalariga tayyorlaş maqsadida “Özaeronavigatsiya” markazi DUK Havo harakatini boşqariş hududiy boşqarmasiga amaliy sayohat taşkil etildi.</p>
+            <p>Ekskursiyadan közlangan asosiy maqsad öquvçi-yoşlarga aviatsiya sohasi, aeronavigatsiya tizimi, zamonaviy texnologiyalar hamda uşbu yönalişdagi kasb imkoniyatlari haqida tuşunça berişdan iborat böldi.</p>
+            <p>Mutaxassislar tomonidan aeronavigatsiya xizmatlari, parvozlar xavfsizligini ta’minlaş jarayonlari, işlatiladigan texnik vositalar hamda sohada talab yuqori bölgan kasblar haqida batafsil ma’lumotlar berildi.</p>
         `
     },
     {
         id: 7,
-        title: "Termiz shahridagi Prezident maktabida “Yoshlar kuni” tadbiri o'tkazildi",
+        title: "Termiz şahridagi Prezident maktabida “Yoşlar kuni” tadbiri ötkazildi",
         date: "25 Aprel, 2026",
-        category: "Tashrif",
+        category: "Taşrif",
         image: "/images/02.jpg",
         images: ["/images/02.jpg", "/images/01.jpg", "/images/03.jpg", "/images/04.jpg"],
-        desc: "Davra suhbati Surxondaryo viloyati IIB huzuridagi Qo‘riqlash xizmati rahbari va xodimlari ishtirokida, Amir Temur tavalludining 690 yilligiga bag‘ishlandi.",
+        desc: "Davra suhbati Surxondaryo viloyati IIB huzuridagi Qöriqlaş xizmati rahbari va xodimlari iştirokida, Amir Temur tavalludining 690 yilligiga bağişlandi.",
         content: `
-            <p>O‘zbekiston Respublikasi Prezidentining 2026-yil 24-fevraldagi yoshlar bilan muloqotida belgilangan topshiriqlariga muvofiq har haftaning payshanba kuni vazirlik va idoralarda “Yoshlar kuni” etib belgilangan edi.</p>
-            <p>Termiz shahridagi Prezident maktabida “Yoshlar kuni” munosabati tashkil etilgan Surxondaryo viloyati IIB huzuridagi Qo‘riqlash xizmati rahbari hamda xodimlari ishtirokidagi davra suhbati Amir Temur tavalludining 690 yilligiga bag‘ishlandi.</p>
-            <p>Uchrashuv davomida yoshlarga ichki ishlar organlariga xizmatga qabul qilish tartibi, mazkur yo‘nalishda o‘zlashtirish zarur bo‘lgan fanlar haqida ham to‘xtalib o‘tildi.</p>
-            <p>Tadbir yakunida yoshlar bilan ochiq muloqot o‘tkazilib, ularni qiziqtirgan savollariga batafsil javoblar berildi. Bu kabi uchrashuvlar yoshlarning ma’naviy-axloqiy tarbiyasini mustahkamlashda, vatanparvarlik ruhida voyaga yetishida muhim ahamiyat kasb etadi.</p>
+            <p>Özbekiston Respublikasi Prezidentining 2026-yil 24-fevraldagi yoşlar bilan muloqotida belgilangan topşiriqlariga muvofiq har haftaning payşanba kuni vazirlik va idoralarda “Yoşlar kuni” etib belgilangan edi.</p>
+            <p>Termiz şahridagi Prezident maktabida “Yoşlar kuni” munosabati taşkil etilgan Surxondaryo viloyati IIB huzuridagi Qöriqlaş xizmati rahbari hamda xodimlari iştirokidagi davra suhbati Amir Temur tavalludining 690 yilligiga bağişlandi.</p>
+            <p>Uçraşuv davomida yoşlarga içki işlar organlariga xizmatga qabul qiliş tartibi, mazkur yönalişda özlaştiriş zarur bölgan fanlar haqida ham töxtalib ötildi.</p>
+            <p>Tadbir yakunida yoşlar bilan oçiq muloqot ötkazilib, ularni qiziqtirgan savollariga batafsil javoblar berildi. Bu kabi uçraşuvlar yoşlarning ma’naviy-axloqiy tarbiyasini mustahkamlaşda, vatanparvarlik ruhida voyaga yetişida muhim ahamiyat kasb etadi.</p>
         `
     },
     {
@@ -132,43 +132,43 @@ const rawNewsData = [
         category: "E'lonlar",
         image: "/images/infografika.jpg",
         images: ["/images/infografika.jpg"],
-        desc: "Ixtisoslashtirilgan ta’lim muassasalari agentligi tizimidagi maktablarga ariza.piima.uz sayti orqali arizalar kelib tushmoqda.",
+        desc: "Ixtisoslaştirilgan ta’lim muassasalari agentligi tizimidagi maktablarga ariza.piima.uz sayti orqali arizalar kelib tuşmoqda.",
         content: `
-            <p>Ixtisoslashtirilgan ta’lim muassasalari agentligi tizimidagi maktablarga ariza.piima.uz sayti orqali arizalar kelib tushmoqda.</p>
-            <p>Ushbu arizalarning 19-may soat 11:00 holatidagi statistikasi bilan yuqoridagi infografikada tanishishingiz mumkin.</p>
+            <p>Ixtisoslaştirilgan ta’lim muassasalari agentligi tizimidagi maktablarga ariza.piima.uz sayti orqali arizalar kelib tuşmoqda.</p>
+            <p>Uşbu arizalarning 19-may soat 11:00 holatidagi statistikasi bilan yuqoridagi infografikada tanişişingiz mumkin.</p>
             <p><strong>Call-markaz: 1206</strong></p>
         `
     },
     {
         id: 10,
-        title: "“Yangi O‘zbekistonning iqtidorli farzandiman” ijodiy chellenji",
+        title: "“Yangi Özbekistonning iqtidorli farzandiman” ijodiy çellenji",
         date: "12 Avgust, 2026",
         category: "Tanlov",
         image: "/images/35_yillik.jpg",
         images: ["/images/35_yillik.jpg"],
-        desc: "Mustaqillikning 35 yilligi munosabati bilan “Yangi O‘zbekistonning iqtidorli farzandiman” ijodiy chellenji e’lon qilinadi.",
+        desc: "Mustaqillikning 35 yilligi munosabati bilan “Yangi Özbekistonning iqtidorli farzandiman” ijodiy çellenji e’lon qilinadi.",
         content: `
-            <p>Ixtisoslashtirilgan ta’lim muassasalari agentligi tashabbusi bilan Mustaqillikning 35 yilligi munosabati bilan “Yagona Vatan, yagona xalq bo‘lib, yangi hayot va kelajak yaratamiz!” shiori ostida “Yangi O‘zbekistonning iqtidorli farzandiman” ijodiy chellenji e’lon qilinadi.</p>
-            <p><strong>Chellenj quyidagi yo‘nalishlarda bo‘lib o‘tadi:</strong></p>
+            <p>Ixtisoslaştirilgan ta’lim muassasalari agentligi taşabbusi bilan Mustaqillikning 35 yilligi munosabati bilan “Yagona Vatan, yagona xalq bölib, yangi hayot va kelajak yaratamiz!” şiori ostida “Yangi Özbekistonning iqtidorli farzandiman” ijodiy çellenji e’lon qilinadi.</p>
+            <p><strong>Çellenj quyidagi yönalişlarda bölib ötadi:</strong></p>
             <ul>
-                <li>✅ #YagonaVatan35 chellenji — o‘quvchilarning Vatan haqidagi fikrlari, tabriklari va ezgu tilaklari;</li>
+                <li>✅ #YagonaVatan35 çellenji — öquvçilarning Vatan haqidagi fikrlari, tabriklari va ezgu tilaklari;</li>
                 <li>✅ “Mustaqillik menga nima berdi?” mavzusida 30–60 soniyalik videorolik;</li>
-                <li>✅ “Bir bayroq – bir yurak” fleshmobi;</li>
-                <li>✅ O‘quvchilar ijrosida Vatan haqidagi she’r yoki vatanparvarlik qo‘shig‘i;</li>
-                <li>✅ Mustaqillik aks etgan binolar va manzillarda rasmga tushish;</li>
-                <li>✅ “Mening maktabim – Yangi O‘zbekiston kelajagi” mavzusida ijodiy videorolik;</li>
-                <li>✅ Prezident, ijod, ixtisoslashtirilgan va sport maktablari yutuqlarini aks ettiruvchi motivatsion video;</li>
-                <li>✅ O‘qituvchi, ota-ona va bitiruvchilarning Mustaqillik haqidagi samimiy fikrlari jamlangan videorolik;</li>
-                <li>✅ Davlat ramzlariga hurmat, Vatanga sadoqat va milliy qadriyatlarni targ‘ib qiluvchi kreativ videolar.</li>
+                <li>✅ “Bir bayroq – bir yurak” fleşmobi;</li>
+                <li>✅ Öquvçilar ijrosida Vatan haqidagi şe’r yoki vatanparvarlik qöşiği;</li>
+                <li>✅ Mustaqillik aks etgan binolar va manzillarda rasmga tuşiş;</li>
+                <li>✅ “Mening maktabim – Yangi Özbekiston kelajagi” mavzusida ijodiy videorolik;</li>
+                <li>✅ Prezident, ijod, ixtisoslaştirilgan va sport maktablari yutuqlarini aks ettiruvçi motivatsion video;</li>
+                <li>✅ Öqituvçi, ota-ona va bitiruvçilarning Mustaqillik haqidagi samimiy fikrlari jamlangan videorolik;</li>
+                <li>✅ Davlat ramzlariga hurmat, Vatanga sadoqat va milliy qadriyatlarni tarğib qiluvçi kreativ videolar.</li>
             </ul>
-            <p><strong>Qatnashish uchun:</strong></p>
+            <p><strong>Qatnaşiş uçun:</strong></p>
             <ul>
-                <li>⚪️ O‘zingiz tanlagan yo‘nalishda ijodiy ish tayyorlang.</li>
-                <li>⚪️ Ishingizni Telegram yoki Instagram sahifangizga joylang.</li>
-                <li>⚪️ Postga #YagonaVatan35 heshtegini qo‘ying.</li>
+                <li>⚪️ Özingiz tanlagan yönalişda ijodiy iş tayyorlang.</li>
+                <li>⚪️ Işingizni Telegram yoki Instagram sahifangizga joylang.</li>
+                <li>⚪️ Postga #YagonaVatan35 heştegini qöying.</li>
             </ul>
-            <p>Eng muhimi — ijodingizni namoyon eting va “Yangi O‘zbekistonning iqtidorli farzandiman!” degan g‘oyani o‘z uslubingizda ifodalang!</p>
-            <p>🏆 Eng faol va kreativ ishtirokchilarning ijodiy ishlari e’tirof etilib, munosib taqdirlanadi.</p>
+            <p>Eng muhimi — ijodingizni namoyon eting va “Yangi Özbekistonning iqtidorli farzandiman!” degan ğoyani öz uslubingizda ifodalang!</p>
+            <p>🏆 Eng faol va kreativ iştirokçilarning ijodiy işlari e’tirof etilib, munosib taqdirlanadi.</p>
         `
     },
     {
@@ -179,10 +179,10 @@ const rawNewsData = [
         image: "/images/reklama.jpg",
         images: ["/images/reklama.jpg"],
         video: "/images/video2.mp4",
-        desc: "Termiz shahridagi Prezident maktabi jamoasi Oʻzbekiston Respublikasi mustaqilligining 35 yilligi munosabati bilan ijtimoiy rolik tayyorladi.",
+        desc: "Termiz şahridagi Prezident maktabi jamoasi Özbekiston Respublikasi mustaqilligining 35 yilligi munosabati bilan ijtimoiy rolik tayyorladi.",
         content: `
-            <p>Termiz shahridagi Prezident maktabi jamoasi Oʻzbekiston Respublikasi mustaqilligining 35 yilligi munosabati bilan ijtimoiy rolik tayyorladi.</p>
-            <p>Yurtimiz mustaqilligi, xalqimiz farovonligi, sarhadlarimiz daxlsizligiga hech qachon koʻz tegmasin. Istiqlolimiz abadiy boʻlsin.</p>
+            <p>Termiz şahridagi Prezident maktabi jamoasi Özbekiston Respublikasi mustaqilligining 35 yilligi munosabati bilan ijtimoiy rolik tayyorladi.</p>
+            <p>Yurtimiz mustaqilligi, xalqimiz farovonligi, sarhadlarimiz daxlsizligiga heç qaçon köz tegmasin. Istiqlolimiz abadiy bölsin.</p>
         `
     },
     {
@@ -193,13 +193,13 @@ const rawNewsData = [
         image: "/images/01.jpg",
         images: ["/images/01.jpg"],
         video: "/images/ustozlar_bayrami.mp4",
-        desc: "Termiz shahridagi Prezident maktabida erta tongdan 1-oktabr — O‘qituvchilar va murabbiylar kuni munosabati bilan bayramona kayfiyat hukm surdi.",
+        desc: "Termiz şahridagi Prezident maktabida erta tongdan 1-oktabr — Öqituvçilar va murabbiylar kuni munosabati bilan bayramona kayfiyat hukm surdi.",
         content: `
-            <p>Termiz shahridagi Prezident maktabida erta tongdan 1-oktabr — O‘qituvchilar va murabbiylar kuni munosabati bilan bayramona kayfiyat hukm surdi.</p>
-            <p>Ertalab o‘quvchilarimiz ustoz va murabbiylarni musiqa sadolari ostida ko‘tarinki kayfiyatda kutib oldilar. Samimiy tabriklar, chiroyli tilaklar va bayramona muhit ushbu kunni yanada unutilmas qildi.</p>
-            <p>Ustoz — qalblarga ilm va ma’rifat nurini olib kiruvchi, kelajak avlod tarbiyasiga beqiyos hissa qo‘shuvchi ulug‘ insondir.</p>
-            <p>Aziz ustozlar! Sizlarni 1-oktabr — O‘qituvchilar va murabbiylar kuni bilan chin qalbimizdan muborakbod etamiz!</p>
-            <p>Sizlarga mustahkam sog‘lik, oilaviy xotirjamlik, sharafli va mas’uliyatli faoliyatingizda ulkan zafarlar tilaymiz!</p>
+            <p>Termiz şahridagi Prezident maktabida erta tongdan 1-oktabr — Öqituvçilar va murabbiylar kuni munosabati bilan bayramona kayfiyat hukm surdi.</p>
+            <p>Ertalab öquvçilarimiz ustoz va murabbiylarni musiqa sadolari ostida kötarinki kayfiyatda kutib oldilar. Samimiy tabriklar, çiroyli tilaklar va bayramona muhit uşbu kunni yanada unutilmas qildi.</p>
+            <p>Ustoz — qalblarga ilm va ma’rifat nurini olib kiruvçi, kelajak avlod tarbiyasiga beqiyos hissa qöşuvçi uluğ insondir.</p>
+            <p>Aziz ustozlar! Sizlarni 1-oktabr — Öqituvçilar va murabbiylar kuni bilan çin qalbimizdan muborakbod etamiz!</p>
+            <p>Sizlarga mustahkam soğlik, oilaviy xotirjamlik, şarafli va mas’uliyatli faoliyatingizda ulkan zafarlar tilaymiz!</p>
         `
     },
     {
@@ -214,89 +214,89 @@ const rawNewsData = [
             "/images/durdona_2.jpg",
             "/images/durdona_3.jpg"
         ],
-        desc: "UNESCO tarixida ilk bor maktab o‘qituvchilari ta'lim vazirlari bilan bir qatorda panel sessiyalarida ishtirok etishdi. O‘zbekistonlik ustoz Durdona Boynazarova jahon pedagoglari nomidan so‘zga chiqdi.",
+        desc: "UNESCO tarixida ilk bor maktab öqituvçilari ta'lim vazirlari bilan bir qatorda panel sessiyalarida iştirok etişdi. Özbekistonlik ustoz Durdona Boynazarova jahon pedagoglari nomidan sözga çiqdi.",
         content: `
-            <p><b>UNESCO tarixida ilk bor ustozlar vazirlar panelida: o‘zbekistonlik o‘qituvchi jahon pedagoglari nomidan so‘zga chiqdi</b></p>
-            <p>Joriy yilning 8-11-sentabr kunlari Fransiyaning Parij shahrida “Sun’iy intellekt davrida ta’lim: Faktlar, muammolar, yangi ufqlar" mavzusida YUNESKOning Raqamli ta’lim haftaligi — 2026 bo‘lib o‘tdi.</p>
-            <p>Unda dunyoning qator mamlakatlaridan kelgan pedagoglar, ekspertlar va ta‘lim sohasi xodimlari, xususan ISHONCH — Vision 2030 loyihasi mentorlari ishtirok etishdi.</p>
-            <p>Tadbirlar davomida sun‘iy intellekt, raqamli ta‘lim va kelgusi rejalarga bag‘ishlangan muhokamalar bo‘lib o‘tdi.</p>
-            <p>Unda O‘zbekiston delegatsiyasi vakillari so‘zga chiqib, ta'limdagi yangi tendensiyalar, sohada raqamli texnologiyalardan foydalanish, shuningdek, mamlakatimizda amalga oshirilayotgan islohotlar, ta‘limga e‘tibor va ta‘limda sun‘iy intellekt yo‘nalishidagi tajribalar haqida so‘z yuritishdi.</p>
-            <p>Ta‘kidlash joiz: 15 yildan beri UNESCOning Parijdagi Bosh qarorgohida o‘tkazib kelinayotgan Raqamli ta’lim haftaligi tarixida ilk bor maktab o‘qituvchilari ta'lim vazirlari bilan bir qatorda panel sessiyalarida ishtirok etishdi.</p>
-            <p>Bunda o‘zbekistonlik ustoz — Durdona Boynazarova butun dunyo ustozlari nomidan so’zga chiqib, ta’limda sun’iy intellekt, bu boradagi siyosatni ishlab chiqishda ustozlarning roli haqida so‘z yuritdi.</p>
-            <p>Shuningdek, Behruz Ruziyev va Sevara Shamsiyevalar tadbirda o‘z taqdimotlari bilan qatnashishdi.</p>
+            <p><b>UNESCO tarixida ilk bor ustozlar vazirlar panelida: özbekistonlik öqituvçi jahon pedagoglari nomidan sözga çiqdi</b></p>
+            <p>Joriy yilning 8-11-sentabr kunlari Fransiyaning Parij şahrida “Sun’iy intellekt davrida ta’lim: Faktlar, muammolar, yangi ufqlar" mavzusida YUNESKOning Raqamli ta’lim haftaligi — 2026 bölib ötdi.</p>
+            <p>Unda dunyoning qator mamlakatlaridan kelgan pedagoglar, ekspertlar va ta‘lim sohasi xodimlari, xususan IŞONÇ — Vision 2030 loyihasi mentorlari iştirok etişdi.</p>
+            <p>Tadbirlar davomida sun‘iy intellekt, raqamli ta‘lim va kelgusi rejalarga bağişlangan muhokamalar bölib ötdi.</p>
+            <p>Unda Özbekiston delegatsiyasi vakillari sözga çiqib, ta'limdagi yangi tendensiyalar, sohada raqamli texnologiyalardan foydalaniş, şuningdek, mamlakatimizda amalga oşirilayotgan islohotlar, ta‘limga e‘tibor va ta‘limda sun‘iy intellekt yönalişidagi tajribalar haqida söz yuritişdi.</p>
+            <p>Ta‘kidlaş joiz: 15 yildan beri UNESCOning Parijdagi Boş qarorgohida ötkazib kelinayotgan Raqamli ta’lim haftaligi tarixida ilk bor maktab öqituvçilari ta'lim vazirlari bilan bir qatorda panel sessiyalarida iştirok etişdi.</p>
+            <p>Bunda özbekistonlik ustoz — Durdona Boynazarova butun dunyo ustozlari nomidan sözga çiqib, ta’limda sun’iy intellekt, bu boradagi siyosatni işlab çiqişda ustozlarning roli haqida söz yuritdi.</p>
+            <p>Şuningdek, Behruz Ruziyev va Sevara Şamsiyevalar tadbirda öz taqdimotlari bilan qatnaşişdi.</p>
         `
     },
     {
         id: 14,
-        title: "Chavondozlik mahorat maktabi bilan hamkorlik",
+        title: "Çavondozlik mahorat maktabi bilan hamkorlik",
         date: "11 Sentyabr, 2026",
         category: "Hamkorlik",
         image: "/images/ot_0.jpg",
         images: ["/images/ot_0.jpg"],
         video: "/images/video3.mp4",
-        desc: "Termiz shahridagi Prezident maktabi Chavandozlik mahorat maktabi hamda Turon yakka kurash federatsiyalari bilan hamkorlik aloqalarini yo‘lga qo‘ydi.",
+        desc: "Termiz şahridagi Prezident maktabi Çavandozlik mahorat maktabi hamda Turon yakka kuraş federatsiyalari bilan hamkorlik aloqalarini yölga qöydi.",
         content: `
-            <p>Termiz shahridagi Prezident maktabi Chavandozlik mahorat maktabi hamda Turon yakka kurash federatsiyalari bilan tuzilgan hamkorlikdan videolavha.</p>
+            <p>Termiz şahridagi Prezident maktabi Çavandozlik mahorat maktabi hamda Turon yakka kuraş federatsiyalari bilan tuzilgan hamkorlikdan videolavha.</p>
             <p>Bizni kuzatib boring!</p>
         `
     },
     {
         id: 15,
-        title: "Ta'lim sohasidagi islohotlar: “Ta’limga bekorga eng ishongan kadrimni olib kelmadim” — Shavkat Mirziyoyev",
+        title: "Ta'lim sohasidagi islohotlar: “Ta’limga bekorga eng işongan kadrimni olib kelmadim” — Şavkat Mirziyoyev",
         date: "12 Oktyabr, 2026",
         category: "Islohotlar",
         image: "/images/yangilik_0.jpg",
         images: ["/images/yangilik_0.jpg"],
-        desc: "Prezident Yangi Toshkentda o‘tkazilgan uchrashuv davomida Bosh vazirning birinchi o‘rinbosari — ta’lim va ilm-fan vaziri haqida to‘xtalib o‘tdi.",
+        desc: "Prezident Yangi Toşkentda ötkazilgan uçraşuv davomida Boş vazirning birinçi örinbosari — ta’lim va ilm-fan vaziri haqida töxtalib ötdi.",
         content: `
-            <p>❗️<b>“Ta’limga bekorga eng ishongan kadrimni olib kelmadim” — Shavkat Mirziyoyev</b></p>
-            <p>Prezident Yangi Toshkentda o‘tkazilgan uchrashuv davomida O‘zbekiston Respublikasi Bosh vazirining birinchi o‘rinbosari — ta’lim va ilm-fan vaziri Erkinjon Turdimov haqida to‘xtalib o‘tdi. Bu haqda tadbirda ishtirok etgan “Daryo” muxbiri <a href="https://t.me/daryo_live/148051" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">xabar berdi</a>.</p>
-            <p>“Son ko‘paydi, sifat esa kam. Bundan keyin har bir universitet kim uchun qanday kadr tayyorlashini o‘zi uchun aniq belgilab olishi kerak. To‘rtta viloyatga hokim bo‘lgan odamni Ta’lim vazirligiga bekorga olib kelmadim”, — dedi prezident.</p>
+            <p>❗️<b>“Ta’limga bekorga eng işongan kadrimni olib kelmadim” — Şavkat Mirziyoyev</b></p>
+            <p>Prezident Yangi Toşkentda ötkazilgan uçraşuv davomida Özbekiston Respublikasi Boş vazirining birinçi örinbosari — ta’lim va ilm-fan vaziri Erkinjon Turdimov haqida töxtalib ötdi. Bu haqda tadbirda iştirok etgan “Daryo” muxbiri <a href="https://t.me/daryo_live/148051" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">xabar berdi</a>.</p>
+            <p>“Son köpaydi, sifat esa kam. Bundan keyin har bir universitet kim uçun qanday kadr tayyorlaşini özi uçun aniq belgilab olişi kerak. Törtta viloyatga hokim bölgan odamni Ta’lim vazirligiga bekorga olib kelmadim”, — dedi prezident.</p>
         `
     },
     {
         id: 16,
-        title: "«OVOZ» — G‘oyalar minbari loyihasi uchun ro‘yxatdan o‘tish boshlandi",
+        title: "«OVOZ» — Ğoyalar minbari loyihasi uçun röyxatdan ötiş boşlandi",
         date: "13 Oktyabr, 2026",
         category: "Loyiha",
         image: "/images/yangilik_1.jpg",
         images: ["/images/yangilik_1.jpg"],
-        desc: "Ixtisoslashtirilgan ta'lim muassasalari agentligi tizimida o‘quvchilar uchun «OVOZ» intellektual ma’ruzalar loyihasi uchun ro‘yxatdan o‘tish boshlandi.",
+        desc: "Ixtisoslaştirilgan ta'lim muassasalari agentligi tizimida öquvçilar uçun «OVOZ» intellektual ma’ruzalar loyihasi uçun röyxatdan ötiş boşlandi.",
         content: `
-            <p>Ixtisoslashtirilgan ta'lim muassasalari agentligi tizimida o‘quvchilarning intellektual salohiyati, mustaqil fikrlashi va notiqlik mahoratini rivojlantirishga qaratilgan «OVOZ» intellektual ma’ruzalar loyihasi uchun ro‘yxatdan o‘tish boshlandi. TED va TED-Ed formatlaridan ilhomlangan loyiha yoshlarning dolzarb masalalar yuzasidan o‘z qarashlarini erkin ifoda etishi, yangi g‘oyalarni ilgari surishi va ularni keng auditoriyaga yetkazishi uchun imkoniyat yaratadi.</p>
-            <p>Ishtirokchilar raqamli texnologiyalar va innovatsiyalar, tarix va shaxsiyat, shaxsiy qarashlar hamda jamiyat va maktab hayotiga oid yo‘nalishlarda o‘z g‘oyalarini taqdim etishlari mumkin. Loyihaning asosiy maqsadi — yoshlarning fikrlash madaniyati, nutq ko‘nikmalari va o‘z g‘oyalarini asosli ravishda ifoda etish qobiliyatini rivojlantirish, shuningdek, ularning tashabbuslarini qo‘llab-quvvatlashdir.</p>
-            <p>Ro‘yxatdan o‘tish 17-oktabrga qadar davom etadi. Ishtirok etish shartlari va barcha talablar bilan quyidagi <a href="https://ovoz.prteam.uz/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-semibold">havola</a> orqali tanishish mumkin.</p>
-            <p>Qo‘shimcha ma’lumot uchun: <b>@ovozadm1n</b></p>
+            <p>Ixtisoslaştirilgan ta'lim muassasalari agentligi tizimida öquvçilarning intellektual salohiyati, mustaqil fikrlaşi va notiqlik mahoratini rivojlantirişga qaratilgan «OVOZ» intellektual ma’ruzalar loyihasi uçun röyxatdan ötiş boşlandi. TED va TED-Ed formatlaridan ilhomlangan loyiha yoşlarning dolzarb masalalar yuzasidan öz qaraşlarini erkin ifoda etişi, yangi ğoyalarni ilgari surişi va ularni keng auditoriyaga yetkazişi uçun imkoniyat yaratadi.</p>
+            <p>Iştirokçilar raqamli texnologiyalar va innovatsiyalar, tarix va şaxsiyat, şaxsiy qaraşlar hamda jamiyat va maktab hayotiga oid yönalişlarda öz ğoyalarini taqdim etişlari mumkin. Loyihaning asosiy maqsadi — yoşlarning fikrlaş madaniyati, nutq könikmalari va öz ğoyalarini asosli ravişda ifoda etiş qobiliyatini rivojlantiriş, şuningdek, ularning taşabbuslarini qöllab-quvvatlaşdir.</p>
+            <p>Röyxatdan ötiş 17-oktabrga qadar davom etadi. Iştirok etiş şartlari va barça talablar bilan quyidagi <a href="https://ovoz.prteam.uz/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-semibold">havola</a> orqali tanişiş mumkin.</p>
+            <p>Qöşimça ma’lumot uçun: <b>@ovozadm1n</b></p>
         `
     },
     {
         id: 17,
-        title: "“Rahbar kubogi” sport musobaqasining Surxondaryo viloyati bosqichi bo‘lib o‘tdi",
+        title: "“Rahbar kubogi” sport musobaqasining Surxondaryo viloyati bosqiçi bölib ötdi",
         date: "13 Oktyabr, 2026",
         category: "Sport",
         image: "/images/school.jpg",
         images: ["/images/school.jpg"],
         video: "/images/video4.mp4",
-        desc: "Termiz shahridagi Prezident maktabida Ixtisoslashtirilgan ta’lim muassasalari agentligi tizimidagi maktablar o‘rtasida “Rahbar kubogi” sport musobaqasi o‘tkazildi.",
+        desc: "Termiz şahridagi Prezident maktabida Ixtisoslaştirilgan ta’lim muassasalari agentligi tizimidagi maktablar örtasida “Rahbar kubogi” sport musobaqasi ötkazildi.",
         content: `
-            <p>Ixtisoslashtirilgan ta’lim muassasalari agentligi tizimidagi Termiz shahridagi Prezident maktabida Ixtisoslashtirilgan ta’lim muassasalari agentligi tizimidagi maktablar o‘rtasida <b>“Rahbar kubogi”</b> sport musobaqasining Surxondaryo viloyati bosqichi bo‘lib o‘tdi.</p>
-            <p>Ushbu nufuzli sport musobaqasida o‘quvchilar sportning bir qancha turlari bo‘yicha o‘z mahorat va chaqqonliklarini namoyish etib, o‘zaro bellashdilar.</p>
+            <p>Ixtisoslaştirilgan ta’lim muassasalari agentligi tizimidagi Termiz şahridagi Prezident maktabida Ixtisoslaştirilgan ta’lim muassasalari agentligi tizimidagi maktablar örtasida <b>“Rahbar kubogi”</b> sport musobaqasining Surxondaryo viloyati bosqiçi bölib ötdi.</p>
+            <p>Uşbu nufuzli sport musobaqasida öquvçilar sportning bir qança turlari böyiça öz mahorat va çaqqonliklarini namoyiş etib, özaro bellaşdilar.</p>
         `
     },
     {
         id: 18,
-        title: "Termiz garnizoni harbiy xizmatchisi bilan “Uch avlod uchrashuvi” tadbiri bo‘lib o‘tdi",
+        title: "Termiz garnizoni harbiy xizmatçisi bilan “Uç avlod uçraşuvi” tadbiri bölib ötdi",
         date: "13 Oktyabr, 2026",
         category: "Tadbir",
         image: "/images/school.jpg",
         images: ["/images/school.jpg"],
         video: "/images/video5.mp4",
-        desc: "Termiz shahridagi Prezident maktabida Termiz garnizoni harbiy xizmatchisi, faxriylar hamda o‘quvchi-yoshlar ishtirokida “Uch avlod uchrashuvi” tadbiri bo‘lib o‘tdi.",
+        desc: "Termiz şahridagi Prezident maktabida Termiz garnizoni harbiy xizmatçisi, faxriylar hamda öquvçi-yoşlar iştirokida “Uç avlod uçraşuvi” tadbiri bölib ötdi.",
         content: `
-            <p>Termiz shahridagi Prezident maktabida Termiz garnizoni harbiy xizmatchisi, faxriylar hamda o‘quvchi-yoshlar ishtirokida <b>“Uch avlod uchrashuvi”</b> tadbiri bo‘lib o‘tdi.</p>
-            <p>Samimiy muloqot va o‘zaro tajriba almashish ruhida o‘tgan uchrashuvda faxriylar mustaqillik yillarida mamlakatimiz erishgan yutuqlar, boy hayotiy tajribalari hamda samarali mehnat faoliyati haqida so‘zlab berdilar.</p>
-            <p>Shuningdek, yosh avlod vakillariga chuqur bilim olish, zamonaviy kasb-hunarlarni puxta egallash, yurt ravnaqi yo‘lida munosib hissa qo‘shish va Vatanga sadoqatli farzand bo‘lib kamol topish yuzasidan qimmatli tavsiyalar berildi.</p>
-            <p>Bunday uchrashuvlar avlodlar o‘rtasidagi mehr-oqibat, hurmat va hamjihatlikni mustahkamlash, yoshlarda milliy qadriyatlarga sadoqat hamda vatanparvarlik tuyg‘ularini yanada yuksaltirishga xizmat qiladi.</p>
+            <p>Termiz şahridagi Prezident maktabida Termiz garnizoni harbiy xizmatçisi, faxriylar hamda öquvçi-yoşlar iştirokida <b>“Uç avlod uçraşuvi”</b> tadbiri bölib ötdi.</p>
+            <p>Samimiy muloqot va özaro tajriba almaşiş ruhida ötgan uçraşuvda faxriylar mustaqillik yillarida mamlakatimiz erişgan yutuqlar, boy hayotiy tajribalari hamda samarali mehnat faoliyati haqida sözlab berdilar.</p>
+            <p>Şuningdek, yoş avlod vakillariga çuqur bilim oliş, zamonaviy kasb-hunarlarni puxta egallaş, yurt ravnaqi yölida munosib hissa qöşiş va Vatanga sadoqatli farzand bölib kamol topiş yuzasidan qimmatli tavsiyalar berildi.</p>
+            <p>Bunday uçraşuvlar avlodlar örtasidagi mehr-oqibat, hurmat va hamjihatlikni mustahkamlaş, yoşlarda milliy qadriyatlarga sadoqat hamda vatanparvarlik tuyğularini yanada yuksaltirişga xizmat qiladi.</p>
         `
     },
     {
@@ -306,23 +306,23 @@ const rawNewsData = [
         category: "Tanlov",
         image: "/images/yangilik_3.jpg",
         images: ["/images/yangilik_3.jpg"],
-        desc: "Termiz shahridagi Prezident maktabida an’anaviy “Zukko kitobxon” tanlovining yangi mavsum saralash bosqichiga start berildi.",
+        desc: "Termiz şahridagi Prezident maktabida an’anaviy “Zukko kitobxon” tanlovining yangi mavsum saralaş bosqiçiga start berildi.",
         content: `
             <blockquote class="italic text-slate-600 border-l-4 border-[#0088cc] pl-4 my-3 bg-slate-50 py-2.5 rounded-r">
-                Agar yolg'iz esang, hamdam kitobdir,<br/>
+                Agar yolğiz esang, hamdam kitobdir,<br/>
                 Bilim subhidagi nur ham kitobdir.<br/>
                 <span class="text-xs font-semibold not-italic block mt-1.5 text-slate-500">— Abdurahmon Jomiy</span>
             </blockquote>
-            <p>Termiz shahridagi Prezident maktabida <b>“Zukko kitobxon”</b> tanlovining yangi mavsumiga start berildi!</p>
-            <p>Har yili o‘tkazilishi an’anaga aylangan ushbu tanlovda faol ishtirok etish uchun barcha kitobxon, zukko yoshlarimizni chorlab qolamiz.</p>
-            <p>Tanlovning joriy mavsum saralash bosqichiga <b>19-noyabr</b> kuni start beriladi.</p>
+            <p>Termiz şahridagi Prezident maktabida <b>“Zukko kitobxon”</b> tanlovining yangi mavsumiga start berildi!</p>
+            <p>Har yili ötkazilişi an’anaga aylangan uşbu tanlovda faol iştirok etiş uçun barça kitobxon, zukko yoşlarimizni çorlab qolamiz.</p>
+            <p>Tanlovning joriy mavsum saralaş bosqiçiga <b>19-noyabr</b> kuni start beriladi.</p>
             <div class="my-4">
                 <a href="https://telegra.ph/Termiz-shahridagi-Prezident-maktabida-otkaziladigan-Zukko-kitobxon-tanlovi-nizomi-10-09" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-white bg-[#0088cc] hover:bg-[#0077b3] px-4 py-2.5 rounded-xl font-semibold text-sm transition-all shadow-sm hover:shadow">
-                    Tanlov nizomi bilan tanishing ➡️
+                    Tanlov nizomi bilan tanişing ➡️
                 </a>
             </div>
             <div class="mt-6 pt-4 border-t border-slate-100">
-                <p class="font-semibold text-slate-800 mb-2">Termiz shahridagi Prezident maktabining rasmiy ijtimoiy tarmoq sahifalari:</p>
+                <p class="font-semibold text-slate-800 mb-2">Termiz şahridagi Prezident maktabining rasmiy ijtimoiy tarmoq sahifalari:</p>
                 <div class="flex flex-wrap items-center gap-3 text-sm">
                     <a href="http://t.me/pmtermiz" target="_blank" rel="noopener noreferrer" class="text-[#0088cc] hover:underline font-semibold flex items-center gap-1">
                         Telegram
@@ -342,32 +342,68 @@ const rawNewsData = [
     },
     {
         id: 20,
-        title: "O‘zbekiston Respublikasi Prezidenti Farmoni: Ta’lim va ilm-fan vaziri lavozimi kiritildi",
+        title: "Özbekiston Respublikasi Prezidenti Farmoni: Ta’lim va ilm-fan vaziri lavozimi kiritildi",
         date: "13 Oktyabr, 2026",
-        isToday: true,
         category: "Islohotlar",
         image: "/images/yangilik_4.jpg",
         images: ["/images/yangilik_4.jpg", "/images/durdona_0.jpg", "/images/durdona_1.jpg"],
-        desc: "O‘zbekiston Respublikasi Prezidentining “O‘zbekiston Respublikasi Vazirlar Mahkamasining ijro etuvchi tuzilmasini yanada takomillashtirish chora-tadbirlari to‘g‘risida”gi Farmoni qabul qilindi.",
+        desc: "Özbekiston Respublikasi Prezidentining “Özbekiston Respublikasi Vazirlar Mahkamasining ijro etuvçi tuzilmasini yanada takomillaştiriş çora-tadbirlari töğrisida”gi Farmoni qabul qilindi.",
         content: `
-            <p>✅ O‘zbekiston Respublikasi Prezidentining <b>“O‘zbekiston Respublikasi Vazirlar Mahkamasining ijro etuvchi tuzilmasini yanada takomillashtirish chora-tadbirlari to‘g‘risida”</b>gi Farmoni qabul qilindi. Unga ko‘ra, Vazirlar Mahkamasi ijro etuvchi tuzilmasida:</p>
+            <p>✅ Özbekiston Respublikasi Prezidentining <b>“Özbekiston Respublikasi Vazirlar Mahkamasining ijro etuvçi tuzilmasini yanada takomillaştiriş çora-tadbirlari töğrisida”</b>gi Farmoni qabul qilindi. Unga köra, Vazirlar Mahkamasi ijro etuvçi tuzilmasida:</p>
             <ul class="list-disc pl-5 space-y-1.5 my-3 text-slate-700">
-                <li>O‘zbekiston Respublikasi Bosh vazirining birinchi o‘rinbosari — ta’lim va ilm-fan vaziri lavozimi kiritildi;</li>
-                <li>12 nafar shtat birligidan iborat bo‘lgan Ta’lim, ilm-fan va sog‘liqni saqlash masalalari kotibiyati tashkil qilindi.</li>
+                <li>Özbekiston Respublikasi Boş vazirining birinçi örinbosari — ta’lim va ilm-fan vaziri lavozimi kiritildi;</li>
+                <li>12 nafar ştat birligidan iborat bölgan Ta’lim, ilm-fan va soğliqni saqlaş masalalari kotibiyati taşkil qilindi.</li>
             </ul>
-            <p class="font-semibold text-slate-800 mt-4">👉 Vazirlar Mahkamasi Ta’lim, ilm-fan va sog‘liqni saqlash masalalari kotibiyatining:</p>
+            <p class="font-semibold text-slate-800 mt-4">👉 Vazirlar Mahkamasi Ta’lim, ilm-fan va soğliqni saqlaş masalalari kotibiyatining:</p>
             <ul class="list-disc pl-5 space-y-1.5 my-2 text-slate-700">
-                <li>5 ta shtat birligi — Vazirlar Mahkamasining Ijtimoiy rivojlanish masalalari bo‘limi hisobidan;</li>
-                <li>7 ta shtat birligi — qayta tashkil etilgan Maktabgacha va maktab ta’limi vazirligi hamda Oliy ta’lim, fan va innovatsiyalar vazirligining shtat birliklarini maqbullashtirish hisobidan shakllantiriladi.</li>
+                <li>5 ta ştat birligi — Vazirlar Mahkamasining Ijtimoiy rivojlaniş masalalari bölimi hisobidan;</li>
+                <li>7 ta ştat birligi — qayta taşkil etilgan Maktabgaça va maktab ta’limi vazirligi hamda Oliy ta’lim, fan va innovatsiyalar vazirligining ştat birliklarini maqbullaştiriş hisobidan şakllantiriladi.</li>
             </ul>
-            <p class="font-semibold text-slate-800 mt-4">👉 Farmonga ko‘ra:</p>
-            <p>Bosh vazirning birinchi o‘rinbosari — ta’lim va ilm-fan vaziri respublika ijro etuvchi hokimiyat organlari — vazirliklar, qo‘mitalar, agentliklar va inspeksiyalar rahbarlari hamda Qoraqalpog‘iston Respublikasi Vazirlar Kengashi Raisi, viloyatlar va Toshkent shahar hokimlarining ta’lim, ilm-fan va sog‘liqni saqlash sohalarida zimmasiga yuklatilgan vazifa va funksiyalarni amalga oshirish bo‘yicha faoliyatiga vakolati doirasida umumiy rahbarlik qiladi, ularni muvofiqlashtiradi.</p>
+            <p class="font-semibold text-slate-800 mt-4">👉 Farmonga köra:</p>
+            <p>Boş vazirning birinçi örinbosari — ta’lim va ilm-fan vaziri respublika ijro etuvçi hokimiyat organlari — vazirliklar, qömitalar, agentliklar va inspeksiyalar rahbarlari hamda Qoraqalpoğiston Respublikasi Vazirlar Kengaşi Raisi, viloyatlar va Toşkent şahar hokimlarining ta’lim, ilm-fan va soğliqni saqlaş sohalarida zimmasiga yuklatilgan vazifa va funksiyalarni amalga oşiriş böyiça faoliyatiga vakolati doirasida umumiy rahbarlik qiladi, ularni muvofiqlaştiradi.</p>
             <div class="mt-5 p-4 bg-blue-50/80 border border-blue-200/80 rounded-xl">
                 <a href="https://lex.uz/uz/pdfs/8530785" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-[#0088cc] hover:text-[#006699] font-bold text-sm md:text-base transition-colors hover:underline">
                     <span class="material-symbols-outlined text-[22px]">description</span>
-                    👉 Farmonning to‘liq matni bilan tanishing (lex.uz)
+                    👉 Farmonning töliq matni bilan tanişing (lex.uz)
                 </a>
             </div>
+        `
+    },
+    {
+        id: 21,
+        title: "Prezident maktablari tarixida ilk mukofot",
+        date: "11 Noyabr, 2026",
+        category: "Mukofot",
+        image: "/images/prezident00.jpg",
+        images: ["/images/prezident00.jpg", "/images/prezident01.jpg", "/images/prezident02.jpg", "/images/prezident03.jpg"],
+        video: "/images/video6.mp4",
+        desc: "Prezident maktablari tarixida ilk bor: Bir guruh öquvçilar nufuzli “Outstanding Pearson Learner Awards” xalqaro mukofotiga sazovor böldi.",
+        content: `
+            <p>Prezident maktablari tarixida ilk bor: Bir guruh öquvçilar nufuzli <b>“Outstanding Pearson Learner Awards”</b> xalqaro mukofotiga <a href="https://t.me/piimauz/33321" target="_blank" rel="noopener noreferrer" class="text-[#0088cc] hover:underline font-semibold">sazovor böldi</a>.</p>
+        `
+    },
+    {
+        id: 22,
+        title: "MADANIYAT — DUNYONI BIRLAŞTIRUVÇI KÖPRIK!",
+        date: "11 Noyabr, 2026",
+        isToday: true,
+        category: "Madaniyat",
+        image: "/images/11_02.jpg",
+        images: [
+            "/images/11_02.jpg",
+            "/images/11_01.jpg",
+            "/images/11_03.jpg",
+            "/images/11_04.jpg",
+            "/images/11_05.jpg",
+            "/images/11_06.jpg",
+            "/images/11_07.jpg",
+            "/images/11_08.jpg"
+        ],
+        desc: "Termiz şahridagi Prezident maktabining 9-sinf öquvçilari iştirokida zamonaviy yondaşuv fanidan “Tradition, Culture and Identity” (An’ana, madaniyat va özlik) mavzusi doirasida “Cultural Exhibition” — Madaniyatlar körgazmasi taşkil etildi.",
+        content: `
+            <p>Termiz şahridagi Prezident maktabining 9-sinf öquvçilari iştirokida zamonaviy yondaşuv fanidan <b>“Tradition, Culture and Identity”</b> (An’ana, madaniyat va özlik) mavzusi doirasida <b>“Cultural Exhibition”</b> — Madaniyatlar körgazmasi taşkil etildi.</p>
+            <p>Tadbir davomida öquvçilar jamoalarga bölinib, özlari tanlagan xalqlar va mamlakatlar madaniyatini namoyiş etdilar. Har bir jamoa öz taqdimotlari orqali turli xalqlarning milliy liboslari, an’anaviy taomlari, musiqa va raqslari, tarixiy obidalari, anʼana va urf-odatlari haqida qiziqarli ma’lumotlar bilan örtoqlaşdi.</p>
+            <p>Körgazma öquvçilarga nafaqat turli xalqlarning boy madaniy merosi bilan yaqindan tanişiş, balki özaro hurmat, bağrikenglik va madaniyatlararo muloqot könikmalarini rivojlantiriş imkonini ham berdi.</p>
         `
     }
 ];

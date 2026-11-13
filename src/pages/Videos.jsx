@@ -4,8 +4,17 @@ import { getAssetPath } from '../utils/assets';
 
 const videoData = [
     {
+        id: 11,
+        title: "Prezident maktablari tarixida ilk mukofot",
+        date: "2026-11-11T10:00:00",
+        duration: "01:30",
+        thumbnail: "/images/prezident00.jpg",
+        video: "/images/video6.mp4",
+        views: "1.5k"
+    },
+    {
         id: 10,
-        title: "Termiz garnizoni harbiy xizmatchisi bilan “Uch avlod uchrashuvi” tadbiri bo‘lib o‘tdi",
+        title: "Termiz garnizoni harbiy xizmatçisi bilan “Uç avlod uçraşuvi” tadbiri bölib ötdi",
         date: "2026-10-13T10:00:00",
         duration: "02:10",
         thumbnail: "/images/school.jpg",
@@ -14,7 +23,7 @@ const videoData = [
     },
     {
         id: 9,
-        title: "“Rahbar kubogi” sport musobaqasining Surxondaryo viloyati bosqichi bo‘lib o‘tdi",
+        title: "“Rahbar kubogi” sport musobaqasining Surxondaryo viloyati bosqiçi bölib ötdi",
         date: "2026-10-13T09:00:00",
         duration: "01:45",
         thumbnail: "/images/school.jpg",
@@ -23,7 +32,7 @@ const videoData = [
     },
     {
         id: 8,
-        title: "Chavondozlik mahorat maktabi bilan hamkorlik",
+        title: "Çavondozlik mahorat maktabi bilan hamkorlik",
         date: "2026-09-11T10:00:00",
         duration: "01:30",
         thumbnail: "/images/ot_0.jpg",
@@ -50,7 +59,7 @@ const videoData = [
     },
     {
         id: 1,
-        title: "Prezident maktabida Navro'z shodiyonasi",
+        title: "Prezident maktabida Navröz şodiyonasi",
         date: "2026-04-21T10:30:00",
         duration: "03:45",
         thumbnail: "/images/01.jpg",
@@ -58,7 +67,7 @@ const videoData = [
     },
     {
         id: 2,
-        title: "Xalqaro matematika olimpiadasi g'oliblari taqdirlandi",
+        title: "Xalqaro matematika olimpiadasi ğoliblari taqdirlandi",
         date: "2026-04-18T14:20:00",
         duration: "05:12",
         thumbnail: "/images/02.jpg",
@@ -66,7 +75,7 @@ const videoData = [
     },
     {
         id: 3,
-        title: "Maktabimizda 'Zakovat' intellektual o'yini final bosqichi",
+        title: "Maktabimizda 'Zakovat' intellektual öyini final bosqiçi",
         date: "2026-04-15T09:00:00",
         duration: "12:30",
         thumbnail: "/images/03.jpg",
@@ -74,7 +83,7 @@ const videoData = [
     },
     {
         id: 4,
-        title: "Ingliz tili haftaligi doirasida tashkil etilgan tadbirlar",
+        title: "Ingliz tili haftaligi doirasida taşkil etilgan tadbirlar",
         date: "2026-04-10T16:45:00",
         duration: "04:20",
         thumbnail: "/images/04.jpg",
@@ -82,7 +91,7 @@ const videoData = [
     },
     {
         id: 5,
-        title: "Sport musobaqalari: Futbol bo'yicha maktab birinchiligi",
+        title: "Sport musobaqalari: Futbol böyiça maktab birinçiligi",
         date: "2026-04-05T11:15:00",
         duration: "08:15",
         thumbnail: "/images/01.jpg",
@@ -108,7 +117,7 @@ export default function Videos() {
                 <div className="flex-1 space-y-8">
                     <div className="border-b-2 border-slate-200 pb-4">
                         <h1 className="text-3xl font-black text-[#004c91] uppercase tracking-tight">Videolar</h1>
-                        <p className="text-slate-500 mt-2">Maktab hayotiga oid eng so'nggi video lavhalar.</p>
+                        <p className="text-slate-500 mt-2">Maktab hayotiga oid eng sönggi video lavhalar.</p>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -144,7 +153,7 @@ export default function Videos() {
                                         </span>
                                         <span className="flex items-center gap-1">
                                             <span className="material-symbols-outlined text-[16px]">visibility</span>
-                                            {video.views} ko'rildi
+                                            {video.views} körildi
                                         </span>
                                     </div>
                                 </div>
@@ -176,7 +185,7 @@ export default function Videos() {
                             <button 
                                 onClick={() => setSelectedVideo(null)}
                                 className="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 text-slate-300 hover:text-white flex items-center justify-center transition-all cursor-pointer border border-white/10"
-                                aria-label="Yopish"
+                                aria-label="Yopiş"
                             >
                                 ✕
                             </button>
@@ -192,12 +201,12 @@ export default function Videos() {
                                     className="w-full h-full object-contain"
                                 >
                                     <source src={getAssetPath(selectedVideo.video)} type="video/mp4" />
-                                    Brauzeringiz videoni qo'llab-quvvatlamaydi.
+                                    Brauzeringiz videoni qöllab-quvvatlamaydi.
                                 </video>
                             ) : (
                                 <div className="text-center p-8 text-slate-400 space-y-3">
                                     <span className="material-symbols-outlined text-5xl text-slate-500">movie_off</span>
-                                    <p className="text-sm">Ushbu video lavha tez orada taqdim etiladi.</p>
+                                    <p className="text-sm">Uşbu video lavha tez orada taqdim etiladi.</p>
                                 </div>
                             )}
                         </div>

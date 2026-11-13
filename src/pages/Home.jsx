@@ -298,10 +298,10 @@ export default function Home() {
                 {/* Hero Central Content */}
                 <div className="relative z-10 max-w-[900px] mx-auto text-center my-auto py-10">
                     <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-tight mb-6 drop-shadow-md">
-                        Kelajak yetakchilarini bugundan tayyorlaymiz
+                        Kelajak yetakçilarini bugundan tayyorlaymiz
                     </h1>
                     <p className="text-slate-200 text-sm md:text-base lg:text-lg max-w-[750px] mx-auto leading-relaxed mb-8 drop-shadow">
-                        Prezident maktabi — iqtidorli yoshlar uchun zamonaviy bilim, xalqaro standartlar va kuchli tarbiya uyg'unlashgan ta'lim maskani. Biz global fikrlaydigan, mas'uliyatli va raqobatbardosh avlodni yetishtiramiz.
+                        Prezident maktabi — iqtidorli yoşlar uçun zamonaviy bilim, xalqaro standartlar va kuçli tarbiya uyğunlaşgan ta'lim maskani. Biz global fikrlaydigan, mas'uliyatli va raqobatbardoş avlodni yetiştiramiz.
                     </p>
                     <div className="flex items-center justify-center">
                         <Link 
@@ -329,7 +329,7 @@ export default function Home() {
                         <div className="mb-4 p-3.5 bg-white/10 rounded-full group-hover:scale-110 transition-transform duration-300">
                             <span className="material-symbols-outlined text-[36px] lg:text-[42px] text-white">menu_book</span>
                         </div>
-                        <h3 className="text-lg lg:text-xl font-bold mb-2">Zamonaviy o'quv dasturi</h3>
+                        <h3 className="text-lg lg:text-xl font-bold mb-2">Zamonaviy öquv dasturi</h3>
                         <p className="text-xs lg:text-sm text-slate-200 font-medium">Global ta'lim va xalqaro akademik standartlar</p>
                     </div>
 
@@ -338,8 +338,8 @@ export default function Home() {
                         <div className="mb-4 p-3.5 bg-white/10 rounded-full group-hover:scale-110 transition-transform duration-300">
                             <span className="material-symbols-outlined text-[36px] lg:text-[42px] text-white">workspace_premium</span>
                         </div>
-                        <h3 className="text-lg lg:text-xl font-bold mb-2">Malakali o'qituvchilar</h3>
-                        <p className="text-xs lg:text-sm text-slate-200 font-medium">Mahalliy va xalqaro yuqori malakali o'qituvchilar</p>
+                        <h3 className="text-lg lg:text-xl font-bold mb-2">Malakali öqituvçilar</h3>
+                        <p className="text-xs lg:text-sm text-slate-200 font-medium">Mahalliy va xalqaro yuqori malakali öqituvçilar</p>
                     </div>
                 </div>
             </section>
@@ -361,7 +361,7 @@ export default function Home() {
                         <div className="w-full h-full relative rounded-2xl overflow-hidden shadow-2xl border-2 border-white/20">
                             <img 
                                 src="/images/prezident.jpg" 
-                                alt="Shavkat Mirziyoyev" 
+                                alt="Şavkat Mirziyoyev" 
                                 className="w-full h-full object-cover object-center" 
                             />
                         </div>
@@ -371,11 +371,11 @@ export default function Home() {
                     <div className="w-full lg:w-7/12 p-6 lg:p-12 flex flex-col justify-between relative z-10">
                         <div>
                             <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-white mb-6 tracking-tight leading-snug">
-                                Termiz shahridagi Prezident maktabi
+                                Termiz şahridagi Prezident maktabi
                             </h2>
                             <blockquote className="text-white text-sm md:text-base lg:text-lg leading-relaxed font-normal mb-8 relative pl-5">
                                 <div className="absolute left-0 top-0 bottom-0 w-[4px] bg-[#00a2ff] rounded-full shadow-[0_0_10px_rgba(0,162,255,0.9)]"></div>
-                                "Biz mamlakatimizni yangi bosqichga ko'tarishni maqsad qilgan ekanmiz, buni birinchi navbatda ta'lim va tarbiya rivoji bilan bog'laymiz. Prezident maktablari - bu yangi O'zbekiston poydevorini barpo etadigan, mamlakatimizni yorug' kelajakka yetaklaydigan intellektual elita maskanidir."
+                                "Biz mamlakatimizni yangi bosqiçga kötarişni maqsad qilgan ekanmiz, buni birinçi navbatda ta'lim va tarbiya rivoji bilan boğlaymiz. Prezident maktablari - bu yangi Özbekiston poydevorini barpo etadigan, mamlakatimizni yoruğ kelajakka yetaklaydigan intellektual elita maskanidir."
                             </blockquote>
                         </div>
 
@@ -384,13 +384,13 @@ export default function Home() {
                             <div className="w-[49px] h-[49px] lg:w-[57px] lg:h-[57px] rounded-full overflow-hidden bg-white border-2 border-white/40 shadow-xl shrink-0 flex items-center justify-center">
                                 <img 
                                     src="/images/gerb2.png" 
-                                    alt="O'zbekiston Gerbi" 
+                                    alt="Özbekiston Gerbi" 
                                     className="w-full h-full object-contain rounded-full scale-[1.65]" 
                                 />
                             </div>
                             <div>
-                                <h4 className="text-base lg:text-lg font-bold text-white tracking-wide">Shavkat Mirziyoyev</h4>
-                                <p className="text-xs lg:text-sm text-slate-300 font-medium">O'zbekiston Respublikasi Prezidenti</p>
+                                <h4 className="text-base lg:text-lg font-bold text-white tracking-wide">Şavkat Mirziyoyev</h4>
+                                <p className="text-xs lg:text-sm text-slate-300 font-medium">Özbekiston Respublikasi Prezidenti</p>
                             </div>
                         </div>
                     </div>
@@ -436,7 +436,7 @@ export default function Home() {
 
                         {/* Description */}
                         <p className="text-slate-600 text-[18px] leading-relaxed font-normal">
-                            Termiz shahridagi Prezident maktabi O‘zbekiston Respublikasi Prezidentining 2019-yil 20-fevraldagi Prezident maktablarini tashkil etish to‘g‘risidagi qarori asosida 2021-yil Surxondaryo viloyatida tashkil etilgan zamonaviy ixtisoslashtirilgan davlat umumta’lim muassasalaridan biridir. Prezident maktablarining asosiy maqsadi iqtidorli yoshlarni aniqlash, ularning intellektual, ilmiy va ijodiy salohiyatini rivojlantirish hamda ilg‘or ta’lim texnologiyalari asosida sifatli ta’lim berishdan iborat.
+                            Termiz şahridagi Prezident maktabi Özbekiston Respublikasi Prezidentining 2019-yil 20-fevraldagi Prezident maktablarini taşkil etiş töğrisidagi qarori asosida 2021-yil Surxondaryo viloyatida taşkil etilgan zamonaviy ixtisoslaştirilgan davlat umumta’lim muassasalaridan biridir. Prezident maktablarining asosiy maqsadi iqtidorli yoşlarni aniqlaş, ularning intellektual, ilmiy va ijodiy salohiyatini rivojlantiriş hamda ilğor ta’lim texnologiyalari asosida sifatli ta’lim berişdan iborat.
                         </p>
 
                         {/* CTA Button */}
@@ -468,7 +468,7 @@ export default function Home() {
                             <div className="bg-[#1c3879] text-white rounded-2xl p-5 flex items-center justify-center text-center shadow-md border border-white/10 relative overflow-hidden h-[120px] md:h-[130px]">
                                 <div className="absolute inset-0 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px] opacity-10"></div>
                                 <span className="font-extrabold text-sm md:text-base lg:text-lg tracking-wider uppercase leading-snug relative z-10 drop-shadow">
-                                    Termiz shahridagi<br />Prezident maktabi
+                                    Termiz şahridagi<br />Prezident maktabi
                                 </span>
                             </div>
                         </div>
@@ -490,7 +490,7 @@ export default function Home() {
                             <div className="rounded-2xl overflow-hidden shadow-md h-[190px] md:h-[210px] border border-slate-100">
                                 <img 
                                     src="/images/gallery05.jpg" 
-                                    alt="Prezident maktabi jamoasi va o'quvchilari" 
+                                    alt="Prezident maktabi jamoasi va öquvçilari" 
                                     className="w-full h-full object-cover"
                                 />
                             </div>
@@ -542,7 +542,7 @@ export default function Home() {
                                     Ta'lim dasturi haqida
                                 </h2>
                                 <Link to="/maktab-haqida#talim-tizimi" className="inline-flex items-center gap-1 text-xs md:text-sm font-bold text-[#1c3879] hover:text-[#0d2347] transition-colors shrink-0">
-                                    Barchasi <span className="text-sm">→</span>
+                                    Barçasi <span className="text-sm">→</span>
                                 </Link>
                             </div>
                         </div>
@@ -560,7 +560,7 @@ export default function Home() {
                                     <div className="space-y-0.5 z-10">
                                         <h3 className="font-extrabold text-sm sm:text-base tracking-tight leading-snug">5-11-sinflar</h3>
                                         <p className="text-[10px] text-white/90 font-normal leading-snug max-w-[180px] mx-auto">
-                                            Milliy va xalqaro fanlarni o'zlashtirish
+                                            Milliy va xalqaro fanlarni özlaştiriş
                                         </p>
                                     </div>
                                 </div>
@@ -572,7 +572,7 @@ export default function Home() {
                                     <div className="space-y-0.5 z-10">
                                         <h3 className="font-extrabold text-sm sm:text-base tracking-tight leading-snug">Tillar</h3>
                                         <p className="text-[10px] text-white/90 font-normal leading-snug max-w-[180px] mx-auto">
-                                            Ingliz tili (EFL), o'zbek tili, rus tili;
+                                            Ingliz tili (EFL), özbek tili, rus tili;
                                         </p>
                                     </div>
                                 </div>
@@ -584,7 +584,7 @@ export default function Home() {
                                     <div className="space-y-0.5 z-10">
                                         <h3 className="font-extrabold text-sm sm:text-base tracking-tight leading-snug">Gumanitar fanlar</h3>
                                         <p className="text-[10px] text-white/90 font-normal leading-snug max-w-[180px] mx-auto">
-                                            O'zbekiston tarixi, jahon tarixi
+                                            Özbekiston tarixi, jahon tarixi
                                         </p>
                                     </div>
                                 </div>
@@ -641,7 +641,7 @@ export default function Home() {
                                     Qabul jarayoni
                                 </h2>
                                 <Link to="/qabul-2026" className="inline-flex items-center gap-1 text-xs md:text-sm font-bold text-[#1c3879] hover:text-[#0d2347] transition-colors shrink-0">
-                                    Barchasi <span className="text-sm">→</span>
+                                    Barçasi <span className="text-sm">→</span>
                                 </Link>
                             </div>
                         </div>
@@ -663,8 +663,8 @@ export default function Home() {
                                     </div>
                                     <div className="flex-1 bg-white/5 hover:bg-white/10 backdrop-blur-sm border border-white/10 rounded-lg px-2.5 py-1 transition-all flex items-center justify-between">
                                         <div>
-                                            <h4 className="font-bold text-xs text-white leading-tight">Tanishib chiqish</h4>
-                                            <p className="text-[10px] text-slate-300 font-normal leading-tight">Dasturlar bilan tanishing</p>
+                                            <h4 className="font-bold text-xs text-white leading-tight">Tanişib çiqiş</h4>
+                                            <p className="text-[10px] text-slate-300 font-normal leading-tight">Dasturlar bilan tanişing</p>
                                         </div>
                                         <span className="material-symbols-outlined text-sky-300 text-base shrink-0">manage_search</span>
                                     </div>
@@ -677,8 +677,8 @@ export default function Home() {
                                     </div>
                                     <div className="flex-1 bg-white/5 hover:bg-white/10 backdrop-blur-sm border border-white/10 rounded-lg px-2.5 py-1 transition-all flex items-center justify-between">
                                         <div>
-                                            <h4 className="font-bold text-xs text-white leading-tight">Ariza topshirish</h4>
-                                            <p className="text-[10px] text-slate-300 font-normal leading-tight">Arizani to'ldiring</p>
+                                            <h4 className="font-bold text-xs text-white leading-tight">Ariza topşiriş</h4>
+                                            <p className="text-[10px] text-slate-300 font-normal leading-tight">Arizani töldiring</p>
                                         </div>
                                         <span className="material-symbols-outlined text-blue-300 text-base shrink-0">edit_note</span>
                                     </div>
@@ -692,7 +692,7 @@ export default function Home() {
                                     <div className="flex-1 bg-white/5 hover:bg-white/10 backdrop-blur-sm border border-white/10 rounded-lg px-2.5 py-1 transition-all flex items-center justify-between">
                                         <div>
                                             <h4 className="font-bold text-xs text-white leading-tight">Imtihon</h4>
-                                            <p className="text-[10px] text-slate-300 font-normal leading-tight">Imtihonda qatnashing</p>
+                                            <p className="text-[10px] text-slate-300 font-normal leading-tight">Imtihonda qatnaşing</p>
                                         </div>
                                         <span className="material-symbols-outlined text-purple-300 text-base shrink-0">assignment</span>
                                     </div>
@@ -705,8 +705,8 @@ export default function Home() {
                                     </div>
                                     <div className="flex-1 bg-emerald-500/20 hover:bg-emerald-500/30 backdrop-blur-sm border border-emerald-400/30 rounded-lg px-2.5 py-1 transition-all flex items-center justify-between">
                                         <div>
-                                            <h4 className="font-bold text-xs text-emerald-200 leading-tight">Natijalarni olish</h4>
-                                            <p className="text-[10px] text-emerald-100/80 font-normal leading-tight">Safimizga qo'shiling</p>
+                                            <h4 className="font-bold text-xs text-emerald-200 leading-tight">Natijalarni oliş</h4>
+                                            <p className="text-[10px] text-emerald-100/80 font-normal leading-tight">Safimizga qöşiling</p>
                                         </div>
                                         <span className="material-symbols-outlined text-emerald-300 text-base shrink-0">verified</span>
                                     </div>
@@ -721,7 +721,7 @@ export default function Home() {
                                 rel="noopener noreferrer"
                                 className="w-full text-center bg-gradient-to-r from-[#1d3b8a] to-[#255694] hover:from-[#152e72] hover:to-[#1e487e] text-white py-2 px-4 rounded-lg font-bold text-xs md:text-sm shadow-lg transition-all border border-white/20 animate-blik shrink-0 mt-1 block"
                             >
-                                Ariza topshirish
+                                Ariza topşiriş
                             </a>
 
                         </div>
@@ -937,12 +937,12 @@ export default function Home() {
 
                     // Additional high quality school gallery photos
                     const extraGallery = [
-                        { src: "/images/gallery01.jpg", title: "Maktab uchrashuvi", category: "Galereya" },
+                        { src: "/images/gallery01.jpg", title: "Maktab uçraşuvi", category: "Galereya" },
                         { src: "/images/gallery02.jpg", title: "Ustozlar muloqoti", category: "Galereya" },
                         { src: "/images/gallery03.jpg", title: "Prezident maktabi tadbiri", category: "Galereya" },
-                        { src: "/images/gallery05.jpg", title: "O'quvchilar hayoti", category: "Galereya" },
+                        { src: "/images/gallery05.jpg", title: "Öquvçilar hayoti", category: "Galereya" },
                         { src: "/images/05.jpg", title: "STEM laboratoriyasi", category: "Ta'lim" },
-                        { src: "/images/06.jpg", title: "Bosh korpus", category: "Maktab" }
+                        { src: "/images/06.jpg", title: "Boş korpus", category: "Maktab" }
                     ];
 
                     const combinedItems = [...newsImages, ...extraGallery];

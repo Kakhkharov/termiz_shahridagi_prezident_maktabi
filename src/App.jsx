@@ -62,7 +62,7 @@ function AppContent() {
           <Route path="/maktab-haqida" element={<AboutSchool />} />
           <Route path="/maktab-konstitutsiyasi" element={<SchoolConstitution />} />
           <Route path="/rahbariyat" element={<SchoolTeam category="Biz haqimizda" title="Rahbariyat" isRahbariyat={true} />} />
-          <Route path="/oqituvchilar" element={<SchoolTeam category="Biz haqimizda" title="O'qituvchilar" isRahbariyat={false} />} />
+          <Route path="/oqituvchilar" element={<SchoolTeam category="Biz haqimizda" title="Öqituvçilar" isRahbariyat={false} />} />
           <Route path="/maktab-jamoasi" element={<SchoolTeam category="Biz haqimizda" title="Maktab jamoasi" isRahbariyat={false} />} />
 
           {/* Natijalar Section */}

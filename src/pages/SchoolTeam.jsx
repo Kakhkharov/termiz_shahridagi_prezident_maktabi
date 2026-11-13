@@ -90,7 +90,7 @@ const administration = [
     { 
         id: 1, 
         name: "Isaqova Elvina Dilaverovna", 
-        role: "Termiz shahridagi Prezident maktabi Ijrochi direktori", 
+        role: "Termiz şahridagi Prezident maktabi Ijroçi direktori", 
         email: "director@pstmz.uz", 
         image: direktorImg, 
         isLead: true 
@@ -106,24 +106,24 @@ const administration = [
 
     { 
         id: 4, 
-        name: "Azizbek\nAsamov\nAzimovich", 
-        role: "Maktab maslahatchisi", 
+        name: "Azizbek\nAsamov\nAzimoviç", 
+        role: "Maktab maslahatçisi", 
         email: "s.azizov@pstmz.uz", 
         image: azizbekImg, 
         isLead: false 
     },
     { 
         id: 5, 
-        name: "Safarali\nMamarasulov\nBerdimurod o'g'li", 
-        role: "Maxsus fanlar bo'yicha direktor o'rinbosari", 
+        name: "Safarali\nMamarasulov\nBerdimurod öğli", 
+        role: "Maxsus fanlar böyiça direktor örinbosari", 
         email: "safarali@pstmz.uz", 
         image: safaraliImg, 
         isLead: false 
     },
     { 
         id: 6, 
-        name: "Sunnatillo\nSafarov\nG'ayratovich", 
-        role: "Ma'naviy va ma'rifiy ishlar bo'yicha direktor o'rinbosari", 
+        name: "Sunnatillo\nSafarov\nĞayratoviç", 
+        role: "Ma'naviy va ma'rifiy işlar böyiça direktor örinbosari", 
         email: "sunnatillo@pstmz.uz", 
         image: sunnatilloImg, 
         isLead: false 
@@ -134,17 +134,17 @@ const teachers = [
     { id: 101, name: "Xamdamov Nurali", subject: "Ona tili va adabiyot fani o'qituvchisi", email: "n.xamdamov@pstmz.uz", image: tXamdamov },
     { id: 103, name: "Aminova Munisa", subject: "Rus tili va adabiyoti fani o'qituvchisi", email: "m.aminova@pstmz.uz", image: tAminova },
     { id: 104, name: "Boynazarova Durdona", subject: "Ingliz tili fani o'qituvchisi", email: "d.boynazarova@pstmz.uz", image: tBoynazarova },
-    { id: 105, name: "Xamdamova Shoxista", subject: "Ingliz tili fani o'qituvchisi", email: "s.xamdamova@pstmz.uz", image: tXamdamova },
+    { id: 105, name: "Xamdamova Şoxista", subject: "Ingliz tili fani o'qituvchisi", email: "s.xamdamova@pstmz.uz", image: tXamdamova },
     { id: 106, name: "Abduraimov Fazliddin", subject: "Tarbiya va tarix fani o'qituvchisi", email: "f.abduraimov@pstmz.uz", image: tAbduraimov },
-    { id: 107, name: "Sheraliyev Murodjon", subject: "Tarbiya va tarix fani o'qituvchisi", email: "m.sheraliyev@pstmz.uz", image: tSheraliyev },
+    { id: 107, name: "Şeraliyev Murodjon", subject: "Tarbiya va tarix fani o'qituvchisi", email: "m.sheraliyev@pstmz.uz", image: tSheraliyev },
     { id: 108, name: "Isayev Xayrulla", subject: "Ingliz tili fani o'qituvchisi", email: "x.isayev@pstmz.uz", image: tIsayev },
     { id: 109, name: "Maxmatqobilova Fozila", subject: "Matematika fani o'qituvchisi", email: "f.maxmatqobilova@pstmz.uz", image: tMaxmatqobilova },
     { id: 110, name: "Mengliboyev Xusniddin", subject: "Matematika fani o'qituvchisi", email: "x.mengliboyev@pstmz.uz", image: tMengliboyev },
-    { id: 111, name: "Yuldosheva Charos", subject: "Matematika fani o'qituvchisi", email: "c.yuldosheva@pstmz.uz", image: tYuldosheva },
+    { id: 111, name: "Yuldoşeva Çaros", subject: "Matematika fani o'qituvchisi", email: "c.yuldosheva@pstmz.uz", image: tYuldosheva },
     { id: 112, name: "Allaqulov Safarmurod", subject: "Informatika fani o'qituvchisi", email: "s.allaqulov@pstmz.uz", image: tAllaqulov },
     { id: 113, name: "Qahharov Musulmon", subject: "Informatika fani o'qituvchisi", email: "m.qahharov@pstmz.uz", image: musulmonImg },
     { id: 114, name: "Jurayev Erali", subject: "Science fani o'qituvchisi", email: "e.jurayev@pstmz.uz", image: tJurayev },
-    { id: 116, name: "Shomirzayev Abdug'appor", subject: "Geografiya fani o'qituvchisi", email: "a.shomirzayev@pstmz.uz", image: tShomirzayev },
+    { id: 116, name: "Şomirzayev Abduğappor", subject: "Geografiya fani o'qituvchisi", email: "a.shomirzayev@pstmz.uz", image: tShomirzayev },
     { id: 117, name: "Fayziyev Furqat", subject: "Jismoniy tarbiya fani o'qituvchisi", email: "f.fayziyev@pstmz.uz", image: tFayziyev },
     { id: 118, name: "Abduqahhorov Iskandar", subject: "Fizika fani o'qituvchisi", email: "i.abduqahhorov@pstmz.uz", image: tAbduqahhorov },
     { id: 120, name: "Abdimurotov Dilmuhammad", subject: "Biologiya fani o'qituvchisi", email: "d.abdimurotov@pstmz.uz", image: tAbdimurotov },
@@ -164,12 +164,12 @@ const internationalTeachers = [
 const educators = [
     { id: 43, name: "Abduraimov Sobirjon", subject: "Pedagog tarbiyachi", email: "s.abduraimov@pstmz.uz", image: eduImg1 },
     { id: 44, name: "Sattorova Dilnoza", subject: "Pedagog tarbiyachi", email: "d.sattorova@pstmz.uz", image: eduImg2 },
-    { id: 45, name: "Shermoatova Dildora", subject: "Navbatchi tarbiyachi", email: "d.shermoatova@pstmz.uz", image: eduImg3 },
-    { id: 46, name: "Toshmurodova Anora", subject: "Pedagog tarbiyachi", email: "a.toshmurodova@pstmz.uz", image: eduImg4 },
-    { id: 47, name: "Ergashov Asadbek", subject: "Navbatchi tarbiyachi", email: "a.ergashov@pstmz.uz", image: eduImg5 },
+    { id: 45, name: "Şermoatova Dildora", subject: "Navbatchi tarbiyachi", email: "d.shermoatova@pstmz.uz", image: eduImg3 },
+    { id: 46, name: "Toşmurodova Anora", subject: "Pedagog tarbiyachi", email: "a.toshmurodova@pstmz.uz", image: eduImg4 },
+    { id: 47, name: "Ergaşov Asadbek", subject: "Navbatchi tarbiyachi", email: "a.ergashov@pstmz.uz", image: eduImg5 },
     { id: 48, name: "Sattorov Bahtiyor", subject: "Navbatchi tarbiyachi", email: "b.sattorov@pstmz.uz", image: eduImg6 },
-    { id: 49, name: "Kichikova Mehriniso", subject: "Navbatchi tarbiyachi", email: "m.kichikova@pstmz.uz", image: eduImg7 },
-    { id: 50, name: "Abdumo‘minov Mas'ud", subject: "Pedagog tarbiyachi", email: "m.abdumominov@pstmz.uz", image: eduImg8 },
+    { id: 49, name: "Kiçikova Mehriniso", subject: "Navbatchi tarbiyachi", email: "m.kichikova@pstmz.uz", image: eduImg7 },
+    { id: 50, name: "Abdumöminov Mas'ud", subject: "Pedagog tarbiyachi", email: "m.abdumominov@pstmz.uz", image: eduImg8 },
     { id: 51, name: "Jabborova Laylo", subject: "Pedagog tarbiyachi", email: "l.jabborova@pstmz.uz", image: eduImg9 },
     { id: 52, name: "Nazarov Abduvosid", subject: "Navbatchi tarbiyachi", email: "a.nazarov@pstmz.uz", image: eduImg10 }
 ];
@@ -243,7 +243,7 @@ export default function SchoolTeam({ category = "Biz haqimizda", title = "Maktab
                         {/* 3. EDUCATORS SECTION */}
                         <div className="mb-14">
                             <Reveal>
-                                <SectionHeader title="Pedagog-Tarbiyachilar" icon="psychology" />
+                                <SectionHeader title="Pedagog-Tarbiyaçilar" icon="psychology" />
                             </Reveal>
                             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3.5 md:gap-4.5">
                                 {educators.map((educator, idx) => (

@@ -20,7 +20,7 @@ export default function PageHeroBanner({ category = "Bo'lim", title = "Sahifa", 
                 <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-1.5 text-[11px] md:text-xs text-slate-300 font-medium">
                     <Link to="/" className="hover:text-white transition-colors flex items-center gap-1">
                         <span className="material-symbols-outlined text-[15px]">home</span>
-                        <span>Bosh sahifa</span>
+                        <span>Boş sahifa</span>
                     </Link>
                     <span className="text-slate-400">&gt;</span>
                     <span className="text-slate-300 font-medium">{category}</span>

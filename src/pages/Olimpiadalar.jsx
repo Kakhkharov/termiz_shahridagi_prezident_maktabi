@@ -128,9 +128,9 @@ function OlimpiadaStudentCard({ item }) {
 export default function Olimpiadalar() {
     // Expanded Filter buttons list including Fan olimpiadasi & STEM olimpiadasi
     const filterButtons = [
-        { id: 'barchasi', name: 'Barchasi', icon: 'apps' },
+        { id: 'barchasi', name: 'Barçasi', icon: 'apps' },
         { id: 'xalqaro', name: 'Xalqaro olimpiada', icon: 'public' },
-        { id: 'saralash', name: 'Xalqaro olimpiadalarga saralash', icon: 'military_tech' },
+        { id: 'saralash', name: 'Xalqaro olimpiadalarga saralaş', icon: 'military_tech' },
         { id: 'fan', name: 'Fan olimpiadasi', icon: 'school' },
         { id: 'stem', name: 'STEM olimpiadasi', icon: 'science' }
     ];
@@ -142,7 +142,7 @@ export default function Olimpiadalar() {
 
     // ELO Olympiad Winner Students
     const eloWinners = [
-        { id: 1, name: "Manuchehr Murotov", school: "Termiz shahridagi PM", award: "I darajali diplom", icon: "workspace_premium" },
+        { id: 1, name: "Manuçehr Murotov", school: "Termiz shahridagi PM", award: "I darajali diplom", icon: "workspace_premium" },
         { id: 2, name: "Mohinur Salomova", school: "Termiz shahridagi PM", award: "I darajali diplom", icon: "workspace_premium" },
         { id: 3, name: "Jahongir Davlatov", school: "Termiz shahridagi PM", award: "I darajali diplom", icon: "workspace_premium" },
         { id: 4, name: "Jasmina Uralova", school: "Termiz shahridagi PM", award: "I darajali diplom", icon: "workspace_premium" },
@@ -177,7 +177,7 @@ export default function Olimpiadalar() {
             <div className="absolute bottom-20 -right-48 w-96 h-96 bg-emerald-200/30 rounded-full blur-3xl pointer-events-none" />
 
             <div className="relative z-20">
-                <PageHeroBanner category="Natijalar" title="Olimpiadalar G'oliblari va Natijalari" />
+                <PageHeroBanner category="Natijalar" title="Olimpiadalar Ğoliblari va Natijalari" />
             </div>
 
             <main className="max-w-[1400px] mx-auto relative z-10 px-4 md:px-8 pt-6 md:pt-10">
@@ -263,9 +263,9 @@ export default function Olimpiadalar() {
                                             <span className="material-symbols-outlined text-2xl">emoji_events</span>
                                         </div>
                                         <div>
-                                            <span className="text-xs font-bold text-amber-600 uppercase tracking-wider">ENGLISH LANGUAGE OLYMPIAD (ELO)</span>
+                                            <span className="text-xs font-bold text-amber-600 uppercase tracking-wider">ENGLIŞ LANGUAGE OLYMPIAD (ELO)</span>
                                             <h3 className="text-xl md:text-2xl font-black text-[#0a1b3f]">
-                                                Xalqaro Ingliz Tili Olimpiadasi G'oliblari
+                                                Xalqaro Ingliz Tili Olimpiadasi Ğoliblari
                                             </h3>
                                         </div>
                                     </div>
@@ -286,13 +286,13 @@ export default function Olimpiadalar() {
                                 >
                                     <img 
                                         src={getAssetPath('/images/olimpiada.jpg')} 
-                                        alt="Xalqaro ELO Olimpiadasi G'oliblari" 
+                                        alt="Xalqaro ELO Olimpiadasi Ğoliblari" 
                                         className="w-full h-auto object-cover group-hover:scale-102 transition-transform duration-500"
                                     />
                                     <div className="absolute inset-0 bg-slate-950/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center backdrop-blur-xs">
                                         <div className="px-5 py-2.5 rounded-full bg-white text-slate-900 font-extrabold text-xs shadow-2xl flex items-center gap-2 transform scale-95 group-hover:scale-100 transition-transform">
                                             <span className="material-symbols-outlined text-lg">fullscreen</span>
-                                            <span>Full screen ko'rish</span>
+                                            <span>Full screen köriş</span>
                                         </div>
                                     </div>
                                 </div>
@@ -301,7 +301,7 @@ export default function Olimpiadalar() {
                                     <div className="flex items-center justify-between mb-4">
                                         <h4 className="font-extrabold text-[#0a1b3f] text-base flex items-center gap-2">
                                             <span className="material-symbols-outlined text-amber-500">stars</span>
-                                            Respublika Bosqichi I Darajali Diplom Sohiblari (6 ta o'quvchi)
+                                            Respublika Bosqiçi I Darajali Diplom Sohiblari (6 ta öquvçi)
                                         </h4>
                                         <span className="text-[11px] font-bold text-slate-400 flex items-center gap-1">
                                             <span className="material-symbols-outlined text-sm">swipe_left</span>
@@ -365,9 +365,9 @@ export default function Olimpiadalar() {
                                             <span className="material-symbols-outlined text-2xl">military_tech</span>
                                         </div>
                                         <div>
-                                            <span className="text-xs font-bold text-sky-600 uppercase tracking-wider">HUDUDIY VA RESPUBLIKA BOSQICHI</span>
+                                            <span className="text-xs font-bold text-sky-600 uppercase tracking-wider">HUDUDIY VA RESPUBLIKA BOSQIÇI</span>
                                             <h3 className="text-xl md:text-2xl font-black text-[#0a1b3f]">
-                                                Xalqaro Olimpiadalarga Saralash Natijalari
+                                                Xalqaro Olimpiadalarga Saralaş Natijalari
                                             </h3>
                                         </div>
                                     </div>
@@ -386,11 +386,11 @@ export default function Olimpiadalar() {
                                             </div>
 
                                             <h4 className="text-2xl font-extrabold text-white leading-tight">
-                                                Olimpiada Hududiy va Saralash Bosqichi Yakuniy Hujjatlari
+                                                Olimpiada Hududiy va Saralaş Bosqiçi Yakuniy Hujjatlari
                                             </h4>
 
                                             <p className="text-slate-300 text-xs md:text-sm leading-relaxed">
-                                                Ushbu hujjatda Termiz shahridagi Prezident maktabi o'quvchilarining Xalqaro olimpiadalarga saralash hamda hududiy bosqichdagi rasmiy ko'rsatkichlari, ballari va bosqichma-bosqich natijalari jamlangan.
+                                                Uşbu hujjatda Termiz şahridagi Prezident maktabi öquvçilarining Xalqaro olimpiadalarga saralaş hamda hududiy bosqiçdagi rasmiy körsatkiçlari, ballari va bosqiçma-bosqiç natijalari jamlangan.
                                             </p>
 
                                             <div className="flex flex-wrap items-center gap-3 pt-2">
@@ -399,7 +399,7 @@ export default function Olimpiadalar() {
                                                     className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-sky-400 to-blue-600 text-white font-extrabold text-xs md:text-sm shadow-md hover:scale-105 transition-all flex items-center gap-2 cursor-pointer"
                                                 >
                                                     <span className="material-symbols-outlined text-lg">visibility</span>
-                                                    Hujjatni Interaktiv Ko'rish
+                                                    Hujjatni Interaktiv Köriş
                                                 </button>
 
                                                 <a
@@ -409,7 +409,7 @@ export default function Olimpiadalar() {
                                                     className="px-5 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs md:text-sm border border-white/15 transition-all flex items-center gap-2"
                                                 >
                                                     <span className="material-symbols-outlined text-lg">download</span>
-                                                    PDF Yuklab Olish
+                                                    PDF Yuklab Oliş
                                                 </a>
                                             </div>
                                         </div>
@@ -428,11 +428,11 @@ export default function Olimpiadalar() {
                                                 <div className="text-[10px] font-black text-slate-800 leading-tight">
                                                     HUDUDIY OLIMPIADA BAYONNOMASI
                                                 </div>
-                                                <span className="text-[8px] font-bold text-slate-400 block">2025-2026 o'quv yili</span>
+                                                <span className="text-[8px] font-bold text-slate-400 block">2025-2026 öquv yili</span>
                                             </div>
 
                                             <div className="w-full py-1.5 rounded-lg bg-slate-900 text-white text-[9px] font-bold text-center flex items-center justify-center gap-1 group-hover/thumb:bg-sky-500 transition-colors">
-                                                <span>Kattalashtirish</span>
+                                                <span>Kattalaştiriş</span>
                                                 <span className="material-symbols-outlined text-xs">zoom_in</span>
                                             </div>
                                         </div>
@@ -441,18 +441,18 @@ export default function Olimpiadalar() {
                                     <div className="bg-slate-50 rounded-2xl p-6 border border-slate-200 grid grid-cols-1 md:grid-cols-3 gap-4">
                                         <div className="bg-white p-5 rounded-xl border border-slate-200 text-center space-y-1">
                                             <span className="text-3xl font-black text-blue-600">100%</span>
-                                            <h5 className="font-extrabold text-slate-800 text-xs uppercase">Saralash Qamrovi</h5>
-                                            <p className="text-[11px] text-slate-500">Imtiyozli o'quvchilar saralash bosqichidan muvaffaqiyatli o'tdi</p>
+                                            <h5 className="font-extrabold text-slate-800 text-xs uppercase">Saralaş Qamrovi</h5>
+                                            <p className="text-[11px] text-slate-500">Imtiyozli öquvçilar saralaş bosqiçidan muvaffaqiyatli ötdi</p>
                                         </div>
                                         <div className="bg-white p-5 rounded-xl border border-slate-200 text-center space-y-1">
                                             <span className="text-3xl font-black text-emerald-600">12 ta</span>
-                                            <h5 className="font-extrabold text-slate-800 text-xs uppercase">Respublika Yo'llanmasi</h5>
-                                            <p className="text-[11px] text-slate-500">Iqtidorli o'quvchilarimiz respublika bosqichiga saralandi</p>
+                                            <h5 className="font-extrabold text-slate-800 text-xs uppercase">Respublika Yöllanmasi</h5>
+                                            <p className="text-[11px] text-slate-500">Iqtidorli öquvçilarimiz respublika bosqiçiga saralandi</p>
                                         </div>
                                         <div className="bg-white p-5 rounded-xl border border-slate-200 text-center space-y-1">
                                             <span className="text-3xl font-black text-amber-500">I daraja</span>
                                             <h5 className="font-extrabold text-slate-800 text-xs uppercase">Diplom Natijasi</h5>
-                                            <p className="text-[11px] text-slate-500">Yuqori ball jamlagan o'quvchilar darajasi</p>
+                                            <p className="text-[11px] text-slate-500">Yuqori ball jamlagan öquvçilar darajasi</p>
                                         </div>
                                     </div>
                                 </AutoSectionSlider>
@@ -471,7 +471,7 @@ export default function Olimpiadalar() {
                                     <div>
                                         <span className="text-xs font-bold text-indigo-600 uppercase tracking-wider">FAN OLIMPIADALARI</span>
                                         <h3 className="text-xl md:text-2xl font-black text-[#0a1b3f]">
-                                            Fan Olimpiadalari G'oliblari va Natijalari
+                                            Fan Olimpiadalari Ğoliblari va Natijalari
                                         </h3>
                                     </div>
                                 </div>
@@ -489,7 +489,7 @@ export default function Olimpiadalar() {
                                         </div>
                                         <div>
                                             <h4 className="text-base font-extrabold text-[#0a1b3f]">Ma'lumot mavjud emas</h4>
-                                            <p className="text-xs text-slate-500 mt-1">Ushbu bo'lim bo'yicha o'quvchilar yutuqlari haqidagi ma'lumotlar hali yuklanmagan.</p>
+                                            <p className="text-xs text-slate-500 mt-1">Uşbu bölim böyiça öquvçilar yutuqlari haqidagi ma'lumotlar hali yuklanmagan.</p>
                                         </div>
                                     </div>
                                 )}
@@ -508,7 +508,7 @@ export default function Olimpiadalar() {
                                     <div>
                                         <span className="text-xs font-bold text-emerald-600 uppercase tracking-wider">STEM VA MUHANDISLIK</span>
                                         <h3 className="text-xl md:text-2xl font-black text-[#0a1b3f]">
-                                            STEM Olimpiadasi G'oliblari
+                                            STEM Olimpiadasi Ğoliblari
                                         </h3>
                                     </div>
                                 </div>
@@ -526,7 +526,7 @@ export default function Olimpiadalar() {
                                         </div>
                                         <div>
                                             <h4 className="text-base font-extrabold text-[#0a1b3f]">Ma'lumot mavjud emas</h4>
-                                            <p className="text-xs text-slate-500 mt-1">Ushbu bo'lim bo'yicha o'quvchilar yutuqlari haqidagi ma'lumotlar hali yuklanmagan.</p>
+                                            <p className="text-xs text-slate-500 mt-1">Uşbu bölim böyiça öquvçilar yutuqlari haqidagi ma'lumotlar hali yuklanmagan.</p>
                                         </div>
                                     </div>
                                 )}
@@ -565,7 +565,7 @@ export default function Olimpiadalar() {
                                     className="px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-bold flex items-center gap-1.5 border border-white/10 transition-colors"
                                 >
                                     <span className="material-symbols-outlined text-sm">open_in_new</span>
-                                    <span className="hidden sm:inline">Yangi oynada ochish</span>
+                                    <span className="hidden sm:inline">Yangi oynada oçiş</span>
                                 </a>
                                 <button 
                                     onClick={() => setPdfModalOpen(false)}
@@ -603,7 +603,7 @@ export default function Olimpiadalar() {
                             onClick={() => setImageModalOpen(false)}
                             className="absolute -top-12 right-0 px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 text-white font-extrabold text-xs flex items-center gap-1 cursor-pointer"
                         >
-                            <span>Yopish</span> ✕
+                            <span>Yopiş</span> ✕
                         </button>
                         <img 
                             src={getAssetPath('/images/olimpiada.jpg')} 

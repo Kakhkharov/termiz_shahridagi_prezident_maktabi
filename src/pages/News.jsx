@@ -7,7 +7,7 @@ import { getAssetPath } from '../utils/assets';
 export default function News() {
     const heroData = newsData.slice(0, 10);
     const [activeTag, setActiveTag] = useState('Hammasi');
-    const tags = ['Hammasi', 'Ma\'naviyat', 'E\'lonlar', 'Tashrif', 'Sport', 'Ilm-fan', 'Olimpiada', 'Pedagoglar', 'Texnologiya'];
+    const tags = ['Hammasi', 'Ma\'naviyat', 'E\'lonlar', 'Taşrif', 'Sport', 'Ilm-fan', 'Olimpiada', 'Pedagoglar', 'Texnologiya'];
 
     const [heroIdx, setHeroIdx] = useState(0);
 
@@ -183,7 +183,7 @@ export default function News() {
                                 ) : (
                                     <div className="col-span-full flex flex-col items-center justify-center py-12 md:py-20 text-slate-400">
                                         <span className="material-symbols-outlined text-4xl md:text-5xl mb-2">news_off</span>
-                                        <p className="text-sm">Ushbu ruknda hozircha yangiliklar yo'q</p>
+                                        <p className="text-sm">Uşbu ruknda hozirça yangiliklar yöq</p>
                                     </div>
                                 )}
                             </div>

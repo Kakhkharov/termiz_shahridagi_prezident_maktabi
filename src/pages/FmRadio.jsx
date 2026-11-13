@@ -169,7 +169,7 @@ const teamMembers = [
         badge: 'Lead Broadcaster'
     },
     {
-        name: 'Choriyeva Hurzoda',
+        name: 'Çoriyeva Hurzoda',
         grade: '10-sinf',
         direction: { uz: 'Ingliz tili va debat rukni', en: 'English & Debate Host' },
         img: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80',
@@ -248,26 +248,26 @@ export default function FmRadio() {
         radioAboutTitle: lang === 'en' ? 'Presidential School FM Radio' : 'Presidential School FM Radiosi',
         radioAboutDesc: lang === 'en' 
             ? 'Presidential School FM is an interactive digital media platform. Educational broadcasts, student achievements, analytical talks, and inspirational audio programs run automatically based on admin panel schedules.'
-            : 'Prezident maktabi FM radiosi — bu o\'quvchilar hayoti, ilmiy muvaffaqiyatlar va ilhomlantiruvchi loyihalar uchun yagona raqamli audio platforma. Admin panel orqali rejalashtirilgan audio yozuvlar avtomatik tarzda jonli efirga uzatiladi.',
+            : 'Prezident maktabi FM radiosi — bu öquvçilar hayoti, ilmiy muvaffaqiyatlar va ilhomlantiruvçi loyihalar uçun yagona raqamli audio platforma. Admin panel orqali rejalaştirilgan audio yozuvlar avtomatik tarzda jonli efirga uzatiladi.',
         fixedFreqBadge: FIXED_FREQUENCY,
         liveNowBadge: lang === 'en' ? 'LIVE BROADCAST' : 'JONLI EFIRDA',
         teamSectionTitle: lang === 'en' ? 'Radio Team' : 'Radio Jamoasi',
-        scheduleSectionTitle: lang === 'en' ? 'Weekly Broadcast Schedule' : 'Haftalik Eshittirishlar Rejasi',
-        scheduleSectionSub: lang === 'en' ? 'Smart schedule managed via admin panel' : 'Admin panel orqali boshqariladigan avtomatik efir jadvali',
-        archiveSectionTitle: lang === 'en' ? 'Broadcast Audio Archive' : 'Arxiv Eshittirishlar',
-        archiveSectionSub: lang === 'en' ? 'List of previously recorded & aired radio sessions' : 'Avval eshittirilgan audio yozuvlar ro\'yxati',
-        colDay: lang === 'en' ? 'Day' : 'Eshittirish Kuni',
+        scheduleSectionTitle: lang === 'en' ? 'Weekly Broadcast Schedule' : 'Haftalik Eşittirişlar Rejasi',
+        scheduleSectionSub: lang === 'en' ? 'Smart schedule managed via admin panel' : 'Admin panel orqali boşqariladigan avtomatik efir jadvali',
+        archiveSectionTitle: lang === 'en' ? 'Broadcast Audio Archive' : 'Arxiv Eşittirişlar',
+        archiveSectionSub: lang === 'en' ? 'List of previously recorded & aired radio sessions' : 'Avval eşittirilgan audio yozuvlar röyxati',
+        colDay: lang === 'en' ? 'Day' : 'Eşittiriş Kuni',
         colTime: lang === 'en' ? 'Time' : 'Vaqt',
-        colTopic: lang === 'en' ? 'Broadcast Topic' : 'Eshittirish Mavzusi',
-        colHost: lang === 'en' ? 'Presenter' : 'Boshlovchi (Ism & Sinf)',
-        colAction: lang === 'en' ? 'Status / Listen' : 'Holat & Tinglash',
-        ctaSectionTitle: lang === 'en' ? 'Connect with School Radio Team' : 'Maktab Radio Jamoasi Bilan Bog\'lanish',
+        colTopic: lang === 'en' ? 'Broadcast Topic' : 'Eşittiriş Mavzusi',
+        colHost: lang === 'en' ? 'Presenter' : 'Boşlovçi (Ism & Sinf)',
+        colAction: lang === 'en' ? 'Status / Listen' : 'Holat & Tinglaş',
+        ctaSectionTitle: lang === 'en' ? 'Connect with School Radio Team' : 'Maktab Radio Jamoasi Bilan Boğlaniş',
         ctaDesc: lang === 'en' 
             ? 'Have an interesting project, topic, or feedback for our radio crew? Submit your ideas to our team.'
-            : 'Maktabimiz radiosi uchun ajoyib g\'oya, mavzu yoki audio taklifingiz bormi? Jamoamiz bilan bevosita bog\'laning!',
-        ctaButton: lang === 'en' ? 'Go to Contact Page' : 'Aloqa Bo\'limiga O\'tish',
-        filterAll: lang === 'en' ? 'All Days' : 'Barcha Kunlar',
-        filterMonthAll: lang === 'en' ? 'All Months' : 'Barcha oylar',
+            : 'Maktabimiz radiosi uçun ajoyib ğoya, mavzu yoki audio taklifingiz bormi? Jamoamiz bilan bevosita boğlaning!',
+        ctaButton: lang === 'en' ? 'Go to Contact Page' : 'Aloqa Bölimiga Ötiş',
+        filterAll: lang === 'en' ? 'All Days' : 'Barça Kunlar',
+        filterMonthAll: lang === 'en' ? 'All Months' : 'Barça oylar',
         monthAugust: lang === 'en' ? 'August' : 'Avgust',
         monthJuly: lang === 'en' ? 'July' : 'Iyul',
         monthJune: lang === 'en' ? 'June' : 'Iyun',
@@ -337,7 +337,7 @@ export default function FmRadio() {
                                 </h3>
                                 <div className="flex items-center gap-2 text-xs text-slate-300">
                                     <span className="material-symbols-outlined text-cyan-400 text-base">mic</span>
-                                    <span>Boshlovchi: <strong className="text-white">{currentTrack.hostName}</strong> ({currentTrack.hostGrade})</span>
+                                    <span>Boşlovçi: <strong className="text-white">{currentTrack.hostName}</strong> ({currentTrack.hostGrade})</span>
                                 </div>
                             </div>
                         </div>
@@ -375,7 +375,7 @@ export default function FmRadio() {
                                             }
                                         }}
                                         className="group relative flex items-center gap-[3px] h-10 bg-slate-950/90 rounded-xl px-3 py-1.5 border border-cyan-500/30 hover:border-cyan-400 cursor-pointer transition-all shadow-[inset_0_2px_8px_rgba(0,0,0,0.8)] overflow-hidden"
-                                        title="Audio vaqtini o'zgartirish uchun bosing"
+                                        title="Audio vaqtini özgartiriş uçun bosing"
                                     >
                                         {/* Glowing Progress Background Track */}
                                         <div 
@@ -441,7 +441,7 @@ export default function FmRadio() {
                                 <span className="material-symbols-outlined text-cyan-400 text-lg">record_voice_over</span>
                                 {t.teamSectionTitle}
                             </h2>
-                            <span className="text-[10px] font-mono text-cyan-300 bg-cyan-950 px-2 py-0.5 rounded border border-cyan-500/20">4 BOSHLOVCHI</span>
+                            <span className="text-[10px] font-mono text-cyan-300 bg-cyan-950 px-2 py-0.5 rounded border border-cyan-500/20">4 BOŞLOVÇI</span>
                         </div>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 flex-1">
@@ -578,7 +578,7 @@ export default function FmRadio() {
                                                         }`}
                                                     >
                                                         {isPlaying && isCurrentActive && <span className="w-2 h-2 rounded-full bg-slate-950 animate-ping" />}
-                                                        <span>{isPlaying && isCurrentActive ? 'IJRODA' : 'TINGLASH'}</span>
+                                                        <span>{isPlaying && isCurrentActive ? 'IJRODA' : 'TINGLAŞ'}</span>
                                                         <span className="material-symbols-outlined text-sm">{isPlaying && isCurrentActive ? 'equalizer' : 'play_arrow'}</span>
                                                     </button>
                                                 </td>

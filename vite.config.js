@@ -83,12 +83,12 @@ function generateArticlePreviewsPlugin() {
 <html lang="uz">
 <head>
   <meta charset="UTF-8" />
-  <title>${title} | Termiz shahridagi Prezident maktabi</title>
+  <title>${title} | Termiz şahridagi Prezident maktabi</title>
   <meta name="description" content="${desc}" />
   
   <!-- Open Graph / Telegram / Facebook -->
   <meta property="og:type" content="article" />
-  <meta property="og:site_name" content="Termiz shahridagi Prezident maktabi" />
+  <meta property="og:site_name" content="Termiz şahridagi Prezident maktabi" />
   <meta property="og:title" content="${title}" />
   <meta property="og:description" content="${desc}" />
   <meta property="og:image" content="${fullImageUrl}" />
@@ -106,7 +106,7 @@ function generateArticlePreviewsPlugin() {
   <script>window.location.replace("/#/article/${id}");</script>
 </head>
 <body>
-  <p>Sahifaga o'tish: <a href="/#/article/${id}">${title}</a></p>
+  <p>Sahifaga ötiş: <a href="/#/article/${id}">${title}</a></p>
 </body>
 </html>
 `;

@@ -12,9 +12,9 @@ export default function Contact() {
                     {/* Contact Details Card */}
                     <div className="bg-white rounded-3xl shadow-xl p-8 md:p-12 border border-slate-100 relative overflow-hidden group hover:shadow-2xl transition-shadow duration-500">
                         <div className="absolute top-0 right-0 w-64 h-64 bg-sky-50 rounded-full blur-3xl -z-10 group-hover:bg-sky-100 transition-colors duration-500"></div>
-                        <h2 className="text-3xl font-bold text-slate-800 mb-6 font-['Cinzel',serif]">Biz bilan bog'lanish</h2>
+                        <h2 className="text-3xl font-bold text-slate-800 mb-6 font-['Cinzel',serif]">Biz bilan boğlaniş</h2>
                         <p className="text-slate-500 mb-8 leading-relaxed">
-                            Termiz shahridagi Prezident maktabiga qabul, o'quv jarayonlari, bo'sh ish o'rinlari va boshqa masalalar bo'yicha savollaringiz bo'lsa quyidagi raqamlarga yoki manzilga murojaat qilishingiz mumkin.
+                            Termiz şahridagi Prezident maktabiga qabul, öquv jarayonlari, böş iş örinlari va boşqa masalalar böyiça savollaringiz bölsa quyidagi raqamlarga yoki manzilga murojaat qilişingiz mumkin.
                         </p>
                         
                         <div className="space-y-6">
@@ -24,7 +24,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-slate-800 mb-1">Manzil</h4>
-                                    <p className="text-slate-600 text-sm">Surxondaryo viloyati, Termiz shahar,<br/> Hakim at-Termiziy shoh ko‘chasi 34b-uy</p>
+                                    <p className="text-slate-600 text-sm">Surxondaryo viloyati, Termiz şahar,<br/> Hakim at-Termiziy şoh köçasi 34b-uy</p>
                                 </div>
                             </div>
                             
@@ -43,7 +43,7 @@ export default function Contact() {
                                     <span className="material-symbols-outlined text-[24px]">mail</span>
                                 </div>
                                 <div>
-                                    <h4 className="font-bold text-slate-800 mb-1">Elektron pochta</h4>
+                                    <h4 className="font-bold text-slate-800 mb-1">Elektron poçta</h4>
                                     <a href="mailto:info@pstmz.uz" className="text-sky-600 hover:text-sky-700 font-bold transition-colors text-sm">info@pstmz.uz</a>
                                 </div>
                             </div>
@@ -80,10 +80,10 @@ export default function Contact() {
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="bg-white/95 backdrop-blur-md hover:bg-white text-slate-800 text-xs font-extrabold px-3.5 py-2 rounded-xl border border-slate-200 shadow-lg flex items-center gap-1.5 transition-all hover:scale-105 cursor-pointer"
-                                title="Google Xaritada ochish"
+                                title="Google Xaritada oçiş"
                             >
                                 <span className="material-symbols-outlined text-[#0088cc] text-base">map</span>
-                                <span>Google Xaritada ochish</span>
+                                <span>Google Xaritada oçiş</span>
                             </a>
                         </div>
                         <iframe 

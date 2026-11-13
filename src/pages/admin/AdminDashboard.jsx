@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 // --- DATA LAYER ---
 const INITIAL_NEWS = [
-    { id: 1, title: "STEM Expo-2026: Innovatsion g'oyalar ko'rgazmasi", content: "Maktabimizda katta ko'rgazma bo'lib o'tdi...", author: "Admin", date: "2026-04-25", category: "Yangiliklar", status: "Published", engagement: 85 },
-    { id: 2, title: "Prezident maktabiga qabul jarayonlari boshlandi", content: "Yangi o'quv yili uchun qabul jarayonlari boshlandi...", author: "Moderator", date: "2026-04-24", category: "Qabul", status: "Published", engagement: 120 },
-    { id: 3, title: "Maktabimiz o'quvchisi xalqaro olimpiada g'olibi", content: "O'quvchimiz oltin medalni qo'lga kiritdi...", author: "Admin", date: "2026-04-23", category: "Yutuqlar", status: "Review", engagement: 45 },
+    { id: 1, title: "STEM Expo-2026: Innovatsion ğoyalar körgazmasi", content: "Maktabimizda katta körgazma bölib ötdi...", author: "Admin", date: "2026-04-25", category: "Yangiliklar", status: "Published", engagement: 85 },
+    { id: 2, title: "Prezident maktabiga qabul jarayonlari boşlandi", content: "Yangi öquv yili uçun qabul jarayonlari boşlandi...", author: "Moderator", date: "2026-04-24", category: "Qabul", status: "Published", engagement: 120 },
+    { id: 3, title: "Maktabimiz öquvçisi xalqaro olimpiada ğolibi", content: "Öquvçimiz oltin medalni qölga kiritdi...", author: "Admin", date: "2026-04-23", category: "Yutuqlar", status: "Review", engagement: 45 },
 ];
 
 const INITIAL_SETTINGS = {
@@ -185,7 +185,7 @@ function SettingsView({ settings, onSave }) {
 
                 {activeTab === 'design' && (
                     <div className="space-y-10 animate-fade-in">
-                        <h3 className="text-2xl font-black text-[#0F172A]">Dizayn va Ko'rinish</h3>
+                        <h3 className="text-2xl font-black text-[#0F172A]">Dizayn va Köriniş</h3>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                             <div className="space-y-4">
                                 <label className="text-[11px] font-black text-slate-400 uppercase tracking-widest block ml-1">Brend Rangi</label>
@@ -216,10 +216,10 @@ function SettingsView({ settings, onSave }) {
                                 <span className="material-symbols-outlined text-3xl">lock_reset</span>
                             </div>
                             <div>
-                                <h4 className="font-bold text-rose-900">Admin Parolini Yangilash</h4>
-                                <p className="text-sm text-rose-600 font-medium">Parolni o'zgartirishdan oldin eski parolingizni kiritishingiz shart.</p>
+                                <h4 className="font-bold text-rose-900">Admin Parolini Yangilaş</h4>
+                                <p className="text-sm text-rose-600 font-medium">Parolni özgartirişdan oldin eski parolingizni kiritişingiz şart.</p>
                             </div>
-                            <button className="ml-auto px-6 py-3 bg-white text-rose-500 rounded-xl text-xs font-black uppercase tracking-widest border border-rose-200 shadow-sm hover:bg-rose-500 hover:text-white transition-all">Yangilash</button>
+                            <button className="ml-auto px-6 py-3 bg-white text-rose-500 rounded-xl text-xs font-black uppercase tracking-widest border border-rose-200 shadow-sm hover:bg-rose-500 hover:text-white transition-all">Yangilaş</button>
                         </div>
                     </div>
                 )}
@@ -234,9 +234,9 @@ function SettingsView({ settings, onSave }) {
                                 </div>
                                 <div className="flex-1">
                                     <p className="text-sm font-bold text-slate-800">Rezerv nusxa</p>
-                                    <p className="text-[11px] text-slate-400 font-medium">Barcha postlar va sozlamalarni JSON faylga yuklab oling.</p>
+                                    <p className="text-[11px] text-slate-400 font-medium">Barça postlar va sozlamalarni JSON faylga yuklab oling.</p>
                                 </div>
-                                <button className="px-4 py-2 bg-slate-50 text-[#0F172A] rounded-lg text-[10px] font-black uppercase tracking-widest hover:bg-slate-100 transition-all">Yuklash</button>
+                                <button className="px-4 py-2 bg-slate-50 text-[#0F172A] rounded-lg text-[10px] font-black uppercase tracking-widest hover:bg-slate-100 transition-all">Yuklaş</button>
                             </div>
                             <div className="p-8 border border-slate-100 rounded-[35px] flex items-center gap-5">
                                 <div className="w-12 h-12 bg-slate-50 text-slate-400 rounded-xl flex items-center justify-center">
@@ -244,16 +244,16 @@ function SettingsView({ settings, onSave }) {
                                 </div>
                                 <div className="flex-1">
                                     <p className="text-sm font-bold text-slate-800">Reset System</p>
-                                    <p className="text-[11px] text-slate-400 font-medium">Barcha ma'lumotlarni o'chirib tashlash.</p>
+                                    <p className="text-[11px] text-slate-400 font-medium">Barça ma'lumotlarni öçirib taşlaş.</p>
                                 </div>
-                                <button className="px-4 py-2 bg-rose-50 text-rose-500 rounded-lg text-[10px] font-black uppercase tracking-widest hover:bg-rose-500 hover:text-white transition-all">O'chirish</button>
+                                <button className="px-4 py-2 bg-rose-50 text-rose-500 rounded-lg text-[10px] font-black uppercase tracking-widest hover:bg-rose-500 hover:text-white transition-all">Öçiriş</button>
                             </div>
                         </div>
                     </div>
                 )}
 
                 <div className="mt-12 pt-10 border-t border-slate-50 flex justify-end">
-                    <button onClick={handleUpdate} className="px-12 py-4 bg-[#0F172A] text-white text-[13px] font-black uppercase tracking-[0.3em] rounded-2xl shadow-2xl hover:bg-indigo-600 hover:-translate-y-1 transition-all">SOZLAMALARNI SAQLASH</button>
+                    <button onClick={handleUpdate} className="px-12 py-4 bg-[#0F172A] text-white text-[13px] font-black uppercase tracking-[0.3em] rounded-2xl shadow-2xl hover:bg-indigo-600 hover:-translate-y-1 transition-all">SOZLAMALARNI SAQLAŞ</button>
                 </div>
             </div>
         </div>
@@ -334,7 +334,7 @@ function ContentEditor({ post, onCancel, onSave }) {
                     <select value={category} onChange={(e) => setCategory(e.target.value)} className="bg-white border px-6 rounded-2xl text-xs font-black uppercase tracking-widest outline-none">
                         <option>Yangiliklar</option><option>Faoliyat</option><option>Ma'naviyat</option><option>Qabul</option>
                     </select>
-                    <button onClick={() => onSave({ id: post?.id, title, content, category, date, status: 'Published' })} className="px-10 py-4 bg-[#0F172A] text-white rounded-2xl text-[12px] font-black uppercase tracking-widest shadow-xl shadow-indigo-900/10 hover:bg-indigo-600 transition-all">PUBLISH NOW</button>
+                    <button onClick={() => onSave({ id: post?.id, title, content, category, date, status: 'Published' })} className="px-10 py-4 bg-[#0F172A] text-white rounded-2xl text-[12px] font-black uppercase tracking-widest shadow-xl shadow-indigo-900/10 hover:bg-indigo-600 transition-all">PUBLIŞ NOW</button>
                 </div>
             </div>
 

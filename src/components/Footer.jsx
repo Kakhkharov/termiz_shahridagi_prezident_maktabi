@@ -68,15 +68,15 @@ export default function Footer() {
                         <span className="text-xl font-extrabold text-white tracking-tight">pstermez.uz</span>
                     </div>
                     <p className="text-slate-300 text-sm leading-relaxed">
-                        Termiz shahridagi Prezident maktabi rasmiy veb-portali. Barcha yangiliklar, e'lonlar va maktab hayotiga oid ma'lumotlar.
+                        Termiz şahridagi Prezident maktabi rasmiy veb-portali. Barça yangiliklar, e'lonlar va maktab hayotiga oid ma'lumotlar.
                     </p>
                 </div>
 
                 {/* Column 2: Bo'limlar */}
                 <div className="space-y-4">
-                    <h4 className="font-extrabold text-sky-400 uppercase tracking-wider text-xs">Bo'limlar</h4>
+                    <h4 className="font-extrabold text-sky-400 uppercase tracking-wider text-xs">Bölimlar</h4>
                     <div className="flex flex-col space-y-2.5">
-                        <Link className="text-slate-300 hover:text-white transition-colors text-sm font-medium" to="/">Bosh sahifa</Link>
+                        <Link className="text-slate-300 hover:text-white transition-colors text-sm font-medium" to="/">Boş sahifa</Link>
                         <Link className="text-slate-300 hover:text-white transition-colors text-sm font-medium" to="/news">Yangiliklar</Link>
                         <Link className="text-slate-300 hover:text-white transition-colors text-sm font-medium" to="/qabul-2026">Maktab qabuli</Link>
                         <Link className="text-slate-300 hover:text-white transition-colors text-sm font-medium" to="/school-team">Biz haqimizda</Link>
@@ -89,7 +89,7 @@ export default function Footer() {
                     <h4 className="font-extrabold text-sky-400 uppercase tracking-wider text-xs">Foydali</h4>
                     <div className="flex flex-col space-y-2.5">
                         <a href="https://ariza.piima.uz/" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white transition-colors text-sm font-medium">
-                            Ariza topshirish (PIIMA)
+                            Ariza topşiriş (PIIMA)
                         </a>
                         <Link className="text-slate-300 hover:text-white transition-colors text-sm font-medium" to="/natijalar">Natijalar</Link>
                         <Link className="text-slate-300 hover:text-white transition-colors text-sm font-medium" to="/statistika">Statistikalar</Link>
@@ -106,7 +106,7 @@ export default function Footer() {
                                 <span className="material-symbols-outlined text-[18px]">location_on</span>
                             </span>
                             <span className="leading-snug text-slate-300 text-xs sm:text-sm">
-                                Surxondaryo viloyati, Termiz shahar, Hakim at-Termiziy shoh ko‘chasi 34b-uy
+                                Surxondaryo viloyati, Termiz şahar, Hakim at-Termiziy şoh köçasi 34b-uy
                             </span>
                         </li>
                         <li className="flex items-center gap-3">
@@ -134,7 +134,7 @@ export default function Footer() {
             <div className="border-t border-white/10 bg-[#040b19]/90 py-5 px-6 relative z-10 backdrop-blur-xs">
                 <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
                     <p className="text-slate-400 text-xs sm:text-sm">
-                        © 2026 Termiz shahridagi Prezident maktabi. Barcha huquqlar himoyalangan.
+                        © 2026 Termiz şahridagi Prezident maktabi. Barça huquqlar himoyalangan.
                     </p>
                     <div className="flex items-center gap-4 text-slate-400 text-xs">
                         <a href="https://t.me/Termiz_PM" target="_blank" rel="noreferrer" className="hover:text-sky-400 transition-colors font-medium">Telegram</a>

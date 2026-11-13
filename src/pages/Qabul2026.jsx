@@ -10,7 +10,7 @@ export default function Qabul2026() {
             <PageHeroBanner category="Maktab qabuli" title="Qabul - 2026" />
             <div className="max-w-[1200px] mx-auto px-4 md:px-8 py-10">
                 <h2 className="text-2xl md:text-3xl font-bold text-[#0a1b3f] mb-8 text-center">
-                    Termiz shahridagi Prezident maktabi 1-bosqich imtihon natijalari
+                    Termiz şahridagi Prezident maktabi 1-bosqiç imtihon natijalari
                 </h2>
                 
                 <div className="bg-white p-4 md:p-6 rounded-2xl shadow-sm border border-slate-200">
@@ -28,7 +28,7 @@ export default function Qabul2026() {
                             className="bg-[#0088cc] hover:bg-[#0077b3] text-white px-6 py-2.5 rounded-xl font-bold text-sm transition-colors flex items-center gap-2 shadow-sm"
                         >
                             <span className="material-symbols-outlined text-lg">download</span>
-                            Yuklab olish
+                            Yuklab oliş
                         </a>
                         <a 
                             href={pdfPath} 
@@ -37,7 +37,7 @@ export default function Qabul2026() {
                             className="bg-white border border-[#0088cc] text-[#0088cc] hover:bg-sky-50 px-6 py-2.5 rounded-xl font-bold text-sm transition-colors flex items-center gap-2 shadow-sm"
                         >
                             <span className="material-symbols-outlined text-lg">open_in_new</span>
-                            Yangi oynada ochish
+                            Yangi oynada oçiş
                         </a>
                     </div>
                 </div>

@@ -154,7 +154,7 @@ export default function Navbar() {
                     {/* Left Contacts */}
                     <div className="hidden lg:flex gap-4">
                         <a href="https://maps.google.com/?q=Termiz+Prezident+Maktabi" target="_blank" rel="noreferrer" className="bg-white/10 rounded-md px-3 py-1 flex items-center gap-2 text-white text-[11px] font-semibold hover:bg-white/20 transition-colors cursor-pointer">
-                            <span className="material-symbols-outlined text-[14px]">location_on</span> Termiz shahri
+                            <span className="material-symbols-outlined text-[14px]">location_on</span> Termiz şahri
                         </a>
                         <a href="tel:+998554520922" className="bg-white/10 rounded-md px-3 py-1 flex items-center gap-2 text-white text-[11px] font-semibold hover:bg-white/20 transition-colors cursor-pointer">
                             <span className="material-symbols-outlined text-[14px]">call</span> +998 55 452 09 22
@@ -217,13 +217,13 @@ export default function Navbar() {
                                                 <span className="text-sm">📻</span> Maktab FM Radiosi
                                             </div>
                                             <p className="text-[11px] text-cyan-200/90 font-semibold leading-tight px-1 max-w-[200px]">
-                                                Maktab to'lqini: dayjest, tabriklar va qaynoq efirlar! 🎙️
+                                                Maktab tölqini: dayjest, tabriklar va qaynoq efirlar! 🎙️
                                             </p>
                                             <button 
                                                 onClick={() => { toggleRadio(); setShowRadioGuide(false); }}
                                                 className="mt-1 px-3.5 py-1 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-bold text-[10px] rounded-lg shadow-md transition-all active:scale-95 flex items-center gap-1 cursor-pointer"
                                             >
-                                                <span>Tinglash</span>
+                                                <span>Tinglaş</span>
                                                 <span className="material-symbols-outlined text-[13px]">play_arrow</span>
                                             </button>
                                         </div>
@@ -257,12 +257,12 @@ export default function Navbar() {
                         <div className="relative group z-50">
                             <div className="bg-white/10 rounded-md px-3 py-1 flex items-center gap-2 text-white text-[11px] font-semibold cursor-pointer hover:bg-white/20 transition-colors">
                                 <img src="https://flagcdn.com/w20/uz.png" alt="uz" className="w-4 h-auto rounded-[2px]" />
-                                <span>{lang === 'uz' ? "O'zbek" : "English"}</span>
+                                <span>{lang === 'uz' ? "Özbek" : "English"}</span>
                                 <span className="material-symbols-outlined text-[14px]">expand_more</span>
                             </div>
                             <div className="absolute top-full right-0 w-28 bg-white rounded shadow-lg py-1 mt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                                 <button className="w-full text-left px-3 py-2 hover:bg-slate-100 text-[12px] font-bold text-slate-800 flex items-center gap-2" onClick={() => handleLanguageChange('uz')}>
-                                    <img src="https://flagcdn.com/w20/uz.png" alt="uz" className="w-4 h-auto rounded-[2px]" /> O'zbek
+                                    <img src="https://flagcdn.com/w20/uz.png" alt="uz" className="w-4 h-auto rounded-[2px]" /> Özbek
                                 </button>
                                 <button className="w-full text-left px-3 py-2 hover:bg-slate-100 text-[12px] font-bold text-slate-800 flex items-center gap-2" onClick={() => handleLanguageChange('en')}>
                                     <img src="https://flagcdn.com/w20/gb.png" alt="en" className="w-4 h-auto rounded-[2px]" /> English
@@ -279,7 +279,7 @@ export default function Navbar() {
                     <div className="hidden lg:flex w-full max-w-[1400px] mx-auto items-center justify-between relative h-full">
                         {/* Left Menu Items (4 items) */}
                         <div className="flex-1 flex justify-end gap-3 lg:gap-5 xl:gap-8 pr-[60px] xl:pr-[90px] h-full">
-                            <Link to="/" className={`${navTextClass} text-[13px] xl:text-[14px] font-bold tracking-wide transition-colors whitespace-nowrap flex items-center h-full`}>{lang === 'uz' ? 'Bosh sahifa' : 'Home'}</Link>
+                            <Link to="/" className={`${navTextClass} text-[13px] xl:text-[14px] font-bold tracking-wide transition-colors whitespace-nowrap flex items-center h-full`}>{lang === 'uz' ? 'Boş sahifa' : 'Home'}</Link>
                             <Link to="/news" className={`${navTextClass} text-[13px] xl:text-[14px] font-bold tracking-wide transition-colors whitespace-nowrap flex items-center h-full`}>{lang === 'uz' ? 'Yangiliklar' : 'News'}</Link>
                             
                             {/* Maktab qabuli Dropdown */}
@@ -314,7 +314,7 @@ export default function Navbar() {
                         <div className="flex-1 flex justify-start gap-3 lg:gap-5 xl:gap-8 pl-[60px] xl:pl-[90px] h-full">
                             {/* O'qituvchilar (Moved before Natijalar) */}
                             <Link to="/oqituvchilar" className={`${navTextClass} text-[13px] xl:text-[14px] font-bold tracking-wide transition-colors whitespace-nowrap flex items-center h-full`}>
-                                {lang === 'uz' ? 'O\'qituvchilar' : 'Teachers'}
+                                {lang === 'uz' ? 'Öqituvçilar' : 'Teachers'}
                             </Link>
 
                             {/* Natijalar Dropdown */}
@@ -345,8 +345,8 @@ export default function Navbar() {
                                 <div className="absolute top-full left-0 w-52 opacity-0 invisible group-hover:opacity-100 group-hover:visible translate-y-2 group-hover:translate-y-0 transition-all duration-300">
                                     <div className="bg-white rounded-lg shadow-xl py-2 border-t-4 border-[#0a1b3f]">
                                         <Link to="/statistika" className="block px-4 py-2.5 text-[13px] font-bold text-slate-800 hover:bg-slate-50 hover:text-[#0088cc]">{lang === 'uz' ? 'Statistika' : 'Statistics'}</Link>
-                                        <Link to="/oqituvchi-portfoliosi" className="block px-4 py-2.5 text-[13px] font-bold text-slate-800 hover:bg-slate-50 hover:text-[#0088cc]">{lang === 'uz' ? 'O\'qituvchi portfoliosi' : 'Teacher Portfolio'}</Link>
-                                        <Link to="/oquvchi-portfoliosi" className="block px-4 py-2.5 text-[13px] font-bold text-slate-800 hover:bg-slate-50 hover:text-[#0088cc]">{lang === 'uz' ? 'O\'quvchi portfoliosi' : 'Student Portfolio'}</Link>
+                                        <Link to="/oqituvchi-portfoliosi" className="block px-4 py-2.5 text-[13px] font-bold text-slate-800 hover:bg-slate-50 hover:text-[#0088cc]">{lang === 'uz' ? 'Öqituvçi portfoliosi' : 'Teacher Portfolio'}</Link>
+                                        <Link to="/oquvchi-portfoliosi" className="block px-4 py-2.5 text-[13px] font-bold text-slate-800 hover:bg-slate-50 hover:text-[#0088cc]">{lang === 'uz' ? 'Öquvçi portfoliosi' : 'Student Portfolio'}</Link>
                                         <Link to="/fm-radio" className="block px-4 py-2.5 text-[13px] font-bold text-cyan-600 hover:bg-cyan-50 flex items-center gap-1.5"><span className="material-symbols-outlined text-[16px]">radio</span>{lang === 'uz' ? 'FM radio' : 'FM Radio'}</Link>
                                     </div>
                                 </div>
@@ -362,7 +362,7 @@ export default function Navbar() {
                         <Link to="/" className="flex items-center gap-2 z-30">
                             <img src="/images/aa1_logo.png" className="w-10 h-10 object-contain bg-[#0a1b3f] rounded-full p-1 border border-white/20" alt="Logo" />
                             <div className="flex flex-col">
-                                <span className={`font-['Cinzel',serif] font-bold ${mobileTextClass} tracking-wider text-[10px] leading-tight uppercase transition-colors`}>Termiz shahridagi</span>
+                                <span className={`font-['Cinzel',serif] font-bold ${mobileTextClass} tracking-wider text-[10px] leading-tight uppercase transition-colors`}>Termiz şahridagi</span>
                                 <span className={`font-['Cinzel',serif] font-bold ${mobileTextClass} tracking-wider text-[10px] leading-tight uppercase transition-colors`}>Prezident Maktabi</span>
                             </div>
                         </Link>
@@ -373,7 +373,7 @@ export default function Navbar() {
                 </div>
                 {/* Floating Center Logo (Desktop Only) - Fully decoupled from NavBars */}
                 <div className="hidden lg:block absolute left-1/2 top-[48px] lg:top-[56px] -translate-x-1/2 -translate-y-[45%] z-[60]">
-                    <Link to="/" className="block" title="Bosh sahifa">
+                    <Link to="/" className="block" title="Boş sahifa">
                         <div className="bg-white rounded-full w-[100px] h-[100px] lg:w-[115px] lg:h-[115px] border-[2px] lg:border-[4px] border-white p-[2px] shadow-[0_4px_20px_rgba(0,0,0,0.15)] flex items-center justify-center animate-logo-blik">
                             <img src="/images/aa1_logo.png" className="w-full h-full object-contain relative z-20" alt="Logo" />
                         </div>
@@ -401,7 +401,7 @@ export default function Navbar() {
                                 <img src="/images/aa1_logo.png" className="w-9 h-9 object-contain bg-[#0a1b3f] rounded-full p-1 border border-cyan-400/30 shadow-md" alt="Logo" />
                                 <div className="flex flex-col">
                                     <span className="font-['Cinzel',serif] font-bold text-white text-[11px] uppercase tracking-wider leading-tight">Prezident Maktabi</span>
-                                    <span className="text-[9px] text-cyan-400 font-bold uppercase tracking-widest">Termiz shahri</span>
+                                    <span className="text-[9px] text-cyan-400 font-bold uppercase tracking-widest">Termiz şahri</span>
                                 </div>
                             </div>
 
@@ -434,14 +434,14 @@ export default function Navbar() {
                                         Maktab FM Radiosi {isRadioPlaying && <span className="w-2 h-2 rounded-full bg-cyan-400 animate-ping inline-block" />}
                                     </span>
                                     <span className="text-[9px] text-cyan-300/80 font-medium">
-                                        {isRadioPlaying ? 'Jonli efir ijro etilmoqda...' : 'Eshittirishni boshlash 📻'}
+                                        {isRadioPlaying ? 'Jonli efir ijro etilmoqda...' : 'Eşittirişni boşlaş 📻'}
                                     </span>
                                 </div>
                             </div>
                             <span 
                                 className="px-2.5 py-1 rounded-lg text-[10px] font-bold bg-cyan-400 text-slate-950 shadow-md flex items-center gap-1"
                             >
-                                <span>{isRadioPlaying ? "To'xtatish" : "Ijro etish"}</span>
+                                <span>{isRadioPlaying ? "Töxtatiş" : "Ijro etiş"}</span>
                                 <span className="material-symbols-outlined text-xs">{isRadioPlaying ? 'pause' : 'play_arrow'}</span>
                             </span>
                         </button>
@@ -457,7 +457,7 @@ export default function Navbar() {
                                     className="flex items-center gap-2.5 p-2.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 transition-all text-white font-bold text-xs group"
                                 >
                                     <span className="material-symbols-outlined text-cyan-400 group-hover:scale-110 transition-transform">home</span>
-                                    <span>{lang === 'uz' ? 'Bosh sahifa' : 'Home'}</span>
+                                    <span>{lang === 'uz' ? 'Boş sahifa' : 'Home'}</span>
                                 </Link>
 
                                 <Link 
@@ -515,7 +515,7 @@ export default function Navbar() {
                             <Link to="/oqituvchilar" onClick={() => setIsMenuOpen(false)} className="bg-white/5 rounded-xl p-3 border border-white/5 flex items-center justify-between text-xs text-white font-bold hover:bg-white/10 transition-colors">
                                 <span className="flex items-center gap-2">
                                     <span className="material-symbols-outlined text-cyan-400 text-sm">school</span>
-                                    {lang === 'uz' ? 'O\'qituvchilar' : 'Teachers'}
+                                    {lang === 'uz' ? 'Öqituvçilar' : 'Teachers'}
                                 </span>
                                 <span className="material-symbols-outlined text-xs text-slate-400">chevron_right</span>
                             </Link>
@@ -559,11 +559,11 @@ export default function Navbar() {
                                         <span className="material-symbols-outlined text-xs text-slate-500">chevron_right</span>
                                     </Link>
                                     <Link to="/oqituvchi-portfoliosi" onClick={() => setIsMenuOpen(false)} className="flex items-center justify-between p-1.5 rounded-lg hover:bg-white/5 text-xs text-slate-200 hover:text-white transition-colors">
-                                        <span>{lang === 'uz' ? 'O\'qituvchi portfoliosi' : 'Teacher Portfolio'}</span>
+                                        <span>{lang === 'uz' ? 'Öqituvçi portfoliosi' : 'Teacher Portfolio'}</span>
                                         <span className="material-symbols-outlined text-xs text-slate-500">chevron_right</span>
                                     </Link>
                                     <Link to="/oquvchi-portfoliosi" onClick={() => setIsMenuOpen(false)} className="flex items-center justify-between p-1.5 rounded-lg hover:bg-white/5 text-xs text-slate-200 hover:text-white transition-colors">
-                                        <span>{lang === 'uz' ? 'O\'quvchi portfoliosi' : 'Student Portfolio'}</span>
+                                        <span>{lang === 'uz' ? 'Öquvçi portfoliosi' : 'Student Portfolio'}</span>
                                         <span className="material-symbols-outlined text-xs text-slate-500">chevron_right</span>
                                     </Link>
                                     <Link to="/fm-radio" onClick={() => setIsMenuOpen(false)} className="flex items-center justify-between p-1.5 rounded-lg hover:bg-cyan-500/10 text-xs text-cyan-400 font-bold transition-colors">
@@ -659,7 +659,7 @@ export default function Navbar() {
                         setIsMenuOpen(false);
                     }} 
                     className="flex flex-col items-center justify-center p-2 group relative cursor-pointer"
-                    title="Maktab radiosi ijro etish"
+                    title="Maktab radiosi ijro etiş"
                 >
                     <span className={`material-symbols-outlined text-[24px] transition-all ${
                         isRadioPlaying 
@@ -676,7 +676,7 @@ export default function Navbar() {
                 {/* 3. Bosh sahifa */}
                 <Link to="/" className="flex flex-col items-center justify-center p-2 group" onClick={() => setIsMenuOpen(false)}>
                     <span className="material-symbols-outlined text-[24px] text-slate-400 group-hover:text-[#0088cc]">home</span>
-                    <span className="text-[10px] font-bold text-slate-500 group-hover:text-[#0088cc]">{lang === 'uz' ? 'Bosh sahifa' : 'Home'}</span>
+                    <span className="text-[10px] font-bold text-slate-500 group-hover:text-[#0088cc]">{lang === 'uz' ? 'Boş sahifa' : 'Home'}</span>
                 </Link>
 
                 {/* 4. Videolar */}
