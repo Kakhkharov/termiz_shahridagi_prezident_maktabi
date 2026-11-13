@@ -423,8 +423,8 @@ const rawNewsData = [
         title: "Prezident maktablari tarixida ilk mukofot",
         date: "11 Noyabr, 2026",
         category: "Mukofot",
-        image: "/images/prezident00.jpg",
-        images: ["/images/prezident00.jpg", "/images/prezident01.jpg", "/images/prezident02.jpg", "/images/prezident03.jpg"],
+        image: "/images/prezident_mukofot.png",
+        images: ["/images/prezident_mukofot.png", "/images/prezident00.jpg", "/images/prezident01.jpg", "/images/prezident02.jpg", "/images/prezident03.jpg"],
         video: "/images/video6.mp4",
         desc: "Prezident maktablari tarixida ilk bor: Bir guruh öquvçilar nufuzli “Outstanding Pearson Learner Awards” xalqaro mukofotiga sazovor böldi.",
         content: `

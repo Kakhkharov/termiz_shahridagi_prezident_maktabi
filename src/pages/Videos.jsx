@@ -8,7 +8,7 @@ const videoData = [
         title: "Prezident maktablari tarixida ilk mukofot",
         date: "2026-11-11T10:00:00",
         duration: "01:30",
-        thumbnail: "/images/prezident00.jpg",
+        thumbnail: "/images/prezident_mukofot.png",
         video: "/images/video6.mp4",
         views: "1.5k"
     },
